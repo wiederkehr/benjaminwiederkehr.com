@@ -1,6 +1,4 @@
 $(document).ready(function(){
-	Cufon.replace('h2');
-	Cufon.replace('.post_content h3');
 	$('#archive_panel').hide();
 	$('dd').defuscate();
 	

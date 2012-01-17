@@ -4,7 +4,11 @@ Intro Styles
 Description:	Layout and element specific styling for the Intro page
 Author:				Benjamin Wiederkehr
 Start:				100525_BW
-Last update:	100525_BW
+Last update:	120117_BW
+
+/* OVERRIDES
+/////////////////////////////////////////////////////////////////*/
+h3{ font-family: "ff-netto-web",sans-serif;}
 
 /* LAYOUT
 /////////////////////////////////////////////////////////////////*/
@@ -27,6 +31,7 @@ body{ background: #efefec url('../img/bg.png') center -20px no-repeat;}
 
 #badge_hire				{ position: absolute; top: 20px; right: -20px; display: block; width: 62px; height: 62px; background: url('../img/badge.png') 0 0 no-repeat; text-indent: -99999px;}
 #badge_hire:hover	{ background: url('../img/badge.png') 0 -72px no-repeat;}
+
 /* SLIDER
 /////////////////////////////////////////////////////////////////*/
 .coda-slider-wrapper { border-bottom: 1px solid #fff;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px; margin-top: -1px;}
@@ -100,6 +105,7 @@ body{ background: #efefec url('../img/bg.png') center -20px no-repeat;}
 }
 .cal_day{
   display: block;
+	font-family: "ff-netto-web",sans-serif;
   font-size: 16px;
   line-height: 22px;
   text-align: center;

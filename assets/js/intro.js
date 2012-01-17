@@ -1,6 +1,4 @@
 $(document).ready(function(){
-	Cufon.replace('h3');
-	Cufon.replace('.cal_day');
 	$('a').defuscate();
 	$('#coda-slider-1').codaSlider({
 	  //firstPanelToLoad: 4,

@@ -36,7 +36,8 @@ dd				{ margin-left: 60px; color: #aaa; font-weight: bold;}
 dd a			{ color: #aaa;}
 dd a:hover{ color: #444;}
 
-h3.ui{ color: #bbb; font-size: 10px; margin-bottom: 2px; text-transform: uppercase;}
+h3.ui			{ color: #bbb; font-size: 10px; margin-bottom: 2px; text-transform: uppercase;}
+h2				{ font-family: "ff-netto-web",sans-serif;}
 
 /*
 SIDEBAR

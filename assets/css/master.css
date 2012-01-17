@@ -4,13 +4,12 @@ Intro Styles
 Description:	Layout and element specific styling for the master thesis page
 Author:				Benjamin Wiederkehr
 Start:				111217_BW
-Last update:	111217_BW
+Last update:	120117_BW
 
 /* OVERRIDE
 /////////////////////////////////////////////////////////////////*/
-body{
-	font-size: 87.5%;
-}
+body							{	font-size: 87.5%;}
+h2, .post h3			{ font-family: "ff-netto-web",sans-serif;}
 
 /* HEADER
 /////////////////////////////////////////////////////////////////*/

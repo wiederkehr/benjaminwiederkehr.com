@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*
+Tumblr
+Description:	Tumblr specific styling
+Author:				Benjamin Wiederkehr
+Start:				100526_BW
+Last update:	100526_BW
+
+/*
+HEADER
+/////////////////////////////////////////////////////////////////*/
+#header						{ height: 170px; position: relative; padding: 30px 0 0;}
+#header h1				{ height: 110px; width: 230px; margin: 0;}
+#header h1 a			{ display: block; height: 150px; width: 230px; background: url('http://benjaminwiederkehr.com/assets/img/benjaminwiederkehr_found_logo_dark.png') -20px 0 no-repeat;}
+#header h1 a img	{ margin: 0 0 0 -20px; float: none;}
+/*
+CONTENT
+/////////////////////////////////////////////////////////////////*/
+#content			{ padding: 0 0 30px;}
+h2						{margin-top: 0;}
+.post					{ border-top: 1px solid #d4d5d3; border-bottom: 1px solid #d4d5d3; margin-bottom:36px; background: url('http://benjaminwiederkehr.com/assets/img/post_bg.png');}
+
+.post_title			{ border-top: 2px solid #d4d5d3; position: relative ; min-height: 144px; padding-top: -2px;}
+.post_title			{ min-height: 0; height: auto;}
+.post_title dl	{ margin: 1.5em 10px;}
+.post_title h2	{ margin: 10px;}
+
+.post_content ul,
+.post_content ol{ margin: 0 0 0 1.5em;}
+.post_content		{ padding: 1.5em 0;}
+.person					{ width: 60px; color: #ddd; display: block; float: left;}
+
+dl				{ line-height: 18px; font-size: 10px;}
+dt				{ width: 60px; color: #bbb; clear: left;}
+dd				{ margin-left: 60px; color: #aaa; font-weight: bold;}
+dd a			{ color: #aaa;}
+dd a:hover{ color: #444;}
+
+h3.ui{ color: #bbb; font-size: 10px; margin-bottom: 2px; text-transform: uppercase;}
+
+/*
+SIDEBAR
+/////////////////////////////////////////////////////////////////*/
+#sidebar a							{ color: #aaa; font-weight: bold; text-decoration: none;}
+#sidebar a:hover				{ color: #444;}
+#sidebar p							{ font-size: 11px; margin: 0 0 40px;}
+#sidebar p.lead					{ font: italic 15px/18px "Georgia", Georgia, serif; color: #aaa;}
+#sidebar h3							{ color: #bbb; font-size: 10px; margin-bottom: 15px; padding-bottom: 2px; text-transform: uppercase; border-bottom: 3px solid #d4d5d3;}
+#sidebar ul							{ list-style: none; margin: 0 0 40px; padding: 0;}
+#sidebar ul li					{ font-size: 11px; }
+#sidebar ul li a				{ line-height: 20px; display: block; border-bottom: 1px solid #d4d5d3;}
+#sidebar ul li a:hover	{ text-decoration: none; border-bottom: 1px solid #bbb; outline: none;}
+
+.sidebar_content p			{ color: #bbb;}

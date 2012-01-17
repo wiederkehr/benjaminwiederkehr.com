@@ -1,0 +1,106 @@
+@charset "utf-8";
+/*
+Intro Styles
+Description:	Layout and element specific styling for the Intro page
+Author:				Benjamin Wiederkehr
+Start:				100525_BW
+Last update:	100525_BW
+
+/* LAYOUT
+/////////////////////////////////////////////////////////////////*/
+body{ background: #efefec url('../img/bg.png') center -20px no-repeat;}
+.container {width:470px;margin:0 auto;}
+#header{ position: relative; padding: 30px 0 0;}
+#content{ padding: 30px 0 30px;}
+
+/* HEADER
+/////////////////////////////////////////////////////////////////*/
+#header h1				{ height: 110px; width: 230px; margin: 0;}
+#header h1 a			{ display: block; height: 110px; width: 230px; background: url('../img/benjaminwiederkehr_logo_dark.png') -20px 0 no-repeat;}
+#header h1 a img	{ margin: 0 0 0 -20px; float: none;}
+#header p					{ width: 250px; font: italic 15px/18px "Georgia", Georgia, serif; color: #aaa;}
+
+#photobooth					{ position: absolute; top: 50px; right: 0; height: 190px; padding: 0 0 6px 0; background: url('../img/photobooth_shadow.png') center bottom no-repeat;}
+#photobooth img			{ padding: 5px; background: #fff; border: 1px solid #e3e3e0; border-bottom: 1px solid #C7C7C4; margin: 0;}
+#photobooth #skim			{ position: absolute; left: 0; right: 0; background: transparent; width: 190px; height: 190px;}
+#photobooth #skim img	{ position: absolute; background: transparent; display: none;}
+
+#badge_hire				{ position: absolute; top: 20px; right: -20px; display: block; width: 62px; height: 62px; background: url('../img/badge.png') 0 0 no-repeat; text-indent: -99999px;}
+#badge_hire:hover	{ background: url('../img/badge.png') 0 -72px no-repeat;}
+/* SLIDER
+/////////////////////////////////////////////////////////////////*/
+.coda-slider-wrapper { border-bottom: 1px solid #fff;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px; margin-top: -1px;}
+.coda-slider { background: #e3e3e0 url('../img/indent_shadow.png') top left repeat-x; border:1px solid #d7d7d5; border-top:none;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px; margin-top: -1px;}
+/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+/* Change the width of the entire slider (without dynamic arrows) */
+.coda-slider,
+.coda-slider .panel { width: 468px;}
+/* Change margin and width of the slider (with dynamic arrows) */
+.coda-slider-wrapper.arrows .coda-slider,
+.coda-slider-wrapper.arrows .coda-slider .panel { width: 468px }
+.coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
+/* Panel padding */
+.coda-slider .panel-wrapper { padding: 30px 0 2px 0 }
+.coda-slider .panel-wrapper ul{ margin: 0; padding: 0; list-style: none;}
+.coda-slider .panel-wrapper ul li			{ padding: 0 0 0 10px; margin: 0 0 28px; background: url('../img/icon_32_shadow.png') 6px 24px no-repeat;}
+.coda-slider .panel-wrapper ul.cols-2 li{ margin: 0 0 28px 0; width: 220px; float: left;}
+.coda-slider .panel-wrapper ul.cols-2 li.last{ }
+.coda-slider .panel-wrapper ul li a		{ display: block; font-weight: normal;}
+.coda-slider .panel-wrapper ul li img	{ float: left; margin: 0;}
+.coda-slider .panel-wrapper ul li h3,
+.coda-slider .panel-wrapper ul li a h3{ margin: 0 0 0 40px; margin-bottom: 0; font-weight: bold;}
+.coda-slider .panel-wrapper ul li h3 a{ font-weight: bold;}
+.coda-slider .panel-wrapper ul li p		{ margin: 0 0 0 40px; font-size: 11px; color: #aaa;}
+.coda-slider .panel-wrapper ul li p a	{ color: #aaa;}
+.coda-slider .panel-wrapper ul li p strong{ color: #444;}
+.coda-slider .panel-wrapper p.read_more { text-align: right; padding: 0 10px; margin-bottom: 10px;}
+.coda-slider .panel-wrapper p.read_more a{ color: #aaa; font-size: 11px;}
+.coda-slider .panel-wrapper p.read_more a:hover{ color: #444; font-size: 11px;}
+/* Arrow styling */
+.coda-nav-left a,
+.coda-nav-right a { }
+/* Tab nav */
+.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden; position: relative; top: 2px; z-index: 9999;}
+.coda-nav ul li { display: inline }
+.coda-nav ul li a { text-transform: uppercase; font-size: 10px; font-weight: normal; color: #bbb; display: block; float: left; margin-right: 6px; padding: 4px 6px; text-decoration: none; -moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;}
+.coda-nav ul li a:hover{ color: #444;}
+.coda-nav ul li a.current { background: #e3e3e0; color: #444; border:1px solid #d7d7d5; border-top:1px solid #cdcdca; border-bottom: none;}
+/* Preloader */
+.coda-slider p.loading { padding: 20px; text-align: center; margin: 0;}
+.coda-slider p.loading img { float: none; margin: 20px 0;}
+/* Miscellaneous */
+.coda-slider-wrapper { clear: both; overflow: auto }
+.coda-slider { float: left; overflow: hidden; position: relative }
+.coda-slider .panel { display: block; float: left }
+.coda-slider .panel-container { position: relative }
+.coda-nav-left,
+.coda-nav-right { float: left }
+.coda-nav-left a,
+.coda-nav-right a { display: block; text-align: center; text-decoration: none }
+/* CALENDAR
+/////////////////////////////////////////////////////////////////*/
+.cal{
+  display: block;
+  float: left;
+  font-weight: bold;
+  height: 32px;
+  line-height: 1;
+  letter-spacing: 1px;
+  padding-top:1px;
+  text-transform: uppercase;
+  width: 32px;
+  background: url(../img/ical-32x32.png) 0 0 no-repeat;
+}
+.cal_month{
+  color: #fff;
+  display: block;
+  font-size: 8px;
+  text-align: center;
+}
+.cal_day{
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}

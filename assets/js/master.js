@@ -7,4 +7,5 @@ $(document).ready(function(){
 			$('#header h1 a img').stop().animate({ opacity: 1 }, 500);
 		}
 	);
+	$("#content").footnotes();
 });

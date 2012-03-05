@@ -4,7 +4,7 @@ Intro Styles
 Description:	Layout and element specific styling for the master thesis page
 Author:				Benjamin Wiederkehr
 Start:				111217_BW
-Last update:	120117_BW
+Last update:	120229_BW
 
 /* OVERRIDE
 /////////////////////////////////////////////////////////////////*/
@@ -21,10 +21,13 @@ h2, .post h3			{ font-family: "ff-netto-web",sans-serif;}
 /* CONTENT
 /////////////////////////////////////////////////////////////////*/
 #content			{ padding: 0 0 60px;}
-.post					{ border-top: 3px solid #d4d5d3; border-bottom: 1px solid #d4d5d3; padding-bottom: 36px; margin-bottom: 36px;}
+.post					{ border-top: 3px solid #d4d5d3; border-bottom: 1px solid #d4d5d3; padding-bottom: 36px; margin-bottom: 36px; position: relative;}
 h2						{ margin:  1.8em 0 1em;}
 h3						{ font-weight: bold; margin-bottom: 0.5em;}
 h3.ui					{ color: #bbb; font-size: 10px; font-weight: normal; margin-bottom: 2px; text-transform: uppercase;}
+h3.ui a				{ color: #bbb; font-weight: normal;}
+h3.ui a:hover	{ color: #444; }
+.journal_date	{ font: italic 12px/18px "Georgia", Georgia, serif; color: #aaa; position: absolute; right: 0; top: 44px;}
 
 /* SIDEBAR
 /////////////////////////////////////////////////////////////////*/
@@ -37,6 +40,7 @@ h3.ui					{ color: #bbb; font-size: 10px; font-weight: normal; margin-bottom: 2p
 #sidebar ul li					{ font-size: 11px; }
 #sidebar ul li a				{ line-height: 20px; display: block; border-bottom: 1px solid #d4d5d3;}
 #sidebar ul li a:hover	{ text-decoration: none; border-bottom: 1px solid #bbb; outline: none;}
+#sidebar ul li a.active	{ border-bottom: 1px solid #bbb; color: #444;}
 #sidebar dl							{ font-size: 11px; margin: 0 0 40px;}
 #sidebar dt							{ float: none; }
 #sidebar dd							{ margin-bottom: 1em;}
@@ -45,6 +49,12 @@ h3.ui					{ color: #bbb; font-size: 10px; font-weight: normal; margin-bottom: 2p
 
 /* FOOTNOTES
 /////////////////////////////////////////////////////////////////*/
+.footnotes{
+  border-bottom: 1px solid #d4d5d3;
+  padding-top: 1.5em; 
+  padding-bottom: 36px; 
+  margin-bottom: 36px;
+}
 .footnote sup{
 	font-size: 0.71em;
 	padding-left: 0px;
@@ -79,4 +89,13 @@ span.footnoteContent > p:first-child, span.footnoteContent > div:first-child {
 }
 span.footnoteContent p, span.footnoteContent div {
 	text-indent: 0em;
+}
+/* VERSION
+/////////////////////////////////////////////////////////////////*/
+.version{
+  font: italic 12px/18px "Georgia", Georgia, serif; color: #aaa;
+  text-align: center;
+  padding-bottom: 36px; 
+  padding-top: 1.5em; 
+  margin-bottom: 36px;
 }

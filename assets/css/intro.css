@@ -9,7 +9,7 @@ Last update:	120117_BW
 /* OVERRIDES
 /////////////////////////////////////////////////////////////////*/
 h3{ font-family: "ff-netto-web",sans-serif;}
-
+p.bio{ padding: 0 10px;}
 /* LAYOUT
 /////////////////////////////////////////////////////////////////*/
 body{ background: #efefec url('../img/bg.png') center -20px no-repeat;}

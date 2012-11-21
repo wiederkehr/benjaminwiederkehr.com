@@ -4,12 +4,13 @@ Intro Styles
 Description:	Layout and element specific styling for the Intro page
 Author:				Benjamin Wiederkehr
 Start:				100525_BW
-Last update:	120117_BW
+Last update:	121117_BW
 
 /* OVERRIDES
 /////////////////////////////////////////////////////////////////*/
 h3{ font-family: "ff-netto-web",sans-serif;}
 p.bio{ padding: 0 10px;}
+
 /* LAYOUT
 /////////////////////////////////////////////////////////////////*/
 body{ background: #efefec url('../img/bg.png') center -20px no-repeat;}
@@ -101,6 +102,8 @@ body{ background: #efefec url('../img/bg.png') center -20px no-repeat;}
   color: #fff;
   display: block;
   font-size: 8px;
+  line-height: 8px;
+  margin-bottom: 2px;
   text-align: center;
 }
 .cal_day{
@@ -109,4 +112,15 @@ body{ background: #efefec url('../img/bg.png') center -20px no-repeat;}
   font-size: 16px;
   line-height: 22px;
   text-align: center;
+  letter-spacing: -1px;
+}
+.cal_headline { 
+  text-transform: uppercase; 
+  font-size: 10px; 
+  font-weight: normal;
+  border-bottom: 1px solid #d7d7d5;
+  margin: 0 10px 2em;
+  text-align: center;
+  line-height: 1.5;
+  color: #bbb;
 }

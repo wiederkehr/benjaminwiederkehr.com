@@ -98,6 +98,12 @@ body{ background: #efefec url('../img/bg.png') center -20px no-repeat;}
   width: 32px;
   background: url(../img/ical-32x32.png) 0 0 no-repeat;
 }
+.upcoming-dates .cal{
+  background-image: url(../img/ical-32x32.png);
+}
+.past-dates .cal{
+  background-image: url(../img/ical-past-32x32.png);
+}
 .cal_month{
   color: #fff;
   display: block;

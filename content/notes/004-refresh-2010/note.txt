@@ -1,0 +1,32 @@
+Title: Refresh 2010
+
+----
+
+Date: May 27, 2010
+
+----
+
+Tags:
+
+----
+
+Text:
+I took the some time during an extended weekend to finally refine the design of this website. What started as the idea of giving it a fresh look ended up in creating a design solution that spans over multiple web properties, changing the domain name and building a new microsite from scratch.
+
+## Refine
+
+The new design is based on the same grid as before. A new color palette and some small adjustments served the goal of creating a simple, elegant and friendly interface. To replace the characteristic Clarendon headlines I’ve used the excellent Netto by (link:http://www.danielutz.de text:Daniel Utz) — a simple and simply beautiful font. It’s also our corporate font at Interactive Things, thus creating a bridge between the two domains.
+
+## Unify
+
+I applied the foundation of the new design to my (link:http://wiederkehr.tumblr.com text:Tumblr) and (link:https://twitter.com/wiederkehr text:Twitter) account. The consistent look ties the three domains neatly together. Each one has specific requirements though, that I addressed in the design for the application at hand.
+
+## Rename
+
+The domain Artillery.ch served as my brand for freelance work in times before Interactive Things. With the establishment of our company, the freelance times are gone and the name became superfluous. As I still need a space to share the things that keep me busy at daytime and up at night, I took the chance to get my personal domain BenjaminWiederkehr.com.
+
+## Allocate
+
+Given the fact that my stuff on this site could be irrelevant to someone in search of me, I came to the conclusion that I need a central hub that helps direct the visitor to the right place to interact with me. This could be the corporate site of Interactive Things, my professional CV at (link:http://www.linkedin.com/in/benjaminwiederkehr text:LinkedIn) or maybe my profile on (link:https://www.facebook.com/benjamin.wiederkehr text:Facebook). That’s why I built the tiny one-pager at (link:http://benjaminwiederkehr.com text:benjaminwiederkehr.com) and moved the site that you’re currently reading to (link:http://benjaminwiederkehr.com text:benjaminwiederkehr.com/notes).
+
+I goes without saying that changing the top-level domain (and my main e-mail address) takes some time and a lot of “Change Account Settings” link clicking. It’s a work-in-progress and if you see something quirky, please let me know.

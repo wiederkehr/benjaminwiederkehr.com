@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*
+Letters Styles
+Description:    Layout and element specific styling for letters
+Author:         Benjamin Wiederkehr
+Start:          121221_BW
+Last update:    130611_BW
+
+/* LAYOUT
+/////////////////////////////////////////////////////////////////*/
+body{ font: 18px/1.5em 'Cutive Mono', monospace; }
+.container { 
+  width: 90%;
+  margin: 36px 5% 72px;
+}
+header{ 
+  position: relative; 
+  margin: 0;
+}
+article{ 
+  margin: 0;
+}
+
+/* HEADER
+/////////////////////////////////////////////////////////////////*/
+header p{ 
+  text-align: right;
+}
+/* ARTICLE
+/////////////////////////////////////////////////////////////////*/
+article header h1{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+article section p{
+  margin-bottom: 2em;
+  hyphens: auto;
+}
+article section a{
+  font-weight: normal;
+  color: #222;
+}
+article section a:hover{
+  color: #000;
+}
+/* MEDIA QUERIES
+/////////////////////////////////////////////////////////////////*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body{ 
+    font-size: 36px;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  body{ 
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+      width: 720px;
+      margin: 36px auto 72px;
+  }
+}

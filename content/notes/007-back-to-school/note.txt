@@ -1,0 +1,22 @@
+Title: Back To School
+
+----
+
+Date: December 28, 2012
+
+----
+
+Tags:
+
+----
+
+Text:
+After three years of working as an Interaction Designer and helping clients to create understandable visualizations and usable applications, I decided to revive my academic work. In February 2012 I will start my studies as Master of Arts in Design at the (link:http://www.zhdk.ch text:Zurich University of the Arts). In the (link:http://master.design.zhdk.ch/studium/fields-of-excellence/interaktion text:Field of Excellence Interaction) I will work for 18 months on a design research project in the area of dynamic, interactive information visualization.
+
+The subject of my master’s project are visual tools for the exploration, evaluation and communication of financial information. I will explore how interactive and dynamic mapping of complex structures and processes can support understanding and thereby lead to a more critical examination of your financials. My goal is provide you with a set of tools to better understand where your money is coming from, where it is stored and where it is going. As a bonus, I’d like to help you understand what impact your money has on society, economy and our environment.
+
+I will be mentored by (link:http://gmb.zhdk.ch text:Prof. Dr. Gerhard M. Buurman). He established the (link:http://iad.zhdk.ch text:Interaction Design) course at the ZHdK in 2000 and co-founded the (link:http://sdfb.ch text:Swiss Design Institute for Finance and Banking) (SDFB) in 2007 and is currently the director of the (link:http://www.zhdk.ch/?ide text:Institute for Design Research) (IDE). The proximity to the SDFB provides a repository of experience and expertise, which allows me to build on a well-established foundation and existing results.
+
+During my studies I will continue to work at (link:http://interactivethings.com text:Interactive Things) where I handle communication and coordination. My master’s project can be considered an internal research project for us, where we have the opportunity to focus on a user-centric approach to design and implementation without the limitations in time and budget. This will allow us to bring together theory and practice in one comprehensive piece of work.
+
+If you’re interested in learning more about my project and follow my research findings and work results, I will publish updates on (link:http://master.benjaminwiederkehr.com text:master.benjaminwiederkehr.com).

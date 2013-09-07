@@ -151,7 +151,7 @@
                     <span class="cal_month">Sep</span>
                     <span class="cal_day">12</span>
                   </span>
-                  <h3>Z-Module</h3>
+                  <h3>Zürcher Hochschule der Künste</h3>
                   <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
                 </a>
               </li>
@@ -161,7 +161,7 @@
                     <span class="cal_month">Sep</span>
                     <span class="cal_day">14</span>
                   </span>
-                  <h3>HGK Basel</h3>
+                  <h3>Hochschule für Gestaltung und Kunst Basel</h3>
                   <p><strong>Basel, Switzerland</strong> Talk on Information Visualization</p>
                 </a>
               </li>
@@ -169,10 +169,30 @@
                 <a href="http://okcon.org" title="Open Knowledge Conference">
                   <span class="cal">
                     <span class="cal_month">Sep</span>
-                    <span class="cal_day">17</span>
+                    <span class="cal_day">16</span>
                   </span>
                   <h3>Open Knowledge Conference</h3>
-                  <p><strong>Geneva, Switzerland</strong> Curating of the Visualization Track</p>
+                  <p><strong>Geneva, Switzerland</strong> Workshop on Data-Driven Storytelling</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://okcon.org" title="Open Knowledge Conference">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">18</span>
+                  </span>
+                  <h3>Open Knowledge Conference</h3>
+                  <p><strong>Geneva, Switzerland</strong> Talk on Data-Driven Storytelling</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="hhttp://www.hesge.ch/" title="Haute École de Gestion de Genève">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">19</span>
+                  </span>
+                  <h3>Haute École de Gestion</h3>
+                  <p><strong>Geneva, Switzerland</strong> Talk on Information Visualization</p>
                 </a>
               </li>
               <li class="icon-list-item">

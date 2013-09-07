@@ -146,33 +146,13 @@
             <h3 class="cal_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
               <li class="icon-list-item">
-                <a href="http://www.eb-zuerich.ch/blog/veranstaltungen/" title="Digitale Wirklichkeiten">
-                  <span class="cal">
-                    <span class="cal_month">Jun</span>
-                    <span class="cal_day">25</span>
-                  </span>
-                  <h3>Digitale Wirklichkeiten</h3>
-                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Information Visualization</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://www.namics.com" title="Namics Conference">
-                  <span class="cal">
-                    <span class="cal_month">Aug</span>
-                    <span class="cal_day">29</span>
-                  </span>
-                  <h3>Namics Conference</h3>
-                  <p><strong>Innsbruck, Austria</strong> Talk on Information Visualization</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://www.aec.at/" title="Basel Academy of Art and Design">
+                <a href="http://www.zhdk.ch/" title="ZHdK">
                   <span class="cal">
                     <span class="cal_month">Sep</span>
-                    <span class="cal_day">5</span>
+                    <span class="cal_day">12</span>
                   </span>
-                  <h3>Ars Electronica</h3>
-                  <p><strong>Linz, Austria</strong> Talk on Visualization & Narration</p>
+                  <h3>Z-Module</h3>
+                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
                 </a>
               </li>
               <li class="icon-list-item">
@@ -203,6 +183,16 @@
                   </span>
                   <h3>Storytelling Conference</h3>
                   <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Data-Driven Journalism</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.zhdk.ch/?entrepreneurship" title="ZHdK Incubator">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">20</span>
+                  </span>
+                  <h3>ZHdK Incubator Inauguration</h3>
+                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
                 </a>
               </li>
             </ul>
@@ -256,6 +246,36 @@
                   </span>
                   <h3>Eyeo Festival</h3>
                   <p><strong>Minneapolis, USA</strong> Converge to Inspire</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.eb-zuerich.ch/blog/veranstaltungen/" title="Digitale Wirklichkeiten">
+                  <span class="cal">
+                    <span class="cal_month">Jun</span>
+                    <span class="cal_day">25</span>
+                  </span>
+                  <h3>Digitale Wirklichkeiten</h3>
+                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.namics.com" title="Namics Conference">
+                  <span class="cal">
+                    <span class="cal_month">Aug</span>
+                    <span class="cal_day">29</span>
+                  </span>
+                  <h3>Namics Conference</h3>
+                  <p><strong>Innsbruck, Austria</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.aec.at/" title="Basel Academy of Art and Design">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">5</span>
+                  </span>
+                  <h3>Ars Electronica</h3>
+                  <p><strong>Linz, Austria</strong> Talk on Visualization & Narration</p>
                 </a>
               </li>
             </ul>

@@ -1,36 +1,36 @@
-<?= snippet('notes-header') ?>
+<?= snippet('talks-header') ?>
 
 <div class="container">
   <div id="header" class="span-5 append-19 last">
     <h1>
-      <a href="<?= url('/notes') ?>" rel="me" title="<?php echo h($site->title()) ?>">
-        <img src="<?= url('assets/img/logos/benjaminwiederkehr_notes_logo.png') ?>" width="230" height="150" alt="<?= html($site->title()) ?>" />
+      <a href="<?= url('/talks') ?>" rel="me" title="<?php echo h($site->title()) ?>">
+        <img src="<?= url('assets/img/logos/benjaminwiederkehr_talks_logo.png') ?>" width="230" height="150" alt="<?= html($site->title()) ?>" />
       </a>
     </h1>
   </div>
   <!-- ——————————————————————————————————————————————————————————————————— Content -->
-  <div id="content" class="span-18 prepend-1 last notes">
+  <div id="content" class="span-18 prepend-1 last talks">
     <h3 class="ui"><?= html($page->title()) ?></h3>
-    <div class="notes">
+    <div class="talks">
       <?php
       if(param('tag')) {
-        $notes = $pages->find('notes')->children()->visible()->filterBy('tags', param('tag'), ',')->flip();
+        $talks = $pages->find('talks')->children()->visible()->filterBy('tags', param('tag'), ',')->flip();
       } else {
-        $notes = $pages->find('notes')->children()->visible()->flip();
+        $talks = $pages->find('talks')->children()->visible()->flip();
       }
-      foreach($notes as $note):
+      foreach($talks as $talk):
       ?>
       <!-- ——————————————————————————————————————————————————————————————————— Note -->
-      <div class="notes-item">
-        <h2><a href="<?= $note->url() ?>"><i class="icon-arrow-right2"></i> <?= html($note->title()) ?></a></h2>
-        <span class="notes-item-date"><?= $note->date('F j, Y'); ?></span>
-      </div><!-- .note-->
+      <div class="talks-item">
+        <h2><a href="<?= $talk->url() ?>"><i class="icon-arrow-right2"></i> <?= html($talk->title()) ?></a></h2>
+        <span class="talks-item-date"><?= $talk->date('F j, Y'); ?></span>
+      </div><!-- .talk-->
       <?php endforeach ?>
-    </div><!-- .notes -->
+    </div><!-- .talks -->
   </div><!-- #content -->
   <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
   <div id="sidebar" class="span-5 secondary">
-    <?php snippet('notes-sidebar') ?>
+    <?php snippet('talks-sidebar') ?>
   </div>
   <!-- ——————————————————————————————————————————————————————————————————— Acknowledgement -->
   <div id="credits" class="span-18 prepend-6 last secondary">
@@ -39,4 +39,4 @@
   </div>
 </div><!-- .container -->
 
-<?= snippet('notes-footer') ?>
+<?= snippet('talks-footer') ?>

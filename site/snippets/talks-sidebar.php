@@ -1,13 +1,13 @@
 <!-- ——————————————————————————————————————————————————————————————————— NOTES -->
 <h3 class="sidebar-title ui">About</h3>
-<p class="sidebar-lead">A few thoughts, most likely only relevant to myself.</p>
+<p class="sidebar-lead">A few thoughts that I have shared in compressed, visual, and narrated form.</p>
 <!-- ——————————————————————————————————————————————————————————————————— FOLLOW -->
 <h3 class="sidebar-title ui">Follow Me</h3>
 <ul class="sidebar-content icons">
+  <li><a href="https://speakerdeck.com/wiederkehr.atom" title="Follow me via RSS">RSS <i class="icon-rss"></i></a></li>
+  <li><a href="https://speakerdeck.com/wiederkehr" title="Follow me on Speakerdeck">Speakerdeck <i class="icon-video"></i></a></li>
   <li><a href="http://twitter.com/wiederkehr" title="Follow me on Twitter">Twitter <i class="icon-twitter"></i></a></li>
   <li><a href="http://facebook.com/benjamin.wiederkehr" title="Follow me on Facebook">Facebook <i class="icon-facebook"></i></a></li>
-  <li><a href="http://wiederkehr.tumblr.com" title="Follow me on Tumblr">Tumblr <i class="icon-tumblr"></i></a></li>
-  <li><a href="https://pinterest.com/wiederkehr" title="Follow me on Pinterest">Pinterest <i class="icon-pinterest"></i></a></li>
 </ul>
 <!-- ——————————————————————————————————————————————————————————————————— WORK -->
 <h3 class="sidebar-title ui">Work with me</h3>

@@ -20,7 +20,6 @@ header{
 article{ 
   margin: 0;
 }
-
 /* HEADER
 /////////////////////////////////////////////////////////////////*/
 header p{ 
@@ -43,19 +42,85 @@ article section a{
 article section a:hover{
   color: #000;
 }
+/* LETTERS VERTICAL
+/////////////////////////////////////////////////////////////////*/
+.letters              { }
+.letters h3.ui        { padding-bottom: 2px; margin-bottom: 15px; border-bottom: 3px solid #d4d5d3;}
+.letters-item         { border-bottom: 1px solid #d4d5d3; position: relative;}
+.letters-item h2      { margin:  36px 0;}
+.letters-item h2 a    { display: block;}
+.letters-item-date    { font-size: 14px; color: #aaa; position: absolute; right: 0; top: 2px;}
+@media (max-width: 767px) {
+  .letters-item h2    { margin: 60px 0 36px;}
+  .letters-item-date  { top: -1.5em; left:0;}
+}
+.remark               { clear: both; font-size: 14px; color: #aaa; }
+
+/* LETTERS GRID
+/////////////////////////////////////////////////////////////////*/
+.letters              { text-align: center;}
+.letters h3.ui        { margin-bottom: 50px;}
+
+.letter-list          { text-align: center;}
+.letter               { display: inline-block;}
+.letter__link         { 
+  display: block;
+  height: 320px;
+  position: relative;
+  width: 280px;
+}
+.letter__date         { box-sizing: border-box; color: #aaa; display: block; font-size: 14px; height: 33%; padding-top: 40px;}
+.letter__title        { box-sizing: border-box; margin: 0; display: clock; height: 33%; padding-top: 40px;}
+.letter__readmore     { box-sizing: border-box; color: #aaa; display: block; font-size: 14px; display: clock; height: 33%; opacity: 0; padding-top: 40px; transition: opacity 0.2s;}
+.letter:hover .letter__readmore{ opacity: 1;}
+
+.remark               { border-top: 1px solid #d4d5d3; clear: both; font-size: 14px; color: #aaa; margin-top: 50px; padding-top: 30px;}
+
+
+/* LINK STYLE
+/////////////////////////////////////////////////////////////////*/
+.letter__link {
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(hsla(0,0%,0%,.01), hsla(0,0%,100%,.04) 33%, hsla(0,0%,0%,.03) 33%, hsla(0,0%,100%,.04) 67%, hsla(0,0%,0%,.03) 67%, hsla(0,0%,100%,.02));
+    box-shadow: inset 0 0 0 .1em hsla(0,0%,0%,.1),
+                0 .1em .25em hsla(0,0%,0%,.1);
+}
+.letter__link:after,
+.letter__link:before {
+    bottom: .1em;
+    box-shadow: 0 0 .5em .5em hsla(0,0%,0%,0.0);
+    content: '';
+    height: 3em;
+    position: absolute;
+    transition: box-shadow 0.2s;
+    width: 80%;
+    z-index: -1;
+}
+.letter__link:after {
+    right: 1em;
+    -webkit-transform: rotate(3deg);
+    -webkit-transform-origin: 100% 100%;
+}
+.letter__link:before {
+    left: 1em;
+    -webkit-transform: rotate(-3deg);
+    -webkit-transform-origin: 0% 100%;
+}​
+.letter:hover .letter__link:before,
+.letter:hover .letter__link:after {
+    box-shadow: 0 0 .5em .5em hsla(0,0%,0%,0.1);
+}
+
 /* MEDIA QUERIES
 /////////////////////////////////////////////////////////////////*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   body{ 
-    font-size: 36px;
+    font-size: 16px;
   }
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  body{ 
-    font-size: 24px;
-  }
+@media (min-width: 480px) and (max-width: 767px) {
 }
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
       width: 720px;
       margin: 36px auto 72px;

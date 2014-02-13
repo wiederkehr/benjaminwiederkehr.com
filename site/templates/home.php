@@ -146,73 +146,23 @@
             <h3 class="cal_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
               <li class="icon-list-item">
-                <a href="http://www.zhdk.ch/" title="ZHdK">
+                <a href="http://www.meetup.com/hacks-hackers-nyc/events/162900752/" title="Hacks/Hackers NYC">
                   <span class="cal">
-                    <span class="cal_month">Sep</span>
-                    <span class="cal_day">12</span>
+                    <span class="cal_month">Feb</span>
+                    <span class="cal_day">03</span>
                   </span>
-                  <h3>Zürcher Hochschule der Künste</h3>
-                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
+                  <h3>Hacks/Hackers NYC</h3>
+                  <p><strong>New York, USA</strong> Storytelling Workout</p>
                 </a>
               </li>
               <li class="icon-list-item">
-                <a href="http://www.fhnw.ch/hgk" title="Basel Academy of Art and Design">
+                <a href="http://visualized.com/" title="Visualized Conference">
                   <span class="cal">
-                    <span class="cal_month">Sep</span>
-                    <span class="cal_day">14</span>
+                    <span class="cal_month">Feb</span>
+                    <span class="cal_day">06</span>
                   </span>
-                  <h3>Hochschule für Gestaltung und Kunst Basel</h3>
-                  <p><strong>Basel, Switzerland</strong> Talk on Information Visualization</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://okcon.org" title="Open Knowledge Conference">
-                  <span class="cal">
-                    <span class="cal_month">Sep</span>
-                    <span class="cal_day">16</span>
-                  </span>
-                  <h3>Open Knowledge Conference</h3>
-                  <p><strong>Geneva, Switzerland</strong> Workshop on Data-Driven Storytelling</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://okcon.org" title="Open Knowledge Conference">
-                  <span class="cal">
-                    <span class="cal_month">Sep</span>
-                    <span class="cal_day">18</span>
-                  </span>
-                  <h3>Open Knowledge Conference</h3>
-                  <p><strong>Geneva, Switzerland</strong> Talk on Data-Driven Storytelling</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="hhttp://www.hesge.ch/" title="Haute École de Gestion de Genève">
-                  <span class="cal">
-                    <span class="cal_month">Sep</span>
-                    <span class="cal_day">19</span>
-                  </span>
-                  <h3>Haute École de Gestion</h3>
-                  <p><strong>Geneva, Switzerland</strong> Talk on Information Visualization</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://centerforstorytelling.org" title="Center for Storytelling">
-                  <span class="cal">
-                    <span class="cal_month">Sep</span>
-                    <span class="cal_day">20</span>
-                  </span>
-                  <h3>Storytelling Conference</h3>
-                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Data-Driven Journalism</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://www.zhdk.ch/?entrepreneurship" title="ZHdK Incubator">
-                  <span class="cal">
-                    <span class="cal_month">Sep</span>
-                    <span class="cal_day">20</span>
-                  </span>
-                  <h3>ZHdK Incubator Inauguration</h3>
-                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
+                  <h3>Visualized</h3>
+                  <p><strong>New York, USA</strong> Learning in our Work</p>
                 </a>
               </li>
             </ul>
@@ -296,6 +246,86 @@
                   </span>
                   <h3>Ars Electronica</h3>
                   <p><strong>Linz, Austria</strong> Talk on Visualization & Narration</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.zhdk.ch/" title="ZHdK">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">12</span>
+                  </span>
+                  <h3>Zürcher Hochschule der Künste</h3>
+                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.fhnw.ch/hgk" title="Basel Academy of Art and Design">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">14</span>
+                  </span>
+                  <h3>Hochschule für Gestaltung und Kunst Basel</h3>
+                  <p><strong>Basel, Switzerland</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://okcon.org" title="Open Knowledge Conference">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">16</span>
+                  </span>
+                  <h3>Open Knowledge Conference</h3>
+                  <p><strong>Geneva, Switzerland</strong> Workshop on Data-Driven Storytelling</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://okcon.org" title="Open Knowledge Conference">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">18</span>
+                  </span>
+                  <h3>Open Knowledge Conference</h3>
+                  <p><strong>Geneva, Switzerland</strong> Talk on Data-Driven Storytelling</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="hhttp://www.hesge.ch/" title="Haute École de Gestion de Genève">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">19</span>
+                  </span>
+                  <h3>Haute École de Gestion</h3>
+                  <p><strong>Geneva, Switzerland</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://centerforstorytelling.org" title="Center for Storytelling">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">20</span>
+                  </span>
+                  <h3>Storytelling Conference</h3>
+                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Data-Driven Journalism</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.zhdk.ch/?entrepreneurship" title="ZHdK Incubator">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">20</span>
+                  </span>
+                  <h3>ZHdK Incubator Inauguration</h3>
+                  <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="https://incom.org/workspace/4683" title="Urbane Ebenen">
+                  <span class="cal">
+                    <span class="cal_month">Nov</span>
+                    <span class="cal_day">15</span>
+                  </span>
+                  <h3>Digitale Ebenen</h3>
+                  <p><strong>Potsdam, Germany</strong> Talk on Urban Data Visualization</p>
                 </a>
               </li>
             </ul>

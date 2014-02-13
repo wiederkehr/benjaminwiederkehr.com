@@ -1,0 +1,106 @@
+Title: Learning from our Process
+
+----
+
+Event: Visualized Conference
+
+----
+
+Date: February 6, 2014
+
+----
+
+Teaser: http://benjaminwiederkehr.com/content/talks/001-visualized-2014/slide.006.png
+
+----
+
+Excerpt: This is the script with references and acknowldedgments of my talk at the Visualized Conference held at the Times Center in New York City on February 6th, 2014.
+
+----
+
+Text:
+
+This is the script with references and acknowldedgments of my talk at the (link:http://visualized.com text:Visualized Conference) held at the Times Center in New York City on February 6th, 2014. Please note that I left out a sensative portion of my talk that is best told in person. I'm hopeful that the gist of my message still comes through.
+
+(image:slide.001.png)
+Hello, my name is Benjamin and I'm an interaction and information designer from Zürich, Switzerland.
+
+(image:slide.002.png)
+I am co-founder of a small design studio called (link:http://interactivethings.com text:Interactive Things) and we're focused on User Experience and Data Visualization.
+
+(image:slide.003.png)
+I also write a blog about information and visualization design fittingly called (link:http://datavisualization.ch text:Datavisualization.ch). I have the pleasure to be with you today representing my friends at the studio Christian, Christoph, Estelle, Ilya, Jan, Jeremy, Julia, Peter, Piotr, and Tania. It’s an honor for me to be here.
+
+(image:slide.004.png)
+Recently I was asked, if I consider myself as a sort of present-day adventurer, who sets out to discover the insights hiding in data. I personally enjoy the mental picture of a present-day adventurer sailing out to explore new frontiers and bringing back precious and rare discoveries. I really do. But in reality, I understand our role to be the one of a craftsman rather than a trailblazer. In most of our projects, we help people to analyze data efficiently, to understand information intuitively, and to apply their knowledge confidently. In that sense, we are not the adventurer himself, but rather his support team. We are the builders of instruments to overcome his human limitations. We are the engineers of vehicles that transport him into foreign territory. And we are the drawers of maps to help him navigate once he gets there. This way, we make present-day adventures of data exploration possible. _The man who asked me the question was (link:http://www.davidbihanic.com/ text:David Bihanic)._
+
+(image:slide.005.png)
+But, to build these tools that help people make discoveries, we have to know a few things about the environment where they get used. A tool has to be optimized for the human handling it, as well as the problem domain where it gets applied. So understanding the domain becomes almost a prerequisite. That’s the reason why we invest so much time in the beginning of a new assignment into understanding the domain. It’s clear that we won’t be able to catch up with the domain experts, but we have to be able to understand what’s important to them and why. _Inspiration for this conceptualization of the tool comes from (link:http://worrydream.com/ text:Bret Victor)_
+
+(image:slide.006.png)
+So today, I would like to speak a little bit about the power of **Learning from our Process**. _Compare to my talk at Visualized 2012 called (link:https://speakerdeck.com/wiederkehr/parts-of-the-process text:Parts of the Process)_
+
+(image:slide.007.png)
+A few days ago, we released a personal portrait of (link:http://iouri-in-sotschi.nzz.ch/ text:Iouri Podladchikov), a Snowboard professional with high aspirations for the Olympic Games in Sochi starting in a few days.  We didn’t know much about the complex movements involved in his runs and the incredible nomenclature for tricks. 
+
+(image:slide.008.png)
+We did our best to explain the complex movements of one of the most difficult tricks in his arsenal, the fittingly titled  Yolo Flip. We enhanced the real-life footage with an simplified illustration to highlight key positions.  Furthermore, we separated the rotations around the horizontal and vertical axis to shed light on the different movements happening in parallel. _We just released an (link:http://datavisualization.ch/showcases/interactively-explore-the-yolo-flip/ text:article) explaining the thinking behind the interactive graphic._
+
+(image:slide.009.png)
+In contrast, when we worked with the (link:http://www.snf.ch/ text:Swiss National Science Fund), we had to catch up with scientific research experts who are interested in answers to highly detailed questions about research activity and research funding. The result was an expert tool that wouldn’t be explanatory on its own, but would allow experts to explain correlations and trends. Yet, we had to understand their goals first, to be able to do so.
+
+(image:slide.011.png)
+When we started working on a long form article for the Neue Zürcher Zeitung about the state of affairs in (link:http://fukushima.nzz.ch/ text:Fukushima) two years after the tripple catastrophe of an earthquake, a tsunami and a melt down in the nuclear power plant in Daiichi, we didn’t know much about radiation levels and distribution.
+
+(image:slide.012.png)
+This visualization shows how the radiation distribution changed over the course of the weeks after the terrible incident happened.
+
+(image:slide.013.png)
+This visualization tried to convey radiation not in a quantifiable manner but in a more subtle, almost tangible one. When we completed our work, we not only got a basic understanding our own, but we also found ways to make it understandable for laymen with limited or no theoretical knowledge about it.
+
+(image:slide.015.png)
+I believe that we all agree how stimulating it is, to learn things that you didn’t know before. How thrilling it is to dive into new topics every few months. If I may, I would like to make you aware, how blessed we all are to be able to do so. We should make best use of this talent and opportunity.
+
+**With every new project, we have the opportunity to learn and understand. We also have the opportunity to help others to learn alongside with us by sharing our results, our interpretations, our insights and the steps in between.**
+
+(image:slide.016.png)
+When I look at the creative output of the visualization community, I am reminded of a concept from biology called «surface extension». Surface extension works like this: Through enlarging the surface of a border between two different media, nature increases the bandwidth to exchange content between the two sides. This happens in your lungs for instance. Where oxygen gets transferred from your breath ways into your blood vessels.
+
+(image:slide.017.png)
+With thousands of visualizations that help us understand complex topics, we generate multiple ways to approach a topic. Each one suited for a different question or a different audience. In that sense, I like to believe that all of our work ultimately contributes to extending the surface between humans and knowledge. And thus, increases the bandwidth for learning and understanding.
+
+(image:slide.020.png)
+There are topics around us that we are uncomfortable with. Topics that we may not enjoy learning about. Yet, visualization provides us with methods to engage with such difficult topics.
+
+(image:slide.021.png)
+I can only imagine how disturbing it must have been for Kim and her team at Periscopic sifting through the numbers of people killed by (link:http://guns.periscopic.com text:Hand Guns) in de USA.
+
+(image:slide.022.png)
+Or how disturbing it must have been for Wes and his team at Pitch Interactive putting together the (link:http://drones.pitchinteractive.com text:Out of Sight, Out of Mind) visualization and learning about the intensity of drone strikes and the resulting fatalities.
+
+(image:slide.023.png)
+Or how overwhelmed Deroy, Ekene and the team at Hyperakt must have been, when confronted with the vast amount of people escaping unbearable conditions at home in the (link:http://refugeeproject.org text:Refugee Project). These are tough facts for any person to grasp. Yet, they are imperative to acknowledge by society as whole.
+
+(image:slide.025.png)
+And yet, sometimes less global, less brutal facts are even harder to cope with if the data is about… you. And by this I don’t mean the amount of steps taken or the hours of sleep per day. I mean that type of data, you are afraid of. The type of data that takes courage not to close your eyes from when confronted with.
+
+(image:slide.027.png)
+In that regard, and so many others, one of the most courageous persons I had the pleasure to meet, is a man by the name of (link:http://opensourcecureforcancer.com/ text:Salvatore Iaconesi). Salvatore is a researcher and artist who, after being diagnosed with brain cancer, did not close his eyes. Instead, he opened them wider than he ever did before. More importantly, he opened the eyes of others along with him. By publishing all of his medical data, he took a first step towards a peer-to-peer cure for cancer. Through collaborative exploration, evaluation and experimentation, he learned as much as possible about his disease together with hundreds of fellow patients, doctors, and researchers. Eventually, he was able to define a strategy including [medical disciplines] to restore his health. Salvatore is well now. He’s well versed in the topic because of the things he learned. He’s well because of the successful surgery he got last summer.
+
+_Note: I will not share in full the slides and the personal story that followed in my talk at this point in time. I might do so in the future, but don’t feel comfortable right now. Let’s imagine that I analyzed a very personal data set, that haunts me for quite some time._
+
+(image:slide.033.png)
+When looking at and sharing such personal data, you make yourself vulnerable. You might call it data vulnerability. For me, visualization is an obvious choice to understand information that seem daunting at first. So, I started to analyze the data that I had collected and dug into temporal, spatial, relational and emotional characteristics of the past. _Beside Salvatore's courage, I am continuously inspired by the self-observation of (link:http://feltron.com text:Nicholas Felton)._
+
+(image:slide.035.png)
+These visualizations are not the solution to the issue itself. They won’t protect me, nor others. But they are a starting point for me to approach the subject matter. As the organic self of a “human being”, with his physical, mental, emotional dimensions, we deal with stuff **internally**.
+
+(image:slide.036.png)
+But we are also social, relational, immersed in communities and societies whose well-being depends on the well-being of all of their members. Shouldn’t we therefore deal with some stuff **externally**?
+
+**Again, I believe that with every new challenge, we have the opportunity to learn and understand. Maybe we can help others to learn alongside with us by sharing our results, our interpretations, our insights and the steps in between.**
+
+(image:slide.038.png)
+Thank you!
+
+_Even more thanks to Margot, Silja, Anne-Sophie, Martina, Kapeeth, Mark, Christian, Christoph, Jeremy, Peter, Sha, Eric and Anna for making me less uncomfortable telling this story._

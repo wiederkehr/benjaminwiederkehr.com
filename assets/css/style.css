@@ -110,17 +110,97 @@ select:focus    { border:1px solid #999; background:#fff; }
 
 /* ICONS
 /////////////////////////////////////////////////////////////////*/
-ul.icons { }
-ul.icons li a               { background: transparent url('http://benjaminwiederkehr.com/assets/img/icons/icon_sprite.png') 174px 2px no-repeat;}
-ul.icons li a.rss_icon      { background-position: 100% 2px;}
-ul.icons li a.twitter_icon  { background-position: 100% -24px;}
-ul.icons li a.facebook_icon { background-position: 100% -50px;}
-ul.icons li a.ixt_icon      { background-position: 100% -76px;}
-ul.icons li a.datavis_icon  { background-position: 100% -102px;}
-ul.icons li a.blog_icon     { background-position: 100% -128px;}
-ul.icons li a.tumblr_icon   { background-position: 100% -154px;}
-ul.icons li a.foursquare_icon   { background-position: 100% -180px;}
-ul.icons li a.quora_icon    { background-position: 100% -206px;}
+.icons i{
+  float: right;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+@font-face {
+  font-family: 'entypo';
+  src:url('../fonts/entypo.eot?-6u1q8n');
+  src:url('../fonts/entypo.eot?#iefix-6u1q8n') format('embedded-opentype'),
+    url('../fonts/entypo.woff?-6u1q8n') format('woff'),
+    url('../fonts/entypo.ttf?-6u1q8n') format('truetype'),
+    url('../fonts/entypo.svg?-6u1q8n#entypo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'entypo';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e600";
+}
+.icon-twitter:before {
+  content: "\e601";
+}
+.icon-pinterest:before {
+  content: "\e602";
+}
+.icon-tumblr:before {
+  content: "\e603";
+}
+.icon-github:before {
+  content: "\e604";
+}
+.icon-linkedin:before {
+  content: "\e605";
+}
+.icon-rss:before {
+  content: "\e606";
+}
+.icon-video:before {
+  content: "\e607";
+}
+.icon-plus:before {
+  content: "\e608";
+}
+.icon-cross:before {
+  content: "\e609";
+}
+.icon-minus:before {
+  content: "\e60a";
+}
+.icon-forward:before {
+  content: "\e60b";
+}
+.icon-arrow-right2:before {
+  content: "\e614";
+}
+.icon-arrow-left3:before {
+  content: "\e615";
+}
+.icon-arrow-down3:before {
+  content: "\e616";
+}
+.icon-arrow-up3:before {
+  content: "\e617";
+}
+.icon-list:before {
+  content: "\e61c";
+}
+.icon-heart:before {
+  content: "\e61d";
+}
+.icon-star:before {
+  content: "\e61e";
+}
+
+
+
 
 /* GRID
 /////////////////////////////////////////////////////////////////*/

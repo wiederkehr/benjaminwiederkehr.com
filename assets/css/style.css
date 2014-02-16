@@ -108,6 +108,60 @@ textarea:focus  { border:1px solid #999; background:#fff; }
 select          { border:1px solid #bbb; background:#f6f6f6; width:200px; }
 select:focus    { border:1px solid #999; background:#fff; }
 
+/* NAVIGATION
+/////////////////////////////////////////////////////////////////*/
+.meta{ 
+  background: #e3e3e0;
+  border-top: 3px solid #e3e3e0; 
+  box-shadow: inset 0px -2px 2px rgba(0,0,0,0.05);
+}
+.meta__container{
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  zoom: 1;
+  position: relative;
+}
+.meta__panel{ 
+  overflow: hidden;
+  display: none;
+}
+.meta__heading{
+  color: #aaa; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px; 
+  font-weight: normal; 
+  padding-bottom: 2px; 
+  margin: 20px 0 15px; 
+  border-bottom: 3px solid #d4d5d3;
+  text-transform: uppercase;
+}
+.meta__paragraph a{
+  color: #aaa;
+  font: italic 14px/21px "Georgia", Georgia, serif;
+  display: block;
+}
+.meta__paragraph a:hover{
+  color: #444;
+}
+.meta__toggle{ 
+  background: #e3e3e0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  box-shadow: inset 0px -2px 2px rgba(0,0,0,0.05);
+  bottom: -20px;
+  color: #bdbebc;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 40px;
+}
+.meta__toggle.active{
+  color: #444;
+}
 /* ICONS
 /////////////////////////////////////////////////////////////////*/
 .icons i{
@@ -135,8 +189,6 @@ select:focus    { border:1px solid #999; background:#fff; }
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -198,9 +250,6 @@ select:focus    { border:1px solid #999; background:#fff; }
 .icon-star:before {
   content: "\e61e";
 }
-
-
-
 
 /* GRID
 /////////////////////////////////////////////////////////////////*/

@@ -6,14 +6,6 @@ $(document).ready(function(){
 		slideEaseDuration: 300,
 		autoHeightEaseDuration: 300,
 	});
-	$('header h1').hover(
-		function(){
-			$('header h1 a img').stop().animate({ opacity: 0 }, 300);
-		},
-		function(){
-			$('header h1 a img').stop().animate({ opacity: 1 }, 300);
-		}
-	);
 	$('.icon-list-item').hover(
 		function(){
 			$(this).find('img').stop().animate({ marginTop: -6 }, 'fast');
@@ -48,14 +40,8 @@ jQuery.fn.defuscate = function( settings ) {
 		}, settings);
 		var regex = /\b([A-Z0-9._%-]+)\([^)]+\)((?:[A-Z0-9-]+\.)+[A-Z]{2,6})\b/gi;
 		return this.each(function() {
-			//if ( $(this).is('a[@href]') ) {
-				// If it's an <a> element, defuscate the href attribute
-				$(this).attr('href', $(this).attr('href').replace(regex, '$1@$2'));
-				// Make sure that the element's contents is not made into a link
-				var is_link = true;
-				//alert($(this).attr('href'));
-			//}
-			// Defuscate the element's contents
+			$(this).attr('href', $(this).attr('href').replace(regex, '$1@$2'));
+			var is_link = true;
 			$(this).html($(this).html().replace(regex, (settings.link && !is_link ? '<a href="mailto:$1@$2">$1@$2</a>' : '$1@$2')));
 		}
 	);

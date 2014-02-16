@@ -1,8 +1,9 @@
 <?= snippet('intro-header') ?>
+<?= snippet('meta') ?>
 
 <div class="container">
   <header>
-    <h1><a href="<?= url('/') ?>" title="<?= html($site->title()) ?>"><img src="assets/img/logos/benjaminwiederkehr_logo.png" width="230" height="110" alt="<?= html($site->author()) ?>" /></a></h1>
+    <h1 class="logo"><a href="<?= url('/') ?>" title="<?= html($site->title()) ?>"><img src="assets/img/logos/benjaminwiederkehr_logo.png" width="230" height="110" alt="<?= html($site->author()) ?>" /></a></h1>
     <p>Wholeheartedly passionate about making things understandable.</p>
     <p>Partner at Interactive Things,<br/>Editor at Datavisualization.ch.</p>
     <aside class="photobooth">
@@ -116,7 +117,7 @@
               </li>
             </ul>
             <p class="read_more">
-              <a href="http://blog.benjaminwiederkehr.com/category/contact" title="Go to my contact page">See more</a>
+              <a href="http://archive.benjaminwiederkehr.com/category/contact" title="Go to my contact page">See more</a>
             </p>
           </div>
         </div>
@@ -143,8 +144,12 @@
         </div>
         <div class="panel">
           <div class="panel-content">
-            <h3 class="cal_headline">Upcoming</h3>
+            <!-- <h3 class="cal_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
+              
+            </ul> -->
+            <h3 class="cal_headline">2014</h3>
+            <ul class="cols-1 past-dates">
               <li class="icon-list-item">
                 <a href="http://www.meetup.com/hacks-hackers-nyc/events/162900752/" title="Hacks/Hackers NYC">
                   <span class="cal">
@@ -152,7 +157,7 @@
                     <span class="cal_day">03</span>
                   </span>
                   <h3>Hacks/Hackers NYC</h3>
-                  <p><strong>New York, USA</strong> Storytelling Workout</p>
+                  <p><strong>New York, USA</strong> Talk on Interactive Storytelling</p>
                 </a>
               </li>
               <li class="icon-list-item">
@@ -162,7 +167,7 @@
                     <span class="cal_day">06</span>
                   </span>
                   <h3>Visualized</h3>
-                  <p><strong>New York, USA</strong> Learning in our Work</p>
+                  <p><strong>New York, USA</strong> Talk on Information Visualization</p>
                 </a>
               </li>
             </ul>

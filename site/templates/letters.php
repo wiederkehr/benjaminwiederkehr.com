@@ -1,4 +1,5 @@
 <?= snippet('letters-header') ?>
+<?= snippet('meta') ?>
 
 <div class="container">
   <div class="letters">

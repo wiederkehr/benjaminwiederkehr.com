@@ -1,8 +1,9 @@
 <?= snippet('notes-header') ?>
+<?= snippet('meta') ?>
 
 <div class="container">
   <div id="header" class="span-5 append-19 last">
-    <h1>
+    <h1 class="logo">
       <a href="<?= url('/notes') ?>" rel="me" title="<?php echo h($site->title()) ?>">
         <img src="<?= url('assets/img/logos/benjaminwiederkehr_notes_logo.png') ?>" width="230" height="150" alt="<?= html($site->title()) ?>" />
       </a>

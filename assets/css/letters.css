@@ -45,7 +45,7 @@ article section a:hover{
 /* LETTERS VERTICAL
 /////////////////////////////////////////////////////////////////*/
 .letters              { }
-.letters h3.ui        { padding-bottom: 2px; margin-bottom: 15px; border-bottom: 3px solid #d4d5d3;}
+.letters h3.ui        { padding-bottom: 2px; margin-bottom: 15px; border-bottom: 3px solid #d4d5d3; color: #aaa;}
 .letters-item         { border-bottom: 1px solid #d4d5d3; position: relative;}
 .letters-item h2      { margin:  36px 0;}
 .letters-item h2 a    { display: block;}

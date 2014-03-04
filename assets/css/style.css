@@ -162,6 +162,13 @@ select:focus    { border:1px solid #999; background:#fff; }
 .meta__toggle.active{
   color: #444;
 }
+@media (min-width: 768px) and (max-width: 979px) {
+  .meta__container{width:710px;}
+}
+@media (max-width: 767px) {
+  .meta{ margin: 0 -20px; padding: 0 20px;}
+  .meta__container{ width: auto;}
+}
 /* ICONS
 /////////////////////////////////////////////////////////////////*/
 .icons i{

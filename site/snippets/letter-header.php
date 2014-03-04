@@ -17,8 +17,9 @@
   <meta property="og:description" content="<?= $page->excerpt() ?>" />
   <meta property="og:url" content="<?= html($page->url()) ?>" />
   <!-- ——————————————————————————————————————————————————————————————————— IMAGE -->
-  <link rel="image_src" href="<?= $page->images()->first()->url() ?>" />
-  <meta property="og:image" content="<?= $page->images()->first()->url() ?>" />
+  <?php $image_src = ($page->images()->first() != NULL ? $page->images()->first()->url() : $site->url().'/assets/img/logos/benjaminwiederkehr_letters_logo_dark.png') ?>
+  <link rel="image_src" href="<?= $image_src ?>" />
+  <meta property="og:image" content="<?= $image_src ?>" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png"/>

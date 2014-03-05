@@ -1,6 +1,6 @@
 <?= snippet('letter-header') ?>
 
-<div class="container">
+<div class="letters_container">
   <header>
     <p><?= date("F j, Y", $page->date()) ?></p>
   </header>
@@ -12,6 +12,6 @@
       <?= kirbytext($page->text()) ?>
     </section>
   </article>
-</div><!-- .container -->
+</div><!-- .letters_container -->
 
 <?= snippet('letter-footer') ?>

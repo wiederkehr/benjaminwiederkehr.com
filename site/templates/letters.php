@@ -1,7 +1,7 @@
 <?= snippet('letters-header') ?>
 <?= snippet('meta') ?>
 
-<div class="container">
+<div class="letters_container">
   <div class="letters">
     <h3 class="ui"><?= html($page->title()) ?></h3>
     <?php
@@ -21,6 +21,6 @@
     <?php endforeach ?>
     <p class="remark"><?= html($page->text()) ?></p>
   </div>
-</div><!-- .container -->
+</div><!-- .letters_container -->
 
 <?= snippet('letters-footer') ?>

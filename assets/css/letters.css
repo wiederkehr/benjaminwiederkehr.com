@@ -9,7 +9,7 @@ Last update:    130611_BW
 /* LAYOUT
 /////////////////////////////////////////////////////////////////*/
 body{ font: 18px/1.5em 'Cutive Mono', monospace; }
-.container { 
+.letters_container { 
   width: 90%;
   margin: 36px 5% 72px;
 }
@@ -50,10 +50,6 @@ article section a:hover{
 .letters-item h2      { margin:  36px 0;}
 .letters-item h2 a    { display: block;}
 .letters-item-date    { font-size: 14px; color: #aaa; position: absolute; right: 0; top: 2px;}
-@media (max-width: 767px) {
-  .letters-item h2    { margin: 60px 0 36px;}
-  .letters-item-date  { top: -1.5em; left:0;}
-}
 .remark               { clear: both; font-size: 14px; color: #aaa; }
 
 /* LETTERS GRID
@@ -118,10 +114,12 @@ article section a:hover{
     font-size: 16px;
   }
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
+  .letters-item h2    { margin: 60px 0 36px;}
+  .letters-item-date  { top: -1.5em; left:0;}
 }
 @media (min-width: 768px) {
-  .container {
+  .letters_container {
       width: 720px;
       margin: 36px auto 72px;
   }

@@ -25,6 +25,7 @@
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
   <?= css('http://fonts.googleapis.com/css?family=Cutive+Mono') ?>
   <?= css('assets/css/style.css') ?>
+  <?= css('assets/css/responsive.css') ?>
   <?= css('assets/css/letters.css') ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->
 </head>

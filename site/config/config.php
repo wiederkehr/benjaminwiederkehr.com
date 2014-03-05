@@ -44,7 +44,8 @@ c::set('url', '/');
  
 */
 
-c::set('url', false);
+// c::set('url', false);
+c::set('url', 'http://localhost:8888/benjaminwiederkehr.com');
 
 
 /* 
@@ -71,7 +72,8 @@ RewriteBase /subfolder
  
 */
 
-c::set('subfolder', false);
+// c::set('subfolder', false);
+c::set('subfolder', 'benjaminwiederkehr.com');
 
 
 /* 

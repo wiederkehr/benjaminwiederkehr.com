@@ -46,7 +46,7 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 .coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
 .coda-slider .panel-content { padding: 30px 0 2px 0 }
 .coda-slider .panel-content ul{ margin: 0; padding: 0; list-style: none;}
-.coda-slider .panel-content ul li			{ padding: 0 0 0 10px; margin: 0 0 28px; background: url('../img/icons/icon_32_shadow.png') 6px 24px no-repeat;}
+.coda-slider .panel-content ul li			{ padding: 0 0 0 10px; margin: 0 0 28px; min-height: 34px; background: url('../img/icons/icon_32_shadow.png') 6px 24px no-repeat;}
 .coda-slider .panel-content ul.cols-2 li{ margin: 0 0 28px 0; width: 220px; float: left;}
 .coda-slider .panel-content ul.cols-2 li.last{ }
 .coda-slider .panel-content ul li a  		{ display: block; font-weight: normal;}

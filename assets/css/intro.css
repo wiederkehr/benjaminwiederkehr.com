@@ -15,9 +15,9 @@ h3{ font-family: "ff-netto-web",sans-serif;}
 /////////////////////////////////////////////////////////////////*/
 body{ background: #efefec url('../img/bg.png') center -17px no-repeat;}
 body{ background: #efefec;}
-header{ position: relative; padding: 30px 0 0;}
-.container { width:470px; margin:0 auto;}
-.content{ padding: 32px 0 30px;}
+header{ position: relative; margin: 30px 0 0;}
+.intro_container { width:470px; margin:0 auto;}
+.intro_content{ padding: 32px 0 30px;}
 
 /* HEADER
 /////////////////////////////////////////////////////////////////*/
@@ -26,12 +26,12 @@ header h1 a     { display: block; height: 110px; width: 230px; background: url('
 header h1 a img	{ margin: 0 0 0 -20px; float: none;}
 header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif; color: #aaa;}
 
-.photobooth     { position: absolute; top: 50px; right: 0; height: 190px; padding: 0 0 6px 0; background: url('../img/photobooth/photobooth_shadow.png') center bottom no-repeat;}
+.photobooth     { position: absolute; top: 20px; right: 0; height: 190px; padding: 0; box-shadow: 0 5px 4px -4px rgba(0,0,0,0.2);}
 .photobooth img { padding: 5px; background: #fff; border: 1px solid #e3e3e0; border-bottom: 1px solid #C7C7C4; margin: 0;}
 .photobooth .skim    	{ position: absolute; left: 0; right: 0; background: transparent; width: 190px; height: 190px;}
 .photobooth .skim img	{ position: absolute; background: transparent; display: none;}
 
-.badge { position: absolute; top: 20px; right: -20px; display: block; width: 62px; height: 62px; background: url('../img/badge.png') 0 0 no-repeat; text-indent: -99999px;}
+.badge { position: absolute; top: 0px; right: -20px; display: block; width: 62px; height: 62px; background: url('../img/badge.png') 0 0 no-repeat; text-indent: -99999px;}
 .badge:hover { background: url('../img/badge.png') 0 -72px no-repeat;}
 
 /* SLIDER
@@ -77,6 +77,7 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 .coda-nav-right { float: left }
 .coda-nav-left a,
 .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+
 /* CALENDAR
 /////////////////////////////////////////////////////////////////*/
 .cal{
@@ -122,4 +123,17 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
   text-align: center;
   line-height: 1.5;
   color: #bbb;
+}
+/* MEDIA QUERIES
+/////////////////////////////////////////////////////////////////*/
+@media (max-width: 480px) {
+  .intro_container { width: 320px;}
+  .coda-slider,
+  .coda-slider .panel,
+  .coda-slider-wrapper.arrows .coda-slider,
+  .coda-slider-wrapper.arrows .coda-slider .panel { width: 318px }
+  .badge{ display: none;}
+  .photobooth img { box-sizing: border-box; width:100%;}
+  .photobooth { top: 10px; width: 80px; height: 80px;}
+  .photobooth .skim { width: 80px; height: 80px;}
 }

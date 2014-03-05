@@ -1,39 +1,39 @@
 <?= snippet('intro-header') ?>
 <?= snippet('meta') ?>
 
-<div class="container">
+<div class="intro_container">
   <header>
     <h1 class="logo"><a href="<?= url('/') ?>" title="<?= html($site->title()) ?>"><img src="assets/img/logos/benjaminwiederkehr_logo.png" width="230" height="110" alt="<?= html($site->author()) ?>" /></a></h1>
     <p>Wholeheartedly passionate about making things understandable.</p>
     <p>Partner at Interactive Things,<br/>Editor at Datavisualization.ch.</p>
     <aside class="photobooth">
       <div class="skim">
-        <img src="assets/img/photobooth/wiederkehr_00.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_01.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_02.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_03.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_04.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_05.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_06.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_07.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_08.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_09.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_10.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_11.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_12.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_13.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_14.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_15.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_16.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_17.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_18.jpg" width="178" height="178"/>
-        <img src="assets/img/photobooth/wiederkehr_19.jpg" width="178" height="178"/>
+        <img src="assets/img/photobooth/wiederkehr_00.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_01.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_02.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_03.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_04.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_05.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_06.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_07.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_08.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_09.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_10.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_11.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_12.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_13.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_14.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_15.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_16.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_17.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_18.jpg"/>
+        <img src="assets/img/photobooth/wiederkehr_19.jpg"/>
       </div><!-- .skim -->
-      <img src="assets/img/benjaminwiederkehr_photo.png" width="178" height="178" alt="Intro Photo"/>
+      <img src="assets/img/benjaminwiederkehr_photo.png" alt="Intro Photo"/>
     </aside><!-- .photobooth -->
     <a href="http://interactivethings.com" title="Work with me at Interactive Things" class="badge">Interactive Things</a>
   </header>
-  <section class="content">
+  <section class="intro_content">
     <div class="coda-slider-wrapper">
       <div id="coda-nav-1" class="coda-nav">
         <ul>

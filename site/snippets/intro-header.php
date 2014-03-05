@@ -24,6 +24,7 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
   <?= css('assets/css/style.css') ?>
+  <?= css('assets/css/responsive.css') ?>
   <?= css('assets/css/intro.css') ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->
   <script src="http://use.typekit.com/aea1puq.js"></script>

@@ -3,11 +3,11 @@
 ----
 
 Bio: 
-Benjamin Wiederkehr is an interaction designer with a focus on information visualization and interface design.
+I am interaction designer with a focus on information visualization and interface design.
 
-He is founding partner and managing director of Interactive Things, an user experience design and data visualization studio he established in 2010 together with Christian Siegrist and Jeremy Stucki. The Zurich based team designs and implements interactive applications and visualizations for national and international clients including the UNDP, UNESCO, WEF, Mozilla and National Geographic. Interactive Things is also part of the Open Government Data task force in Switzerland and helps to facilitate an open access to government data for everyone.
+I am founding partner and managing director of Interactive Things, a User Experience and Data Visualization design studio I established in 2010 together with Christian Siegrist and Jeremy Stucki. Our Zurich based team designs and implements interactive applications and visualizations for private and public sector organ­isa­tions and companies including the UNDP, UNESCO, WEF, UEFA or National Geographic. Interactive Things is also part of the Open Government Data task force in Switzerland and helps to facilitate an open access to government data for everyone.
 
-On Datavisualization.ch, Benjamin provides insight into his research and working process as well as he documents topical use cases in the field of data visualization. His work and research interests center around persuasive technology, information and knowledge visualization and cartography.
+On Datavisualization.ch, I and my co-authors provide insights into our research and working process as well as document topical use cases in the field of data visualization. My work and research interests center around persuasive technology, information and knowledge visualization and emerging interaction principles.
 
 ----
 
@@ -15,19 +15,15 @@ Title: Home
 
 ----
 
-Work: **Interactive Things** User Experience design studio based in Zürich, Switzerland
+Work: **Interactive Things** User Experience design studio based in Zürich, Switzerland.
 
 ----
 
-Publish: **Datavisualization.ch** Premier news resource for visualization and infographics
+Publish: **Datavisualization.ch** News and knowledge resource about visualization design.
 
 ----
 
-Study: **Master of the Arts** in Interaction Design at the University of the Arts, Zürich
-
-----
-
-Write: This is where I share the things that keep me busy at daytime and up at night
+Write: **Notes, Talks and Letters** About what keeps me busy at day and up at night.
 
 ----
 

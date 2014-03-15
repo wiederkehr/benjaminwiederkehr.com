@@ -5,7 +5,7 @@
   <header>
     <h1 class="logo"><a href="<?= url('/') ?>" title="<?= html($site->title()) ?>"><img src="assets/img/logos/benjaminwiederkehr_logo.png" width="230" height="110" alt="<?= html($site->author()) ?>" /></a></h1>
     <p>Wholeheartedly passionate about making things understandable.</p>
-    <p>Partner at Interactive Things,<br/>Editor at Datavisualization.ch.</p>
+    <p>Director at Interactive Things,<br/>Editor at Datavisualization.ch.</p>
     <aside class="photobooth">
       <div class="skim">
         <img src="assets/img/photobooth/wiederkehr_00.jpg"/>
@@ -60,13 +60,6 @@
                   <img src="assets/img/icons/datavis-32x32.png" width="32" height="32" alt="Datavisualization.ch" />
                   <h3>Publish</h3>
                   <?= kirbytext($page->publish()) ?>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://master.benjaminwiederkehr.com" title="My Master Thesis">
-                  <img src="assets/img/icons/master-32x32.png" width="32" height="32" alt="Master Thesis" />
-                  <h3>Study</h3>
-                  <?= kirbytext($page->study()) ?>
                 </a>
               </li>
               <li class="icon-list-item">
@@ -144,10 +137,29 @@
         </div>
         <div class="panel">
           <div class="panel-content">
-            <!-- <h3 class="cal_headline">Upcoming</h3>
+            <h3 class="cal_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
-              
-            </ul> -->
+              <li class="icon-list-item">
+                <a href="http://www.iuav.it/" title="Mobile Information Visualization">
+                  <span class="cal">
+                    <span class="cal_month">May</span>
+                    <span class="cal_day">22</span>
+                  </span>
+                  <h3>Università Iuav di Venezia</h3>
+                  <p><strong>Venice, Italy</strong> Lecture on Mobile Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://sciencecomm.ch/" title="ScienceComm 14">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">18</span>
+                  </span>
+                  <h3>ScienceComm 14</h3>
+                  <p><strong>Lucerne, Switzerland</strong> Talk on Visualization in Science Communication</p>
+                </a>
+              </li>
+            </ul>
             <h3 class="cal_headline">2014</h3>
             <ul class="cols-1 past-dates">
               <li class="icon-list-item">

@@ -45,7 +45,7 @@ SIDEBAR
 #sidebar a							{ color: #aaa; font-weight: bold; text-decoration: none;}
 #sidebar a:hover				{ color: #444;}
 #sidebar p							{ font-size: 11px; margin: 0 0 40px;}
-#sidebar p.lead					{ font: italic 15px/18px "Georgia", Georgia, serif; color: #aaa;}
+#sidebar p.lead					{ font: italic 14px/21px "Georgia", Georgia, serif; color: #aaa;}
 #sidebar h3							{ color: #bbb; font-size: 10px; margin-bottom: 15px; padding-bottom: 2px; text-transform: uppercase; border-bottom: 3px solid #d4d5d3;}
 #sidebar ul							{ list-style: none; margin: 0 0 40px; padding: 0;}
 #sidebar ul li					{ font-size: 11px; }

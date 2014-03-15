@@ -1,6 +1,6 @@
 <!-- ——————————————————————————————————————————————————————————————————— NOTES -->
 <h3 class="sidebar-title ui">About</h3>
-<p class="sidebar-lead">A few thoughts, most likely only relevant to myself.</p>
+<p class="sidebar-lead">Hello, my name is Benjamin. I'm Interaction & Information Designer from Zürich. This is where I reflect on the things that keep me busy during the day and up at night.</p>
 <!-- ——————————————————————————————————————————————————————————————————— FOLLOW -->
 <h3 class="sidebar-title ui">Follow Me</h3>
 <ul class="sidebar-content icons">

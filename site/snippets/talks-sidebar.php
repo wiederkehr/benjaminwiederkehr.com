@@ -1,6 +1,6 @@
 <!-- ——————————————————————————————————————————————————————————————————— NOTES -->
 <h3 class="sidebar-title ui">About</h3>
-<p class="sidebar-lead">A few thoughts that I have shared in compressed, visual, and narrated form.</p>
+<p class="sidebar-lead">Hello, my name is Benjamin. I'm Interaction & Information Designer from Zürich. This is where I document thoughts that I have shared in narrated form as talks, presentation and lectures.</p>
 <!-- ——————————————————————————————————————————————————————————————————— FOLLOW -->
 <h3 class="sidebar-title ui">Follow Me</h3>
 <ul class="sidebar-content icons">

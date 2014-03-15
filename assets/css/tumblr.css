@@ -11,7 +11,7 @@ HEADER
 /////////////////////////////////////////////////////////////////*/
 #header						{ height: 170px; position: relative; padding: 30px 0 0;}
 #header h1				{ height: 110px; width: 230px; margin: 0;}
-#header h1 a			{ display: block; height: 150px; width: 230px; background: url('http://benjaminwiederkehr.com/assets/img/benjaminwiederkehr_found_logo_dark.png') -20px 0 no-repeat;}
+#header h1 a			{ display: block; height: 150px; width: 230px; background: url('http://benjaminwiederkehr.com/assets/img/logos/benjaminwiederkehr_found_logo_dark.png') -20px 0 no-repeat;}
 #header h1 a img	{ margin: 0 0 0 -20px; float: none;}
 /*
 CONTENT
@@ -53,3 +53,9 @@ SIDEBAR
 #sidebar ul li a:hover	{ text-decoration: none; border-bottom: 1px solid #bbb; outline: none;}
 
 .sidebar_content p			{ color: #bbb;}
+
+.pagination{ margin: 30px 0; font-size: 12px;}
+.pagination a{ color: #aaa;}
+.pagination a:hover{ color: #333;}
+.pagination .aligned-right{ text-align: right;}
+.pagination .aligned-center{ text-align: center;}

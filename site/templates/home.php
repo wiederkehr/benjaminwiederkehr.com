@@ -63,8 +63,8 @@
                 </a>
               </li>
               <li class="icon-list-item">
-                <a href="<?= url('/notes') ?>" title="My Blog">
-                  <img src="assets/img/icons/blog-32x32.png" width="32" height="32" alt="Blog" />
+                <a href="<?= url('/notes') ?>" title="My Journal">
+                  <img src="assets/img/icons/blog-32x32.png" width="32" height="32" alt="Journal" />
                   <h3>Write</h3>
                   <?= kirbytext($page->write()) ?>
                 </a>
@@ -131,7 +131,7 @@
               </li>
             </ul>
             <p class="read_more">
-              <a href="http://blog.benjaminwiederkehr.com/category/contact" title="Go to my contact page">See more</a>
+              <a href="http://archive.benjaminwiederkehr.com/category/contact" title="Go to my contact page">See more</a>
             </p>
           </div>
         </div>
@@ -139,16 +139,6 @@
           <div class="panel-content">
             <h3 class="cal_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
-              <li class="icon-list-item">
-                <a href="http://www.iuav.it/" title="Mobile Information Visualization">
-                  <span class="cal">
-                    <span class="cal_month">May</span>
-                    <span class="cal_day">22</span>
-                  </span>
-                  <h3>Università Iuav di Venezia</h3>
-                  <p><strong>Venice, Italy</strong> Lecture on Mobile Information Visualization</p>
-                </a>
-              </li>
               <li class="icon-list-item">
                 <a href="http://sciencecomm.ch/" title="ScienceComm 14">
                   <span class="cal">
@@ -180,6 +170,26 @@
                   </span>
                   <h3>Visualized</h3>
                   <p><strong>New York, USA</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.iuav.it/" title="Mobile Information Visualization">
+                  <span class="cal">
+                    <span class="cal_month">May</span>
+                    <span class="cal_day">16</span>
+                  </span>
+                  <h3>Università Iuav di Venezia</h3>
+                  <p><strong>Venice, Italy</strong> Lecture on Mobile Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.ifbookthen.com/" title="IfBookThen Conference">
+                  <span class="cal">
+                    <span class="cal_month">May</span>
+                    <span class="cal_day">22</span>
+                  </span>
+                  <h3>IfBookThen Conference</h3>
+                  <p><strong>Milano, Italy</strong> Telling Data-Driven Stories</p>
                 </a>
               </li>
             </ul>

@@ -35,7 +35,7 @@
   <!-- ——————————————————————————————————————————————————————————————————— Acknowledgement -->
   <div id="credits" class="span-18 prepend-6 last secondary">
     <h3 class="ui">Acknowledgement</h3>
-    <p><?= html($site->copyright()) ?>. Built with <a href="http://getkirby.com/">Kirby</a> and running smoothly on a <a href="http://www.novacompany.ch" title="">NovaCompany</a> Server.</p>
+    <p><?= html($site->copyright()) ?>. Built with <a href="http://getkirby.com/">Kirby</a> and running smoothly on a <a href="http://hostpoint.ch" title="">Hostpoint</a> Server.</p>
   </div>
 </div><!-- .container -->
 <?= snippet('talks-footer') ?>

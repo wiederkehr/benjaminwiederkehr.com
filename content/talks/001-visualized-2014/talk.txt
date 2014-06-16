@@ -14,13 +14,13 @@ Teaser: http://benjaminwiederkehr.com/content/talks/001-visualized-2014/slide.00
 
 ----
 
-Excerpt: This is the script with references and acknowldedgments of my talk at the Visualized Conference held at the Times Center in New York City on February 6th, 2014.
+Excerpt: This is the script with references and acknowledgments of my talk at the Visualized Conference held at the Times Center in New York City on February 6th, 2014.
 
 ----
 
 Text:
 
-This is the script with references and acknowldedgments of my talk at the (link:http://visualized.com text:Visualized Conference) held at the Times Center in New York City on February 6th, 2014. Please note that I left out a sensative portion of my talk that is best told in person. I'm hopeful that the gist of my message still comes through.
+This is the script with references and acknowledgments of my talk at the (link:http://visualized.com text:Visualized Conference) held at the Times Center in New York City on February 6th, 2014. Please note that I left out a sensitive portion of my talk that is best told in person. I'm hopeful that the gist of my message still comes through.
 
 (image:slide.001.png)
 Hello, my name is Benjamin and I'm an interaction and information designer from Zürich, Switzerland.

@@ -17,17 +17,20 @@ HEADER
 CONTENT
 /////////////////////////////////////////////////////////////////*/
 #content			{ padding: 0 0 30px;}
-h2						{margin-top: 0;}
-.post					{ border-top: 1px solid #d4d5d3; border-bottom: 1px solid #d4d5d3; margin-bottom:36px; background: url('http://benjaminwiederkehr.com/assets/img/post_bg.png');}
+h2						{ margin-top: 0;}
+.post					{ border-top: 1px solid #d4d5d3; margin-bottom:36px;}
 
 .post_title			{ border-top: 2px solid #d4d5d3; position: relative ; min-height: 144px; padding-top: -2px;}
 .post_title			{ min-height: 0; height: auto;}
-.post_title dl	{ margin: 1.5em 10px;}
-.post_title h2	{ margin: 10px;}
+.post_title dl	{ margin: 1.5em 0;}
+.post_title h2	{ margin: 15px 0;}
 
+.post_content   { padding: 1.5em 0;}
 .post_content ul,
 .post_content ol{ margin: 0 0 0 1.5em;}
-.post_content		{ padding: 1.5em 0;}
+
+.post_content img{ box-shadow:  0px 1px 3px 0px rgba(170, 170, 170, 1); width: 100%;}
+
 .person					{ width: 60px; color: #ddd; display: block; float: left;}
 
 dl				{ line-height: 18px; font-size: 10px;}
@@ -54,7 +57,7 @@ SIDEBAR
 
 .sidebar_content p			{ color: #bbb;}
 
-.pagination{ margin: 30px 0; font-size: 12px;}
+.pagination{ margin: 0; padding: 1.5em 0; border-top: 3px solid #d4d5d3; font-size: 12px;}
 .pagination a{ color: #aaa;}
 .pagination a:hover{ color: #333;}
 .pagination .aligned-right{ text-align: right;}

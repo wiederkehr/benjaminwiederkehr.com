@@ -140,6 +140,16 @@
             <h3 class="cal_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
               <li class="icon-list-item">
+                <a href="http://netzwerkrecherche.org/wordpress/nr14/" title="Netzwerk Recherche">
+                  <span class="cal">
+                    <span class="cal_month">Jul</span>
+                    <span class="cal_day">04</span>
+                  </span>
+                  <h3>Netzwerk Recherche</h3>
+                  <p><strong>Hamburg, Germany</strong> Panel on Data Journalism</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
                 <a href="http://sciencecomm.ch/" title="ScienceComm 14">
                   <span class="cal">
                     <span class="cal_month">Sep</span>
@@ -190,6 +200,16 @@
                   </span>
                   <h3>IfBookThen Conference</h3>
                   <p><strong>Milano, Italy</strong> Telling Data-Driven Stories</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.globaleditorsnetwork.org/programmes/data-journalism-awards/" title="Data Journalism Awards">
+                  <span class="cal">
+                    <span class="cal_month">Jun</span>
+                    <span class="cal_day">12</span>
+                  </span>
+                  <h3>Data Journalism Awards</h3>
+                  <p><strong>Barcelona, Spain</strong> Won Best Team Portfolio</p>
                 </a>
               </li>
             </ul>

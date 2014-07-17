@@ -16,23 +16,6 @@ $(document).ready(function(){
 			$(this).find('.cal').stop().animate({ marginTop: 0 }, 'fast');
 		}
 	);
-	var skimInt;
-	$('.skim').hover(function(){
-		var curr = 1;
-		skimInt = setInterval(function(){
-			$('.skim img').hide();
-			$('.skim img:nth-child('+curr+')').show();
-			if(curr < 20){
-				curr++;
-			}else{
-				curr = 0;
-			}
-		}, 100);
-	},
-	function(){
-		$('.skim img').hide();
-		clearInterval(skimInt);
-	});
 });
 jQuery.fn.defuscate = function( settings ) {
 	settings = jQuery.extend({

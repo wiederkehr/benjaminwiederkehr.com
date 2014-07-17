@@ -7,28 +7,6 @@
     <p>Wholeheartedly passionate about making things understandable.</p>
     <p>Director at Interactive Things,<br/>Editor at Datavisualization.ch.</p>
     <aside class="photobooth">
-      <div class="skim">
-        <img src="assets/img/photobooth/wiederkehr_00.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_01.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_02.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_03.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_04.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_05.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_06.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_07.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_08.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_09.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_10.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_11.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_12.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_13.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_14.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_15.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_16.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_17.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_18.jpg"/>
-        <img src="assets/img/photobooth/wiederkehr_19.jpg"/>
-      </div><!-- .skim -->
       <img src="assets/img/benjaminwiederkehr_photo.png" alt="Intro Photo"/>
     </aside><!-- .photobooth -->
     <a href="http://interactivethings.com" title="Work with me at Interactive Things" class="badge">Interactive Things</a>
@@ -140,16 +118,6 @@
             <h3 class="cal_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
               <li class="icon-list-item">
-                <a href="http://netzwerkrecherche.org/wordpress/nr14/" title="Netzwerk Recherche">
-                  <span class="cal">
-                    <span class="cal_month">Jul</span>
-                    <span class="cal_day">04</span>
-                  </span>
-                  <h3>Netzwerk Recherche</h3>
-                  <p><strong>Hamburg, Germany</strong> Panel on Data Journalism</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
                 <a href="http://sciencecomm.ch/" title="ScienceComm 14">
                   <span class="cal">
                     <span class="cal_month">Sep</span>
@@ -210,6 +178,16 @@
                   </span>
                   <h3>Data Journalism Awards</h3>
                   <p><strong>Barcelona, Spain</strong> Won Best Team Portfolio</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://netzwerkrecherche.org/wordpress/nr14/" title="Netzwerk Recherche">
+                  <span class="cal">
+                    <span class="cal_month">Jul</span>
+                    <span class="cal_day">04</span>
+                  </span>
+                  <h3>Netzwerk Recherche</h3>
+                  <p><strong>Hamburg, Germany</strong> Panel on Data Journalism</p>
                 </a>
               </li>
             </ul>

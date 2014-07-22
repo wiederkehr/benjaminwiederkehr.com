@@ -118,6 +118,16 @@
             <h3 class="cal_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
               <li class="icon-list-item">
+                <a href="http://www.srgssr.ch/en/news/hackdays/" title="SRG Hackdays">
+                  <span class="cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">12</span>
+                  </span>
+                  <h3>SRG Hackdays</h3>
+                  <p><strong>Zürich, Switzerland</strong> Data and Media Hackathon</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
                 <a href="http://sciencecomm.ch/" title="ScienceComm 14">
                   <span class="cal">
                     <span class="cal_month">Sep</span>
@@ -125,6 +135,26 @@
                   </span>
                   <h3>ScienceComm 14</h3>
                   <p><strong>Lucerne, Switzerland</strong> Talk on Visualization in Science Communication</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://visualized.io/london" title="Visualized.io London">
+                  <span class="cal">
+                    <span class="cal_month">Nov</span>
+                    <span class="cal_day">22</span>
+                  </span>
+                  <h3>Visualized.io London</h3>
+                  <p><strong>London, United Kingdom</strong> Visual Storytelling Conference</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.data2day.de" title="Data 2 Day">
+                  <span class="cal">
+                    <span class="cal_month">Nov</span>
+                    <span class="cal_day">26</span>
+                  </span>
+                  <h3>Data 2 Day</h3>
+                  <p><strong>Karlsruhe, Germany</strong> Talk on Information Visualization</p>
                 </a>
               </li>
             </ul>

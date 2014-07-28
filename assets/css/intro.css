@@ -44,7 +44,7 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 .coda-slider-wrapper { border-bottom: 1px solid #fff; border-radius: 2px; margin-top: -1px;}
 .coda-slider {
   background: #e3e3e0; 
-  border:1px solid #d7d7d5; 
+  border:1px solid #d7d7d5;
   border-top:none;
   border-radius: 2px;
   box-shadow: inset 0 2px 1px rgba(0,0,0,0.1);
@@ -77,9 +77,31 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 .coda-nav-right a { }
 .coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden; position: relative; top: 2px; z-index: 9999;}
 .coda-nav ul li { display: inline }
-.coda-nav ul li a { text-transform: uppercase; font-size: 10px; font-weight: normal; color: #bbb; display: block; float: left; margin-right: 6px; padding: 4px 6px; text-decoration: none; border-radius: 2px;}
-.coda-nav ul li a:hover{ color: #444;}
-.coda-nav ul li a.current { background: #e3e3e0; color: #444; border:1px solid #d7d7d5; border-top:1px solid #cdcdca; border-bottom: none;}
+.coda-nav ul li a { 
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-top: none;
+  border-radius: 2px;
+  color: #bbb;
+  display: block; 
+  float: left;
+  font-size: 11px; 
+  font-weight: normal; 
+  padding: 5px 10px; 
+  text-decoration: none; 
+  text-transform: uppercase; 
+}
+.coda-nav ul li a:hover{ 
+  color: #444;
+}
+.coda-nav ul li a.current { 
+  background: #e3e3e0; 
+  border: 1px solid #d7d7d5; 
+  border-top: none;
+  border-bottom: none;
+  box-shadow: inset 0 2px 1px rgba(0,0,0,0.1);
+  color: #444; 
+}
 .coda-slider p.loading { padding: 20px; text-align: center; margin: 0;}
 .coda-slider p.loading img { float: none; margin: 20px 0;}
 .coda-slider-wrapper { clear: both; overflow: auto }

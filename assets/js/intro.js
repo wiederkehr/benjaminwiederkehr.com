@@ -8,12 +8,12 @@ $(document).ready(function(){
 	});
 	$('.icon-list-item').hover(
 		function(){
-			$(this).find('img').stop().animate({ marginTop: -6 }, 'fast');
-			$(this).find('.cal').stop().animate({ marginTop: -6 }, 'fast');
+			$(this).find('.icon-large').addClass('hover');
+			$(this).find('.cal').addClass('hover');
 		},
 		function(){
-			$(this).find('img').stop().animate({ marginTop: 0 }, 'fast');
-			$(this).find('.cal').stop().animate({ marginTop: 0 }, 'fast');
+			$(this).find('.icon-large').removeClass('hover');
+			$(this).find('.cal').removeClass('hover');
 		}
 	);
 });

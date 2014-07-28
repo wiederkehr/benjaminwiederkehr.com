@@ -9,7 +9,6 @@ Last update:    130609_BW
 /* OVERRIDES
 /////////////////////////////////////////////////////////////////*/
 h3{ font-family: "ff-netto-web",sans-serif;}
-.bio p{ padding: 0 20px;}
 
 /* LAYOUT
 /////////////////////////////////////////////////////////////////*/
@@ -43,7 +42,14 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 /* SLIDER
 /////////////////////////////////////////////////////////////////*/
 .coda-slider-wrapper { border-bottom: 1px solid #fff; border-radius: 2px; margin-top: -1px;}
-.coda-slider { background: #e3e3e0 url('../img/indent_shadow.png') top left repeat-x; border:1px solid #d7d7d5; border-top:none;border-radius: 2px; margin-top: -1px;}
+.coda-slider {
+  background: #e3e3e0; 
+  border:1px solid #d7d7d5; 
+  border-top:none;
+  border-radius: 2px;
+  box-shadow: inset 0 2px 1px rgba(0,0,0,0.1);
+  margin-top: -1px;
+}
 .coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
 .coda-slider,
 .coda-slider .panel { width: 468px;}
@@ -52,7 +58,7 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 .coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
 .coda-slider .panel-content { padding: 30px 0 2px 0 }
 .coda-slider .panel-content ul{ margin: 0; padding: 0; list-style: none;}
-.coda-slider .panel-content ul li			{ padding: 0 0 0 10px; margin: 0 0 28px; min-height: 34px; background: url('../img/icons/icon_32_shadow.png') 6px 24px no-repeat;}
+.coda-slider .panel-content ul li			{ padding: 0 0 0 10px; margin: 0 0 28px; min-height: 32px;}
 .coda-slider .panel-content ul.cols-2 li{ margin: 0 0 28px 0; width: 220px; float: left;}
 .coda-slider .panel-content ul.cols-2 li.last{ }
 .coda-slider .panel-content ul li a  		{ display: block; font-weight: normal;}
@@ -66,6 +72,7 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 .coda-slider .panel-content p.read_more { text-align: right; padding: 0 10px; margin-bottom: 10px;}
 .coda-slider .panel-content p.read_more a{ color: #aaa; font-size: 11px;}
 .coda-slider .panel-content p.read_more a:hover{ color: #444; font-size: 11px;}
+
 .coda-nav-left a,
 .coda-nav-right a { }
 .coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden; position: relative; top: 2px; z-index: 9999;}
@@ -84,25 +91,115 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 .coda-nav-left a,
 .coda-nav-right a { display: block; text-align: center; text-decoration: none }
 
+.sub_headline { 
+  text-transform: uppercase; 
+  font-size: 12px; 
+  font-weight: normal;
+  border-bottom: 1px solid #d7d7d5;
+  margin: 0 10px 2em;
+  line-height: 1.5;
+  color: #bbb;
+}
+
+/* LARGE ICONS
+/////////////////////////////////////////////////////////////////*/
+.bio p{ 
+  padding: 0 20px;
+}
+.bio .sub_headline{
+  margin: 0 20px 2em;
+}
+
+/* LARGE ICONS
+/////////////////////////////////////////////////////////////////*/
+.icon-large{
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  display: block;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.1);
+  border-radius: 3px;
+  float: left;
+  padding: 8px;
+  font-size: 16px;
+  box-shadow: 0 1px 0px rgba(255,255,255,0.5);
+  top: 0;
+  transition: top 200ms, color 100ms, background-color 200ms, box-shadow 200ms;
+  position: relative;
+}
+.icon-large.hover{
+  color: #fff;
+  top: -3px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.icon-large-interactivethings.hover{
+  background-color: #21d9b7;
+}
+.icon-large-datavisualization.hover{
+  background-color: #d9212d;
+}
+.icon-large-substratum.hover{
+  background-color: #6e6e90;
+}
+.icon-large-hackshackers.hover{
+  background-color: #333;
+}
+.icon-large-opendata.hover{
+  background-color: #39ace5;
+}
+.icon-large-wiederkehr.hover{
+  background-color: #54727f;
+}
+.icon-large-twitter.hover{
+  background-color: #009fd0;
+}
+.icon-large-facebook.hover{
+  background-color: #3a5897;
+}
+.icon-large-tumblr.hover{
+  background-color: #33516e;
+}
+.icon-large-linkedin.hover{
+  background-color: #4774b3;
+}
+.icon-large-google.hover{
+  background-color: #c53c2c;
+}
+.icon-large-pinterest.hover{
+  background-color: #e03037;
+}
+.icon-large-github.hover{
+  background-color: #3e90ca;
+}
+.icon-large-phone.hover{
+  background-color: #333;
+}
+.icon-large-mail.hover{
+  background-color: #333;
+}
+
 /* CALENDAR
 /////////////////////////////////////////////////////////////////*/
 .cal{
-  display: block;
-  float: left;
+  color: #333;
   font-weight: bold;
-  height: 32px;
   line-height: 1;
   letter-spacing: 1px;
-  padding-top:1px;
+  padding: 1px 0 0 0;
   text-transform: uppercase;
-  width: 32px;
-  background: url('../img/icons/ical-32x32.png') 0 0 no-repeat;
+}
+.cal.hover{
+  color: #333;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.2);
 }
 .upcoming-dates .cal{
-  background-image: url('../img/icons/ical-32x32.png');
+  background-color: #d9212d;
 }
 .past-dates .cal{
-  background-image: url('../img/icons/ical-past-32x32.png');
+  background-color: #999;
+  color: #999;
 }
 .cal_month{
   color: #fff;
@@ -119,16 +216,9 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
   line-height: 22px;
   text-align: center;
   letter-spacing: -1px;
-}
-.cal_headline { 
-  text-transform: uppercase; 
-  font-size: 10px; 
-  font-weight: normal;
-  border-bottom: 1px solid #d7d7d5;
-  margin: 0 10px 2em;
-  text-align: center;
-  line-height: 1.5;
-  color: #bbb;
+  background-color: #fff;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 /* MEDIA QUERIES
 /////////////////////////////////////////////////////////////////*/
@@ -139,7 +229,6 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
   .coda-slider-wrapper.arrows .coda-slider,
   .coda-slider-wrapper.arrows .coda-slider .panel { width: 318px }
   .badge{ display: none;}
-  .photobooth img { box-sizing: border-box; width:100%;}
+  .photobooth img { box-sizing: border-box; width:100%; width: 80px; height: 80px;}
   .photobooth { top: 10px; width: 80px; height: 80px;}
-  .photobooth .skim { width: 80px; height: 80px;}
 }

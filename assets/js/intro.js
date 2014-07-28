@@ -9,11 +9,9 @@ $(document).ready(function(){
 	$('.icon-list-item').hover(
 		function(){
 			$(this).find('.icon-large').addClass('hover');
-			$(this).find('.cal').addClass('hover');
 		},
 		function(){
 			$(this).find('.icon-large').removeClass('hover');
-			$(this).find('.cal').removeClass('hover');
 		}
 	);
 });

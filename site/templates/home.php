@@ -17,8 +17,8 @@
         <ul>
           <li class="tab1"><a href="#1" title="What I Do">What I Do</a></li>
           <li class="tab2"><a href="#2" title="Who I am">Who I am</a></li>
-          <li class="tab3"><a href="#3" title="Connect with me">Connect</a></li>
-          <li class="tab4"><a href="#4" title="Meet up at one of these occasions">Meet</a></li>
+          <li class="tab3"><a href="#3" title="Talk to me">Connect</a></li>
+          <li class="tab4"><a href="#4" title="Meet me">Meet</a></li>
         </ul>
       </div>
       <div class="coda-slider preload" id="coda-slider-1">

@@ -316,16 +316,13 @@ select:focus    { border:1px solid #999; background:#fff; }
 .icon-rss:before {
   content: "\e60a";
 }
-.icon-cross:before {
-  content: "\e60e";
-}
 .icon-minus:before {
   content: "\e60b";
 }
 .icon-plus:before {
   content: "\e60c";
 }
-.icon-cross2:before {
+.icon-cross:before {
   content: "\e60d";
 }
 .icon-list:before {

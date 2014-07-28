@@ -23,7 +23,7 @@
       ?>
       <!-- ——————————————————————————————————————————————————————————————————— Note -->
       <div class="notes-item">
-        <h2><a href="<?= $note->url() ?>"><i class="icon-arrow-right2"></i> <?= html($note->title()) ?></a></h2>
+        <h2><a href="<?= $note->url() ?>"><i class="icon-arrow-right"></i> <?= html($note->title()) ?></a></h2>
         <span class="notes-item-date"><?= $note->date('F j, Y'); ?></span>
       </div><!-- .note-->
       <?php endforeach ?>

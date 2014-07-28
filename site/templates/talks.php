@@ -23,7 +23,7 @@
       ?>
       <!-- ——————————————————————————————————————————————————————————————————— Note -->
       <div class="talks-item">
-        <h2><a href="<?= $talk->url() ?>"><i class="icon-arrow-right2"></i> <?= html($talk->title()) ?></a></h2>
+        <h2><a href="<?= $talk->url() ?>"><i class="icon-arrow-right"></i> <?= html($talk->title()) ?></a></h2>
         <span class="talks-item-date"><?= $talk->date('F j, Y'); ?></span>
       </div><!-- .talk-->
       <?php endforeach ?>

@@ -20,11 +20,11 @@
     </div>
     <div class="pagination">
       <?php if($page->hasPrevVisible()): ?>
-      <a class="pagination-previous" href="<?= $page->prevVisible()->url() ?>">&larr; <?= $page->prevVisible()->title() ?></a>
+      <a class="pagination-previous" href="<?= $page->prevVisible()->url() ?>"><i class="icon-arrow-left"></i> <?= $page->prevVisible()->title() ?></a>
       <?php endif ?>
       <a class="pagination-overview" href="<?= url('/talks') ?>">Index</a>
       <?php if($page->hasNextVisible()): ?>
-      <a class="pagination-next" href="<?= $page->nextVisible()->url() ?>"><?= $page->nextVisible()->title() ?> &rarr;</a>
+      <a class="pagination-next" href="<?= $page->nextVisible()->url() ?>"><?= $page->nextVisible()->title() ?> <i class="icon-arrow-right"></a>
       <?php endif ?>
     </div>
   </div>

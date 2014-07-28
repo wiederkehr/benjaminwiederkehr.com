@@ -7,11 +7,14 @@ $(document).ready(function(){
       $('.logo a img').stop().animate({ opacity: 1 }, 500);
     }
   );
-  $('.meta__toggle').click(
+  $('.meta__trigger').click(
     function(){
-      $('.meta__panel').slideToggle();
-      $(this).toggleClass('active');
+      togglePanel();
       return false;
     }
   );
+  function togglePanel(){
+    $('.meta__container').toggleClass('active');
+    $('.meta__panel').slideToggle();
+  }
 });

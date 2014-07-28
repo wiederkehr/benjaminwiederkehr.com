@@ -1,6 +1,6 @@
 <div class="meta">
   <div class="meta__container">
-    <a href="#" title="Toggle Meta Navigation" class="meta__toggle"><i class="icon-list"></i></a>
+    <a href="#" class="meta__trigger"><span>Meta Menu</span></a>
     <div class="meta__panel">
       <!-- ——————————————————————————————————————————————————————————————————— About -->
       <div class="meta__section span-5 append-1">

@@ -113,7 +113,6 @@ select:focus    { border:1px solid #999; background:#fff; }
 .meta{ 
   background: #e3e3e0;
   border-top: 3px solid #e3e3e0; 
-  box-shadow: inset 0px -2px 2px rgba(0,0,0,0.05);
 }
 .meta__container{
   width: 950px;
@@ -144,24 +143,81 @@ select:focus    { border:1px solid #999; background:#fff; }
 .meta__paragraph a:hover{
   color: #444;
 }
-.meta__toggle{ 
+/* TOGGLE
+/////////////////////////////////////////////////////////////////*/
+.meta__trigger {
   background: #e3e3e0;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  box-shadow: inset 0px -2px 2px rgba(0,0,0,0.05);
-  bottom: -20px;
-  color: #bdbebc;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 0;
   position: absolute;
+  top: 0px;
   right: 0;
-  text-align: center;
-  width: 40px;
+  display: block;
+  width: 20px;
+  padding: 0 10px;
+  height: 25px;
+  cursor: pointer;
 }
-.meta__toggle.active{
-  color: #444;
+.meta__container.active .meta__trigger{
+  box-shadow: none;
 }
+.meta__trigger span {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin-top: -2px;
+  background-color: #aaa;
+  font-size: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: background-color 200ms;
+  transition: background-color 200ms;
+}
+.meta__container.active .meta__trigger span {
+  background-color: transparent;
+}
+.meta__trigger span:before,
+.meta__trigger span:after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #aaa;
+  content: '';
+  -webkit-transition: -webkit-transform 200ms;
+  transition: transform 300ms, background-color 200ms;
+}
+
+.meta__trigger:hover span,
+.meta__trigger:hover span:before,
+.meta__trigger:hover span:after{
+  background-color: #333;
+}
+
+.meta__trigger span:before {
+  -webkit-transform: translateY(-200%);
+  transform: translateY(-200%);
+}
+.meta__trigger span:after {
+  -webkit-transform: translateY(200%);
+  transform: translateY(200%);
+}
+.meta__container.active .meta__trigger span:before {
+  -webkit-transform: translateY(0) rotate(45deg);
+  transform: translateY(0) rotate(45deg);
+}
+.meta__container.active .meta__trigger span:after {
+  -webkit-transform: translateY(0) rotate(-45deg);
+  transform: translateY(0) rotate(-45deg);
+}
+/* META MEDIA QUERIES
+/////////////////////////////////////////////////////////////////*/
 @media (min-width: 768px) and (max-width: 979px) {
   .meta__container{width:710px;}
 }

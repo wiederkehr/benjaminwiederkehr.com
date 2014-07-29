@@ -11,13 +11,17 @@
   <meta name="Author" content="<?= html($site->author()) ?>" />
   <meta name="Copyright" content="<?= $site->copyright() ?>" />
   <meta name="Distribution" content="Global" />
-  <meta name="Language" content="en" />
+  <meta name="Language" content="EN" />
   <meta name="Robots" content="ALL" />
-  <meta property="og:title" content="<?= html($page->title()) ?>" />
-  <meta property="og:description" content="<?= excerpt($page->text(), 300) ?>" />
+  <!-- ——————————————————————————————————————————————————————————————————— OPEN GRAPH -->
   <meta property="og:url" content="<?= html($page->url()) ?>" />
+  <meta property="og:title" content="<?= html($page->title()) ?>" />
+  <meta property="og:site_name" content="<?= html($site->name()) ?>" />
+  <meta property="og:description" content="<?= excerpt($page->text(), 300) ?>" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@wiederkehr">
+  <meta name="twitter:creator" content="@wiederkehr">
   <!-- ——————————————————————————————————————————————————————————————————— IMAGE -->
-  <link rel="image_src" href="<?= html($site->url()) ?>/assets/img/logos/benjaminwiederkehr_letters_logo_dark.png" />
   <meta property="og:image" content="<?= html($site->url()) ?>/assets/img/logos/benjaminwiederkehr_letters_logo_dark.png" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
   <link rel="icon" href="favicon.ico" type="image/x-icon" />

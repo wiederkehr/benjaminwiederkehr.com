@@ -11,14 +11,18 @@
   <meta name="Author" content="<?= html($site->author()) ?>" />
   <meta name="Copyright" content="<?= $site->copyright() ?>" />
   <meta name="Distribution" content="Global" />
-  <meta name="Language" content="en" />
+  <meta name="Language" content="EN" />
   <meta name="Robots" content="ALL" />
-  <meta property="og:title" content="<?= html($page->title()) ?>" />
-  <meta property="og:description" content="<?= excerpt($page->text(), 300) ?>" />
+  <!-- ——————————————————————————————————————————————————————————————————— OPEN GRAPH -->
   <meta property="og:url" content="<?= html($page->url()) ?>" />
+  <meta property="og:title" content="<?= html($page->title()) ?>" />
+  <meta property="og:site_name" content="<?= html($site->name()) ?>" />
+  <meta property="og:description" content="<?= excerpt($page->text(), 300) ?>" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@wiederkehr">
+  <meta name="twitter:creator" content="@wiederkehr">
   <!-- ——————————————————————————————————————————————————————————————————— IMAGE -->
   <?php $image_src = ($page->images()->first() != NULL ? $page->images()->first()->url() : $site->url().'/assets/img/logos/benjaminwiederkehr_notes_logo_dark.png') ?>
-  <link rel="image_src" href="<?= $image_src ?>" />
   <meta property="og:image" content="<?= $image_src ?>" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
   <link rel="icon" href="favicon.ico" type="image/x-icon" />

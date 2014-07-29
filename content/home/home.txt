@@ -1,4 +1,4 @@
-Title: Home
+Title: Benjamin Wiederkehr — Interaction and Information Designer
 
 ----
 
@@ -11,10 +11,6 @@ LongBio:
 I am founding partner and managing director of Interactive Things, a design and technology studio I established together with Christian Siegrist and Jeremy Stucki in 2009 and led together with our partners Peter Gassner and Christoph Schmid. Interactive Things works at the intersection of science, technology, and design to help their clients to establish engaging and emotional interactions between them and their audience. Between 2005 and 2008, I have been studying the foundations of interaction design at the BA in Design program of the Zürich University of the Arts, earning a Bachelor’s Degree in Product Design with a specialization in Interaction Design. Between 2012 and 2014, I have been studying visual models and interaction patterns in exploratory tools for personal financial information at the MA in Design program of the Zürich University of the Arts. Currently, my research and work interests center around persuasive technology, information and knowledge visualization and emerging interaction principles between humans and machines.
 
 I think, write, and speak a whole lot about my research and work which led me to lecture and present at SXSW, Ars Electronica, Visualized NYC, UC Berkeley, FH Potsdam, and IUAV Venice, among others. My work has been exhibited in Indiana, Beijing, Seoul, Shanghai, and Barcelona and it has been awarded with the European Newspaper Award, GEN Data Journalism Award, and the Grimme Online Award.
-
-----
-
-Title: Home
 
 ----
 

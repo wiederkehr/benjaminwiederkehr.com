@@ -39,5 +39,4 @@
     <p><?= html($site->copyright()) ?>. Built with <a href="http://getkirby.com/">Kirby</a> and running smoothly on a <a href="http://hostpoint.ch" title="">Hostpoint</a> Server.</p>
   </div>
 </div><!-- .container -->
-
 <?= snippet('talks-footer') ?>

@@ -24,7 +24,7 @@
       <?php endif ?>
       <a class="pagination-overview" href="<?= url('/talks') ?>">Index</a>
       <?php if($page->hasNextVisible()): ?>
-      <a class="pagination-next" href="<?= $page->nextVisible()->url() ?>"><?= $page->nextVisible()->title() ?> <i class="icon-arrow-right"></a>
+      <a class="pagination-next" href="<?= $page->nextVisible()->url() ?>"><?= $page->nextVisible()->title() ?> <i class="icon-arrow-right"></i></a>
       <?php endif ?>
     </div>
   </div>

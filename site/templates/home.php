@@ -134,43 +134,33 @@
             <h3 class="sub_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
               <li class="icon-list-item">
-                <a href="http://www.srgssr.ch/en/news/hackdays/" title="SRG Hackdays">
+                <a href="http://uxromandie.ch/user-centered-data-driven-with-benjamin-wiederkehr/" title="UX Romandie">
                   <span class="icon-large cal">
-                    <span class="cal_month">Sep</span>
-                    <span class="cal_day">12</span>
-                  </span>
-                  <h3>SRG Hackdays</h3>
-                  <p><strong>Zürich, Switzerland</strong> Data and Media Hackathon</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://sciencecomm.ch/" title="ScienceComm 14">
-                  <span class="icon-large cal">
-                    <span class="cal_month">Sep</span>
+                    <span class="cal_month">Jan</span>
                     <span class="cal_day">18</span>
                   </span>
-                  <h3>ScienceComm 14</h3>
-                  <p><strong>Lucerne, Switzerland</strong> Talk on Visualization in Science Communication</p>
+                  <h3>UX Romandie</h3>
+                  <p><strong>Lausanne, Switzerland</strong> Talk on User-Centered & Data-Driven Design</p>
                 </a>
               </li>
               <li class="icon-list-item">
-                <a href="http://visualized.io/london" title="Visualized.io London">
+                <a href="http://www.maind.supsi.ch" title="SUPSI MAS Interaction Design">
                   <span class="icon-large cal">
-                    <span class="cal_month">Nov</span>
-                    <span class="cal_day">22</span>
-                  </span>
-                  <h3>Visualized.io London</h3>
-                  <p><strong>London, United Kingdom</strong> Visual Storytelling Conference</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://www.data2day.de" title="Data 2 Day">
-                  <span class="icon-large cal">
-                    <span class="cal_month">Nov</span>
+                    <span class="cal_month">Mar</span>
                     <span class="cal_day">26</span>
                   </span>
-                  <h3>Data 2 Day</h3>
-                  <p><strong>Karlsruhe, Germany</strong> Talk on Information Visualization</p>
+                  <h3>SUPSI MAS Interaction Design</h3>
+                  <p><strong>Canobbio, Switzerland</strong> Talk on User-Centered & Data-Driven Design</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://visualized.com/" title="Visualized Conference">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Oct</span>
+                    <span class="cal_day">08</span>
+                  </span>
+                  <h3>Visualized</h3>
+                  <p><strong>New York, USA</strong> Talk on Information Visualization</p>
                 </a>
               </li>
             </ul>
@@ -234,6 +224,56 @@
                   </span>
                   <h3>Netzwerk Recherche</h3>
                   <p><strong>Hamburg, Germany</strong> Panel on Data Journalism</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.srgssr.ch/en/news/hackdays/" title="SRG Hackdays">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">12</span>
+                  </span>
+                  <h3>SRG Hackdays</h3>
+                  <p><strong>Zürich, Switzerland</strong> Data and Media Hackathon</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://sciencecomm.ch/" title="ScienceComm 14">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Sep</span>
+                    <span class="cal_day">18</span>
+                  </span>
+                  <h3>ScienceComm 14</h3>
+                  <p><strong>Lucerne, Switzerland</strong> Talk on Visualization in Science Communication</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://visualized.io/london" title="Visualized.io London">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Nov</span>
+                    <span class="cal_day">22</span>
+                  </span>
+                  <h3>Visualized.io London</h3>
+                  <p><strong>London, United Kingdom</strong> Visual Storytelling Conference</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://www.data2day.de" title="Data 2 Day">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Nov</span>
+                    <span class="cal_day">26</span>
+                  </span>
+                  <h3>Data2Day</h3>
+                  <p><strong>Karlsruhe, Germany</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
+                <a href="http://2014.budapestbiforum.com" title="BI Forum">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Nov</span>
+                    <span class="cal_day">27</span>
+                  </span>
+                  <h3>BI Forum</h3>
+                  <p><strong>Budapest, Hungary</strong> Talk on Information Visualization</p>
                 </a>
               </li>
             </ul>

@@ -4,12 +4,13 @@
 <div class="letters_container">
   <div class="letters">
     <h3 class="ui"><?= html($page->title()) ?></h3>
+    <div class="letter-list">
     <?php
     $letters = $pages->find('letters')->children()->visible()->flip();
     foreach($letters as $letter):
     ?>
     <!-- ——————————————————————————————————————————————————————————————————— Letter -->
-    <div class="letter-list">
+    
       <div class="letter">
         <a class="letter__link" href="<?= $letter->url() ?>">
           <span class="letter__date"><?= $letter->date('F j, Y'); ?></span>
@@ -17,8 +18,8 @@
           <span class="letter__readmore">Read…</span>
         </a>
       </div><!-- .letter-->
+      <?php endforeach ?>
     </div>
-    <?php endforeach ?>
     <p class="remark"><?= html($page->text()) ?></p>
   </div>
 </div><!-- .letters_container -->

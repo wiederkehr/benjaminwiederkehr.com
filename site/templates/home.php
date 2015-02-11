@@ -134,13 +134,13 @@
             <h3 class="sub_headline">Upcoming</h3>
             <ul class="cols-1 upcoming-dates">
               <li class="icon-list-item">
-                <a href="http://uxromandie.ch/user-centered-data-driven-with-benjamin-wiederkehr/" title="UX Romandie">
+                <a href="http://opendata.ch/2014/05/vorlesung-unibern/" title="Open Data Course">
                   <span class="icon-large cal">
-                    <span class="cal_month">Jan</span>
-                    <span class="cal_day">18</span>
+                    <span class="cal_month">Mar</span>
+                    <span class="cal_day">19</span>
                   </span>
-                  <h3>UX Romandie</h3>
-                  <p><strong>Lausanne, Switzerland</strong> Talk on User-Centered & Data-Driven Design</p>
+                  <h3>Open Data Course</h3>
+                  <p><strong>Berne, Switzerland</strong> Lecture on Information Visualization</p>
                 </a>
               </li>
               <li class="icon-list-item">
@@ -154,6 +154,16 @@
                 </a>
               </li>
               <li class="icon-list-item">
+                <a href="http://www.bigdive.eu" title="Big Dive">
+                  <span class="icon-large cal">
+                    <span class="cal_month">June</span>
+                    <span class="cal_day">12</span>
+                  </span>
+                  <h3>Big Dive</h3>
+                  <p><strong>Torino, Italy</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="icon-list-item">
                 <a href="http://visualized.com/" title="Visualized Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Oct</span>
@@ -161,6 +171,19 @@
                   </span>
                   <h3>Visualized</h3>
                   <p><strong>New York, USA</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+            </ul>
+            <h3 class="sub_headline">2015</h3>
+            <ul class="cols-1 past-dates">
+              <li class="icon-list-item">
+                <a href="http://uxromandie.ch/user-centered-data-driven-with-benjamin-wiederkehr/" title="UX Romandie">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Jan</span>
+                    <span class="cal_day">18</span>
+                  </span>
+                  <h3>UX Romandie</h3>
+                  <p><strong>Lausanne, Switzerland</strong> Talk on User-Centered & Data-Driven Design</p>
                 </a>
               </li>
             </ul>

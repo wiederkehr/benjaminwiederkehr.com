@@ -6,7 +6,7 @@ $(document).ready(function(){
 		slideEaseDuration: 300,
 		autoHeightEaseDuration: 300,
 	});
-	$('.icon-list-item').hover(
+	$('.panel-list-item').hover(
 		function(){
 			$(this).find('.icon-large').addClass('hover');
 		},

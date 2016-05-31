@@ -24,43 +24,43 @@
       <div class="coda-slider preload" id="coda-slider-1">
         <div class="panel">
           <div class="panel-content">
-            <ul class="cols-1">
-              <li class="icon-list-item">
+            <ul class="panel-list cols-1">
+              <li class="panel-list-item">
                 <a href="http://interactivethings.com" title="Interactive Things">
                   <i class="icon-large icon-large-interactivethings"></i>
                   <h3>Work</h3>
                   <?= kirbytext($page->work()) ?>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://datavisualization.ch" title="Datavisualization.ch">
                   <i class="icon-large icon-large-datavisualization"></i>
                   <h3>Publish</h3>
                   <?= kirbytext($page->publish()) ?>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="<?= url('/notes') ?>" title="Notes, Talks and Letters">
                   <i class="icon-large icon-large-wiederkehr"></i>
                   <h3>Write</h3>
                   <?= kirbytext($page->write()) ?>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://substratumseries.com" title="Substratum Series">
                   <i class="icon-large icon-large-substratum"></i>
                   <h3>Interview</h3>
                   <?= kirbytext($page->interview()) ?>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://hackshackers.com" title="Hacks/Hackers ZRH">
                   <i class="icon-large icon-large-hackshackers"></i>
                   <h3>Organize</h3>
                   <?= kirbytext($page->organize()) ?>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://opendata.ch" title="Opendata.ch">
                   <i class="icon-large icon-large-opendata"></i>
                   <h3>Support</h3>
@@ -80,14 +80,14 @@
         </div>
         <div class="panel">
           <div class="panel-content">
-            <ul class="cols-2">
+            <ul class="panel-list cols-2">
               <h3 class="sub_headline">Direct</h3>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <i class="icon-large icon-large-phone"></i>
                 <h3>Phone</h3>
                 <?= kirbytext($page->phone()) ?>
               </li>
-              <li class="last icon-list-item">
+              <li class="last panel-list-item">
                 <a href="mailto:hello(put the 'at' sign here)benjaminwiederkehr.com" title="Send me an E-Mail">
                   <i class="icon-large icon-large-mail"></i>
                   <h3>E-Mail</h3>
@@ -95,28 +95,28 @@
                 </a>
               </li>
               <h3 class="sub_headline">Networks</h3>
-              <li class="last icon-list-item">
+              <li class="last panel-list-item">
                 <a href="http://facebook.com/benjamin.wiederkehr" title="Benjamin Wiederkehr on Facebook">
                   <i class="icon-large icon-large-facebook"></i>
                   <h3>Facebook</h3>
                   <?= kirbytext($page->facebook()) ?>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://twitter.com/wiederkehr" title="Benjamin Wiederkehr on Twitter">
                   <i class="icon-large icon-large-twitter"></i>
                   <h3>Twitter</h3>
                   <?= kirbytext($page->twitter()) ?>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://linkedin.com/in/benjaminwiederkehr" title="Benjamin Wiederkehr on LinkedIn">
                   <i class="icon-large icon-large-linkedin"></i>
                   <h3>LinkedIn</h3>
                   <?= kirbytext($page->linkedin()) ?>
                 </a>
               </li>
-              <li class="last icon-list-item">
+              <li class="last panel-list-item">
                 <a href="https://www.google.com/+BenjaminWiederkehr" title="Benjamin Wiederkehr on Google">
                   <i class="icon-large icon-large-google"></i>
                   <h3>Google</h3>
@@ -131,52 +131,9 @@
         </div>
         <div class="panel">
           <div class="panel-content">
-            <h3 class="sub_headline">Upcoming</h3>
-            <ul class="cols-1 upcoming-dates">
-              <li class="icon-list-item">
-                <a href="http://opendata.ch/2014/05/vorlesung-unibern/" title="Open Data Course">
-                  <span class="icon-large cal">
-                    <span class="cal_month">Mar</span>
-                    <span class="cal_day">19</span>
-                  </span>
-                  <h3>Open Data Course</h3>
-                  <p><strong>Berne, Switzerland</strong> Lecture on Information Visualization</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://www.maind.supsi.ch" title="SUPSI MAS Interaction Design">
-                  <span class="icon-large cal">
-                    <span class="cal_month">Mar</span>
-                    <span class="cal_day">26</span>
-                  </span>
-                  <h3>SUPSI MAS Interaction Design</h3>
-                  <p><strong>Canobbio, Switzerland</strong> Talk on User-Centered & Data-Driven Design</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://www.bigdive.eu" title="Big Dive">
-                  <span class="icon-large cal">
-                    <span class="cal_month">June</span>
-                    <span class="cal_day">12</span>
-                  </span>
-                  <h3>Big Dive</h3>
-                  <p><strong>Torino, Italy</strong> Talk on Information Visualization</p>
-                </a>
-              </li>
-              <li class="icon-list-item">
-                <a href="http://visualized.com/" title="Visualized Conference">
-                  <span class="icon-large cal">
-                    <span class="cal_month">Oct</span>
-                    <span class="cal_day">08</span>
-                  </span>
-                  <h3>Visualized</h3>
-                  <p><strong>New York, USA</strong> Talk on Information Visualization</p>
-                </a>
-              </li>
-            </ul>
-            <h3 class="sub_headline">2015</h3>
-            <ul class="cols-1 past-dates">
-              <li class="icon-list-item">
+            <h3 class="sub_headline">This Year</h3>
+            <ul class="panel-list cols-1 upcoming-dates">
+              <li class="panel-list-item">
                 <a href="http://uxromandie.ch/user-centered-data-driven-with-benjamin-wiederkehr/" title="UX Romandie">
                   <span class="icon-large cal">
                     <span class="cal_month">Jan</span>
@@ -186,10 +143,68 @@
                   <p><strong>Lausanne, Switzerland</strong> Talk on User-Centered & Data-Driven Design</p>
                 </a>
               </li>
+              <li class="panel-list-item">
+                <a href="http://opendata.ch/2014/05/vorlesung-unibern/" title="Open Data Course">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Mar</span>
+                    <span class="cal_day">19</span>
+                  </span>
+                  <h3>Open Data Course</h3>
+                  <p><strong>Berne, Switzerland</strong> Lecture on Information Visualization</p>
+                </a>
+              </li>
+              <li class="panel-list-item">
+                <a href="http://www.maind.supsi.ch" title="SUPSI MAS Interaction Design">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Mar</span>
+                    <span class="cal_day">26</span>
+                  </span>
+                  <h3>SUPSI MAS Interaction Design</h3>
+                  <p><strong>Canobbio, Switzerland</strong> Talk on User-Centered & Data-Driven Design</p>
+                </a>
+              </li>
+              <li class="panel-list-item">
+                  <span class="icon-large cal">
+                    <span class="cal_month">May</span>
+                    <span class="cal_day">21</span>
+                  </span>
+                  <h3>ZHAW School of Management and Law</h3>
+                  <p><strong>Zürich, Switzerland</strong> Lecture on Information Visualization</p>
+              </li>
+              <li class="panel-list-item">
+                <a href="http://www.bigdive.eu" title="Big Dive">
+                  <span class="icon-large cal">
+                    <span class="cal_month">June</span>
+                    <span class="cal_day">12</span>
+                  </span>
+                  <h3>Big Dive</h3>
+                  <p><strong>Torino, Italy</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="panel-list-item">
+                <a href="http://visualized.com/" title="Visualized Conference">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Oct</span>
+                    <span class="cal_day">08</span>
+                  </span>
+                  <h3>Visualized</h3>
+                  <p><strong>New York, USA</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
+              <li class="panel-list-item">
+                <a href="http://push-conference.com/" title="Push Conference">
+                  <span class="icon-large cal">
+                    <span class="cal_month">Oct</span>
+                    <span class="cal_day">23</span>
+                  </span>
+                  <h3>Push Conference</h3>
+                  <p><strong>Munich, Germany</strong> Talk on Information Visualization</p>
+                </a>
+              </li>
             </ul>
             <h3 class="sub_headline">2014</h3>
-            <ul class="cols-1 past-dates">
-              <li class="icon-list-item">
+            <ul class="panel-list cols-1 past-dates">
+              <li class="panel-list-item">
                 <a href="http://www.meetup.com/hacks-hackers-nyc/events/162900752/" title="Hacks/Hackers NYC">
                   <span class="icon-large cal">
                     <span class="cal_month">Feb</span>
@@ -199,7 +214,7 @@
                   <p><strong>New York, USA</strong> Talk on Interactive Storytelling</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://visualized.com/" title="Visualized Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Feb</span>
@@ -209,7 +224,7 @@
                   <p><strong>New York, USA</strong> Talk on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.iuav.it/" title="Mobile Information Visualization">
                   <span class="icon-large cal">
                     <span class="cal_month">May</span>
@@ -219,7 +234,7 @@
                   <p><strong>Venice, Italy</strong> Lecture on Mobile Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.ifbookthen.com/" title="IfBookThen Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">May</span>
@@ -229,7 +244,7 @@
                   <p><strong>Milano, Italy</strong> Telling Data-Driven Stories</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.globaleditorsnetwork.org/programmes/data-journalism-awards/" title="Data Journalism Awards">
                   <span class="icon-large cal">
                     <span class="cal_month">Jun</span>
@@ -239,7 +254,7 @@
                   <p><strong>Barcelona, Spain</strong> Won Best Team Portfolio</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://netzwerkrecherche.org/wordpress/nr14/" title="Netzwerk Recherche">
                   <span class="icon-large cal">
                     <span class="cal_month">Jul</span>
@@ -249,7 +264,7 @@
                   <p><strong>Hamburg, Germany</strong> Panel on Data Journalism</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.srgssr.ch/en/news/hackdays/" title="SRG Hackdays">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -259,7 +274,7 @@
                   <p><strong>Zürich, Switzerland</strong> Data and Media Hackathon</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://sciencecomm.ch/" title="ScienceComm 14">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -269,7 +284,7 @@
                   <p><strong>Lucerne, Switzerland</strong> Talk on Visualization in Science Communication</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://visualized.io/london" title="Visualized.io London">
                   <span class="icon-large cal">
                     <span class="cal_month">Nov</span>
@@ -279,7 +294,7 @@
                   <p><strong>London, United Kingdom</strong> Visual Storytelling Conference</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.data2day.de" title="Data 2 Day">
                   <span class="icon-large cal">
                     <span class="cal_month">Nov</span>
@@ -289,7 +304,7 @@
                   <p><strong>Karlsruhe, Germany</strong> Talk on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://2014.budapestbiforum.com" title="BI Forum">
                   <span class="icon-large cal">
                     <span class="cal_month">Nov</span>
@@ -302,7 +317,7 @@
             </ul>
             <h3 class="sub_headline">2013</h3>
             <ul class="cols-1 past-dates">
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://ux-schweiz.ch" title="UX Schweiz">
                   <span class="icon-large cal">
                     <span class="cal_month">Jan</span>
@@ -312,7 +327,7 @@
                   <p><strong>Z&uuml;rich, Switzerland</strong> Designing User-Centered Visualizations</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://liftconference.com/" title="Lift Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Feb</span>
@@ -322,7 +337,7 @@
                   <p><strong>Geneva, Switzerland</strong> Workshop on Persuasive Design</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.typotag.de" title="Typotag">
                   <span class="icon-large cal">
                     <span class="cal_month">Feb</span>
@@ -332,7 +347,7 @@
                   <p><strong>Munich, Germany</strong> Talk on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://see-conference.org" title="SEE Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Apr</span>
@@ -342,7 +357,7 @@
                   <p><strong>Wiesbaden, Germany</strong> The Conference on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://eyeofestival.com" title="Eyeo Festival">
                   <span class="icon-large cal">
                     <span class="cal_month">Jun</span>
@@ -352,7 +367,7 @@
                   <p><strong>Minneapolis, USA</strong> Converge to Inspire</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.eb-zuerich.ch/blog/veranstaltungen/" title="Digitale Wirklichkeiten">
                   <span class="icon-large cal">
                     <span class="cal_month">Jun</span>
@@ -362,7 +377,7 @@
                   <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.namics.com" title="Namics Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Aug</span>
@@ -372,7 +387,7 @@
                   <p><strong>Innsbruck, Austria</strong> Talk on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.aec.at/" title="Basel Academy of Art and Design">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -382,7 +397,7 @@
                   <p><strong>Linz, Austria</strong> Talk on Visualization & Narration</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.zhdk.ch/" title="ZHdK">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -392,7 +407,7 @@
                   <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.fhnw.ch/hgk" title="Basel Academy of Art and Design">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -402,7 +417,7 @@
                   <p><strong>Basel, Switzerland</strong> Talk on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://okcon.org" title="Open Knowledge Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -412,7 +427,7 @@
                   <p><strong>Geneva, Switzerland</strong> Workshop on Data-Driven Storytelling</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://okcon.org" title="Open Knowledge Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -422,7 +437,7 @@
                   <p><strong>Geneva, Switzerland</strong> Talk on Data-Driven Storytelling</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="hhttp://www.hesge.ch/" title="Haute École de Gestion de Genève">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -432,7 +447,7 @@
                   <p><strong>Geneva, Switzerland</strong> Talk on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://centerforstorytelling.org" title="Center for Storytelling">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -442,7 +457,7 @@
                   <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Data-Driven Journalism</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.zhdk.ch/?entrepreneurship" title="ZHdK Incubator">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -452,7 +467,7 @@
                   <p><strong>Z&uuml;rich, Switzerland</strong> Talk on Cultural Enterpreneurship</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="https://incom.org/workspace/4683" title="Urbane Ebenen">
                   <span class="icon-large cal">
                     <span class="cal_month">Nov</span>
@@ -465,7 +480,7 @@
             </ul>
             <h3 class="sub_headline">2012</h3>
             <ul class="cols-1 past-dates">
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://liftconference.com/" title="Lift Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Feb</span>
@@ -475,7 +490,7 @@
                   <p><strong>Geneva, Switzerland</strong> Presenting The Ville Vivante Project</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://sxsw.interactivethings.com/" title="SXSW Interactive">
                   <span class="icon-large cal">
                     <span class="cal_month">Mar</span>
@@ -485,7 +500,7 @@
                   <p><strong>Austin, USA</strong> Intent &amp; Impact: How Visualization Makes A Change</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                   <span class="icon-large cal">
                     <span class="cal_month">Mar</span>
                     <span class="cal_day">23</span>
@@ -493,7 +508,7 @@
                   <h3>LinkedIn</h3>
                   <p><strong>San Francisco, USA</strong> Introduction to Data Visualization</p>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                   <span class="icon-large cal">
                     <span class="cal_month">Mar</span>
                     <span class="cal_day">24</span>
@@ -501,7 +516,7 @@
                   <h3>UC Berkeley School of Information</h3>
                   <p><strong>Berkeley, USA</strong> Workshop on Data Visualization</p>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://see-conference.org" title="SEE Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Apr</span>
@@ -511,7 +526,7 @@
                   <p><strong>Wiesbaden, Germany</strong> The Conference on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                   <span class="icon-large cal">
                     <span class="cal_month">Jun</span>
                     <span class="cal_day">27</span>
@@ -519,7 +534,7 @@
                   <h3>UNECE</h3>
                   <p><strong>Geneva, Switzerland</strong> Work Session on the Communication of Statistics</p>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://www.medienwoche.de/" title="Internationaler Medienkongress">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
@@ -529,7 +544,7 @@
                   <p><strong>Berlin, Germany</strong> Experience Data: The Art of Visualizing Facts & Figures</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://visualized.com/" title="Visualized">
                   <span class="icon-large cal">
                     <span class="cal_month">Nov</span>
@@ -539,7 +554,7 @@
                   <p><strong>New York, USA</strong> Parts of the Process</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://junior-research.ch" title="Junior Design Research Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Nov</span>
@@ -552,7 +567,7 @@
             </ul>
             <h3 class="sub_headline">2011</h3>
             <ul class="cols-1 past-dates">
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://sxsw.interactivethings.com/" title="SXSW Interactive">
                   <span class="icon-large cal">
                     <span class="cal_month">Mar</span>
@@ -562,7 +577,7 @@
                   <p><strong>Austin, USA</strong> Social Media Data Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://see-conference.org" title="SEE Conference">
                   <span class="icon-large cal">
                     <span class="cal_month">Apr</span>
@@ -572,7 +587,7 @@
                   <p><strong>Wiesbaden, Germany</strong> The Conference on Information Visualization</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                   <span class="icon-large cal">
                     <span class="cal_month">Jun</span>
                     <span class="cal_day">23</span>
@@ -580,7 +595,7 @@
                   <h3>Mozilla</h3>
                   <p><strong>San Francisco, USA</strong> Introduction to Everyday Visualization</p>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                   <span class="icon-large cal">
                     <span class="cal_month">Jun</span>
                     <span class="cal_day">25</span>
@@ -588,7 +603,7 @@
                   <h3>Data In Sight</h3>
                   <p><strong>San Francisco, USA</strong></p>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                 <a href="http://eyeofestival.com/" title="Eyeo Festival">
                   <span class="icon-large cal">
                     <span class="cal_month">Jun</span>
@@ -598,7 +613,7 @@
                   <p><strong>Minneapolis, USA</strong> Converge to Inspire</p>
                 </a>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                   <span class="icon-large cal">
                     <span class="cal_month">Sep</span>
                     <span class="cal_day">16</span>
@@ -606,7 +621,7 @@
                   <h3>Trend Forum Basel</h3>
                   <p><strong>Basel, Switzerland</strong> Introduction to Data Visualization</p>
               </li>
-              <li class="icon-list-item">
+              <li class="panel-list-item">
                   <span class="icon-large cal">
                     <span class="cal_month">Dez</span>
                     <span class="cal_day">12</span>

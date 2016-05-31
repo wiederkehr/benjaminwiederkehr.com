@@ -225,6 +225,7 @@ header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif
 .cal_month{
   color: #fff;
   display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 8px;
   line-height: 8px;
   margin-bottom: 2px;

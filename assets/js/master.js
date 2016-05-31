@@ -1,10 +1,10 @@
 $(document).ready(function(){
   $('#header h1').hover(
     function(){
-      $('#header h1 a img').stop().animate({ opacity: 0 }, 500);
+      $('#header h1 a img').stop().animate({ opacity: 0 }, 200);
     },
     function(){
-      $('#header h1 a img').stop().animate({ opacity: 1 }, 500);
+      $('#header h1 a img').stop().animate({ opacity: 1 }, 200);
     }
   );
   $('#slider').slider();

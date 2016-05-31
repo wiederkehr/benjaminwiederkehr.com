@@ -136,6 +136,75 @@
               <li class="panel-list-item">
                 <a href="http://uxromandie.ch/user-centered-data-driven-with-benjamin-wiederkehr/" title="UX Romandie">
                   <span class="icon-large cal">
+                    <span class="cal_month">Feb</span>
+                    <span class="cal_day">08</span>
+                  </span>
+                  <h3>Schloss Dagstuhl</h3>
+                  <p><strong>Dagstuhl, Germany</strong> Seminar on Data-Driven Storytelling</p>
+                </a>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">Mar</span>
+                  <span class="cal_day">04</span>
+                </span>
+                <h3>MA Design ZHdK</h3>
+                <p><strong>Zürich, Switzerland</strong> Mentoring on Interaction Design</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">Mar</span>
+                  <span class="cal_day">17</span>
+                </span>
+                <h3>Open Data Course</h3>
+                <p><strong>Bern, Switzerland</strong> Lecture on Information Visualization</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">May</span>
+                  <span class="cal_day">12</span>
+                </span>
+                <h3>ZHAW School of Management and Law</h3>
+                <p><strong>Zürich, Switzerland</strong> Lecture on Information Visualization</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">May</span>
+                  <span class="cal_day">21</span>
+                </span>
+                <h3>UX Camp</h3>
+                <p><strong>Zürich, Switzerland</strong> Talk on Living Style Guides</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">Sep</span>
+                  <span class="cal_day">12</span>
+                </span>
+                <h3>MAZ MultimediaTag</h3>
+                <p><strong>Lucerne, Switzerland</strong> Talk on Interactive Storytelling</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">Sep</span>
+                  <span class="cal_day">14</span>
+                </span>
+                <h3>Interactive Media Talk</h3>
+                <p><strong>Aarau, Switzerland</strong> Talk on Information Visualization</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">Sep</span>
+                  <span class="cal_day">22</span>
+                </span>
+                <h3>ScienceComm</h3>
+                <p><strong>Grandson, Switzerland</strong> Talk on Interactive Storytelling</p>
+              </li>
+            </ul>
+            <h3 class="sub_headline">2014</h3>
+            <ul class="panel-list cols-1 past-dates">
+              <li class="panel-list-item">
+                <a href="http://uxromandie.ch/user-centered-data-driven-with-benjamin-wiederkehr/" title="UX Romandie">
+                  <span class="icon-large cal">
                     <span class="cal_month">Jan</span>
                     <span class="cal_day">18</span>
                   </span>
@@ -316,7 +385,7 @@
               </li>
             </ul>
             <h3 class="sub_headline">2013</h3>
-            <ul class="cols-1 past-dates">
+            <ul class="panel-list cols-1 past-dates">
               <li class="panel-list-item">
                 <a href="http://ux-schweiz.ch" title="UX Schweiz">
                   <span class="icon-large cal">
@@ -479,7 +548,7 @@
               </li>
             </ul>
             <h3 class="sub_headline">2012</h3>
-            <ul class="cols-1 past-dates">
+            <ul class="panel-list cols-1 past-dates">
               <li class="panel-list-item">
                 <a href="http://liftconference.com/" title="Lift Conference">
                   <span class="icon-large cal">
@@ -566,7 +635,7 @@
               </li>
             </ul>
             <h3 class="sub_headline">2011</h3>
-            <ul class="cols-1 past-dates">
+            <ul class="panel-list cols-1 past-dates">
               <li class="panel-list-item">
                 <a href="http://sxsw.interactivethings.com/" title="SXSW Interactive">
                   <span class="icon-large cal">

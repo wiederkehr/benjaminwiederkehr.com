@@ -4,25 +4,25 @@ Letters Styles
 Description:    Layout and element specific styling for letters
 Author:         Benjamin Wiederkehr
 Start:          121221_BW
-Last update:    130611_BW
+Last update:    160531_BW
 
 /* LAYOUT
 /////////////////////////////////////////////////////////////////*/
 body{ font: 18px/1.5em 'Cutive Mono', monospace; }
-.letters_container { 
+.letters_container {
   width: 90%;
   margin: 36px 5% 72px;
 }
-header{ 
-  position: relative; 
+header{
+  position: relative;
   margin: 0;
 }
-article{ 
+article{
   margin: 0;
 }
 /* HEADER
 /////////////////////////////////////////////////////////////////*/
-header p{ 
+header p{
   text-align: right;
 }
 /* ARTICLE
@@ -59,7 +59,7 @@ article section a:hover{
 
 .letter-list          { text-align: center;}
 .letter               { display: inline-block;}
-.letter__link         { 
+.letter__link         {
   display: block;
   height: 320px;
   position: relative;
@@ -110,7 +110,7 @@ article section a:hover{
 /* MEDIA QUERIES
 /////////////////////////////////////////////////////////////////*/
 @media (min-width: 320px) and (max-width: 480px) {
-  body{ 
+  body{
     font-size: 16px;
   }
 }

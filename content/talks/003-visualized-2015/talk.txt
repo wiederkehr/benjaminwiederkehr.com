@@ -1,0 +1,157 @@
+Title: Limitations of our Process
+
+----
+
+Event: Visualized Conference
+
+----
+
+Date: October 8, 2015
+
+----
+
+Teaser: http://benjaminwiederkehr.com/content/talks/001-visualized-2015/slide.005.png
+
+----
+
+Excerpt: This is the script with references and acknowledgments of my talk at the Visualized Conference held at the Times Center in New York City on October 8th, 2015.
+
+----
+
+Text:
+
+This is the script with references and acknowledgments of my talk at the (link:http://visualized.com text:Visualized Conference) held at the Times Center in New York City on October 8th, 2015.
+
+(image:slide.001.png)
+Hello, my name is Benjamin and I'm an interaction and information designer from Zürich, Switzerland.
+
+(image:slide.002.png)
+I am co-founder and director of a small design studio called (link:http://interactivethings.com text:Interactive Things) and we're focused on User Experience and Data Visualization. Since 6 years now we design and develop bespoke interfaces to products, services and data. I have the pleasure to be with you today representing my friends at the studio Christian, Christoph, Gerhard, Jan, Jeremy, Julia, Mark, Peter, Tania Thomas, and Tom. And it’s a huge honor for me to speak about our collective work and thoughts here at Visualized in New York.
+
+(image:slide.003.png)
+Beside my work at Interactive Things I write a blog about information and data visualization fittingly called (link:http://datavisualization.ch text:Datavisualization.ch). It’s a place where we document and discuss our findings from our research and practice.
+
+(image:slide.004.png)
+This is my third invitation to speak at Visualized here at the times center. Eric and Maral, I thank you for your enduring trust and support. In the last two years, I’ve been talking about the Parts of our Process and the opportunities to Learn from our Process. With today’s talk, I strive to conclude the series of thoughts on our process and practice as visualization designers.
+
+(image:slide.005.png)
+I’d like to talk a bit about the **Limitations of our Process**. And maybe, give you some ideas on how to overcome them.
+
+(image:slide.006.png)
+I mentioned that I am here representing a team of designers and developers from Switzerland. Between ten and fifteen years ago, I had the same opportunity, but in a completely different discipline. Back then, I was a professional athlete representing the Swiss national team in gymnastics. I know, that’s far off why ya’ll are here today. Trust me, there is a connection.
+
+(image:slide.007.png)
+Gymnastics consists of six apparatus for men and four for women. In a competition, the athletes perform routines that consist of approximately ten to fifteen elements on each apparatus. Their routines get evaluated by a panel of judges who assess the difficulty and the execution of the routine. The sum of the grades from each apparatus is the final score that defines the gymnasts’ ranking. Over the years, three basic measures have steered the development of gymnastics.
+
+(image:slide.008.png)
+Vendors have built refined versions of the six apparatus. Providing more safety and allowing more versatility.
+
+(image:slide.009.png)
+Trainers and trainees have adopted better training methods. Reducing the risk when trying new elements and routines.
+
+(image:slide.010.png)
+The associations have introduced changes in the notational system that dictates the composition of routines. Rewarding innovation and difficulty and punishing repetition and recklessness.
+
+(image:slide.011.png)
+In short, we got better tools, better processes, and better standards.
+
+(image:slide.012.png)
+All of these measures were intended to overcome limitations of the known practices. And by removing the limitations, these measures have slowly, over decades transformed gymnastics. In todays competitions you might still recognize elements from the very beginning. But they get combined with new inventions and performed with a stunning level of execution. _See how this gif summarizes the evolution in Gymnastics on (link:http://www.buzzfeed.com/jpmoore/the-evolution-of-the-vault-in-one-gif text:Buzzfeed)._
+
+(image:slide.013.png)
+To me, the most interesting thing about limitations is that they only reveal themselves when you hit against them. For the most part, limitations are utterly invisible until you try and see just how far you can push things and realize that there is an edge. Through this act of pushing, the edge might slightly shift. _(link:https://twitter.com/earbender/status/652229224674291712 text:John Rosenfelder) caught me paraphrasing Hunter S. Thompson with this passage._
+
+(image:slide.014.png)
+In our work on visualization systems, we rely on a vast set of tools in order to overcome the limitations of our human capabilities. But tools not only make our work possible, they also influence our results.
+
+(image:slide.015.png)
+Because tools are optimized for solving a specific problem, they are also, consequentially, optimized for a specific operation to solve that problem. They instruct us to solve problems in a specific way. In that sense, they give us limitations in order to overcome limitations.
+
+(image:slide.016.png)
+That means, we can replace our toolset to remove the limitations of our tools in order to overcome the limitations that we have set out to solve with our tools.
+
+(image:slide.017.png)
+If you have been working on data-driven interfaces and visualizations in the past years, chances are that technology has often been a limiting factor for you. Lucky for all of us, there are seemingly no such barriers anymore these days. Accessible applications and libraries allow anyone to create sophisticated results. We have proven the capabilities to improve existing tools or invent new ones. 
+
+(image:slide.018.png)
+Like Ben and Casey have done so brilliantly with (link:# text:Processing). Or Zach, Theo and Arturo did with (link:# text:Openframeworks). Or Mike did with (link:# text:D3). And the beauty here is that we don't have to overcome the same limitation individually. We can do this collectively. And so, in many cases of individual frustration, the community already solved the problem for you. Quicker than you could. Better tested. More reliable. Openly shared. You can go ahead and read about the solution or plug it right in.
+
+(image:slide.019.png)
+How do these advancements in computational technology translate into our physical world? Not as seamless as we wish. Physical production seems to be running 10-20 years late compared to the computational possibilities.
+
+(image:slide.020.png)
+That’s why we can design objects using procedural algorithms, but we can’t organically grow them. _Quote by Jessica Rosenkrantz from Nervous Systems in her Substratum Series (link:http://substratumseries.com/issues/algorithms/nervous_system text:interview) from 2011._
+
+(image:slide.021.png)
+If physical production is late to the computational party, then law and regulation might not even show up. It feels like a 20-40 years difference between how communities and businesses operate and how this operation is being governed. Therefore, how we think, talk, and act is judged through aged lenses and regulated with dusty measures.
+
+(image:slide.022.png)
+Just as these new technologies are _before-law_ they are also _before-culture_. The velocity with which they are being shaped and the ruthlessness with which this is being done leaves many around us and an increasing number among us speechless. They start to reimagine and define where the limitations are and where we want them to be.
+
+(image:slide.023.png)
+It’s like being in a boat that creates a wake behind it, generating ripples that move further and further away. Everything and everyone that comes after it, deals with them. We must start to design this wake; we must start to consider the culture that follows in the ripples of computational technologies. _Paraphrasing Liam Young in his Substratum Series (link:#http://substratumseries.com/issues/change_catalyst/liam_young text:interview) from 2013._
+
+(image:slide.024.png)
+After all, this technology still needs a human applying it to capture our attention, answer our questions, change our believes. I like to think that our human imagination stays 50–100 years beyond what computers can do right now. So far, artificial intelligence is excellent at problems like calculus, translation, and transcription. But it still struggles with vision, motion, movement, and perception. And thankfully, it still seems to fail with emotion, compassion, and imagination.
+
+(image:slide.025.png)
+It succeeds at all the things that require thinking. It fails at ones that don’t. In a Kurzweilian world this might change. Computational power exceeding our imagination might just breed the next best-in-class visual narratives.
+
+(image:slide.026.png)
+Deep dreams of fish-faced casualty logs from wars in foreign countries. _DeepDream of (link:http://www.cnn.com/SPECIALS/war.casualties/index.html text:Home and Away) by Stamen Design commissioned by CNN._
+
+(image:slide.027.png)
+Or jurassic interpretations of the forestation worldwide. Who knows. _DeepDream of (link:http://www.nature.com/news/trillions-of-trees-1.18333 text:A Trillion Trees) by Jan Willem Tulp commissioned by Nature._
+
+(image:slide.028.png)
+But for now, computation is a piece of technology in human hands to achieve our imagination. Instead of humanity being a tool to achieve technology’s will.
+
+(image:slide.029.png)
+But let me make the distinction here between two kinds of technology. Hard technology, the kind we just talked about, on one side and conceptual technology on the other. Conceptual technology has less to do with altering physical matter and more with the ability of asking questions and understanding answers.
+
+(image:slide.030.png)
+The alphabet is an example of conceptual technology. In many ways overcoming limitations in conceptual technology is much harder. Using language to reason about things that we don't have a shared vocabulary for is extremely hard. Failing to communicate properly and in a universally accessible manner. _Image from Jessica Hiesche’s project (link:http://www.dailydropcap.com text:Daily Drop Cap)._
+
+(image:slide.031.png)
+In my work at Interactive Things, I’m trying to get better at how we can articulate what we can and cannot do with data.
+
+(image:slide.032.png)
+Data. This word that has become such a horrible hype machine. A messianic term. A golden idea. A silver bullet. As effective as this magic bullet can be when used properly, as toxic it is when not. When data is being collected excessively, stored insecurely, presented with bias, interpreted within the wrong context. But, going down this rabbit hole would exceed the scope of my talk today. _Matthew from (link:http://signal-noise.co.uk text:Signal Noise) did an impressive job imagining a dystopian scenario for our future during his talk._
+
+(image:slide.033.png)
+Instead of calling out big data marketing speech, let me focus my time with you on our communication as designers or developers. As scientists or practitioners. With clients, colleagues, bosses, friends. Making our craft easily understandable still seems hard and a limitation for our success. How do you sell a process that does not necessarily yield presentable results? How do you convince someone to join your team when the work will vary from project to project?
+
+(image:slide.034.png)
+Maybe that’s why so many of us, in this room and everywhere around the globe, are doing their own personal projects. Internally, trying to show what’s possible and desirable. Trying to push what’s feasible and acceptable. Building showcases for the type of work we’d like to get done. We’d like to get paid for. I’d like to share one of these showcases with you that we have been working on over the past few weeks.
+
+(image:slide.035.png)
+(link: http://lab.interactivethings.com/unwated text:Unwanted) is an investigation of the over 600’000 missing girls in India every year. The majority of them are aborted, others are killed, abandoned or neglected to death just because they are girls. The roots of this problem lie in the strong patriarchal society that has translated into an obsessive preference for sons and discrimination against girls. The research around this topic is sound and extensive, yet not easily accessible to everyone.
+
+(image:slide.036.png)
+Tania Boa, a designer on my team at interactive Things, realized the importance of this and decided that it has to be discussed publicly in order to shed light on this issue. Blending the facts from scientific studies together with personal stories from the people most affected. The result is a visual report that aims to raise awareness and generate discussions about this ongoing war against girls. _Please read it for yourself (link: http://lab.interactivethings.com/unwated text:here) and help us to create awareness and to generate discussion._
+
+(image:slide.038.png)
+And this is just one example of such self-initiated work. When I talk to members of my team, one wish is shared among many of them. Spending their time and energy on topics that are relevant and meaningful. Dedicating their passion and expertise to solutions that assist humans individually and advance humanity collectively. But in reality, not every project we get to work on fulfills these expectations.
+
+(image:slide.039.png)
+It’s in these moments when I realize the importance of a mediator. Easing the tension between making time for ourselves and our responsibilities within our companies, organizations, and studios. Balancing the ideological and the practical.
+
+(image:slide.040.png)
+And this is how I see my role these days. Leading a studio of twelve people, puts me in a position where I don’t get to work on problems like kerning of headlines, affordance of interfaces, or performance of queries anymore. Instead, I have the opportunity and challenge to solve less visible problems. Limitations that are not known yet.
+
+(image:slide.041.png)
+Formulating what we know and what we do internally and externally. Coordinating our commissions and resources. Rewarding and challenging our team. Building frameworks for people to collaborate. Financing our business operation. Or, in other words, stretching limitations along the verbal, temporal, personal, relational, and financial dimensions. Helping our team and our partners to grow beyond the potential they are aware of. Let them push the limits. Let them break the rules.
+
+(image:slide.042.png)
+It doesn’t matter if you’re the trainer or the trainee. What matters is your intent to spot hidden limitations, understand their mechanics and then work your ass off to overcome them.
+
+(image:slide.043.png)
+You can do so by, creating better tools to simplify creation, adopt better processes to amplify creation, and set better standards to evaluate creation.
+
+(image:slide.044.png)
+Overcoming your own limitations or the limitations of our teams will be essential in order push our work forward. In order to add a flip or add a twist to our routine. In order to increase elegance and panache of our execution. Overcoming does not come easy. I don’t think that it comes automatically, programatically or algorithmically. It needs commitment from us, the practitioners. It comes from paying attention and accepting change. It comes from pushing what’s doable. From breaking the rules.
+
+(image:slide.045.png)
+Thank you!
+
+_Bonus: See (link:https://www.youtube.com/watch?v=z-yb2q-PxeU text:Kenzo Shira) (JPN) perform the first flawless quadruple full twist on floor in a competition setting._

@@ -194,10 +194,34 @@
               <li class="panel-list-item">
                 <span class="icon-large cal">
                   <span class="cal_month">Sep</span>
-                  <span class="cal_day">22</span>
+                  <span class="cal_day">24</span>
                 </span>
-                <h3>ScienceComm</h3>
-                <p><strong>Grandson, Switzerland</strong> Talk on Interactive Storytelling</p>
+                <h3>WTH is Interaction Design?</h3>
+                <p><strong>Zürich, Switzerland</strong> Talk on Interaction Design</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">Oct</span>
+                  <span class="cal_day">05</span>
+                </span>
+                <h3>Visualized</h3>
+                <p><strong>New York, USA</strong> Panel on Information Visualization</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">Oct</span>
+                  <span class="cal_day">27</span>
+                </span>
+                <h3>Budapest BI Forum</h3>
+                <p><strong>Budapest, Hungary</strong> Talk on Data-Driven Storytelling</p>
+              </li>
+              <li class="panel-list-item">
+                <span class="icon-large cal">
+                  <span class="cal_month">Nov</span>
+                  <span class="cal_day">16</span>
+                </span>
+                <h3>Data Journalism Course</h3>
+                <p><strong>Zürich, Switzerland</strong> Lecture on Information Visualization</p>
               </li>
             </ul>
             <h3 class="sub_headline">2014</h3>

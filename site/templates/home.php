@@ -224,7 +224,7 @@
                 <p><strong>Zürich, Switzerland</strong> Lecture on Information Visualization</p>
               </li>
             </ul>
-            <h3 class="sub_headline">2014</h3>
+            <h3 class="sub_headline">2015</h3>
             <ul class="panel-list cols-1 past-dates">
               <li class="panel-list-item">
                 <a href="http://uxromandie.ch/user-centered-data-driven-with-benjamin-wiederkehr/" title="UX Romandie">

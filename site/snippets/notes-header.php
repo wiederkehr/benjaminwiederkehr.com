@@ -24,7 +24,7 @@
   <?php $image_src = ($page->images()->first() != NULL ? $page->images()->first()->url() : $site->url().'/assets/img/logos/benjaminwiederkehr_notes_logo.png') ?>
   <meta property="og:image" content="<?= $image_src ?>" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
-  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="<?= html($site->url()) ?>/assets/img/favicon.ico" type="image/x-icon" />
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
   <?= css('assets/css/style.css') ?>
   <?= css('assets/css/responsive.css') ?>

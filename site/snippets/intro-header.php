@@ -21,9 +21,9 @@
   <meta name="twitter:site" content="@wiederkehr">
   <meta name="twitter:creator" content="@wiederkehr">
   <!-- ——————————————————————————————————————————————————————————————————— IMAGE -->
-  <meta property="og:image" content="<?= html($site->url()) ?>/assets/img/benjaminwiederkehr_share.png" />
+  <meta property="og:image" content="<?= html($site->url()) ?>/assets/img/benjaminwiederkehr_logo.png" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
-  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="<?= html($site->url()) ?>/assets/img/favicon.ico" type="image/x-icon" />
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
   <?= css('assets/css/style.css') ?>
   <?= css('assets/css/responsive.css') ?>

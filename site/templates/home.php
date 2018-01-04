@@ -3,13 +3,16 @@
 
 <div class="intro_container">
   <header>
-    <h1 class="logo"><a href="<?= url('/') ?>" title="<?= html($site->title()) ?>"><img src="assets/img/logos/benjaminwiederkehr_logo.png" width="230" height="110" alt="<?= html($site->author()) ?>" /></a></h1>
+    <h1 class="logo">
+      <a href="<?= url('/') ?>" title="<?= html($site->title()) ?>">
+        <span class="title">Benjamin<br/> Wiederkehr</span>
+      </a>
+    </h1>
     <p>Wholeheartedly passionate about making things understandable.</p>
     <p>Director at Interactive Things,<br/>Editor at Datavisualization.ch.</p>
     <aside class="photobooth">
       <img src="assets/img/benjaminwiederkehr_photo.png" alt="Intro Photo"/>
     </aside><!-- .photobooth -->
-    <a href="http://interactivethings.com" title="Work with me at Interactive Things" class="badge">Interactive Things</a>
   </header>
   <section class="intro_content">
     <div class="coda-slider-wrapper">

@@ -8,7 +8,7 @@
   <meta name="Description" content="<?= html($site->description()) ?>" />
   <meta name="Keywords" content="<?= html($site->keywords()) ?>" />
   <meta name="Author" content="<?= html($site->author()) ?>" />
-  <meta name="Copyright" content="<?= $site->copyright() ?>" />
+  <meta name="Copyright" content="<?= html(date("Y").' '.$site->copyright()) ?>" />
   <meta name="Distribution" content="Global" />
   <meta name="Language" content="en" />
   <meta name="Robots" content="ALL" />

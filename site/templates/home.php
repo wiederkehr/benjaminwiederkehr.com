@@ -127,9 +127,6 @@
                 </a>
               </li>
             </ul>
-            <!-- <p class="read_more">
-              <a href="http://archive.benjaminwiederkehr.com/category/contact" title="Go to my contact page">See more</a>
-            </p> -->
           </div>
         </div>
         <div class="panel">

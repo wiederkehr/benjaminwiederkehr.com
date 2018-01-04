@@ -16,10 +16,10 @@
   <meta property="og:description" content="<?= html($site->description()) ?>" />
   <meta property="og:url" content="<?= html($site->url()) ?>" />
   <!-- ——————————————————————————————————————————————————————————————————— IMAGE -->
-  <link rel="image_src" href="assets/img/logos/benjaminwiederkehr_logo_dark.png" />
-  <meta property="og:image" content="assets/img/logos/benjaminwiederkehr_logo_dark.png" />
+  <link rel="image_src" href="<?= html($site->url()) ?>assets/img/logos/benjaminwiederkehr_logo.png" />
+  <meta property="og:image" content="<?= html($site->url()) ?>assets/img/logos/benjaminwiederkehr_logo.png" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
-  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="<?= html($site->url()) ?>/assets/img/favicon.ico" type="image/x-icon" />
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
   <?= css('assets/css/style.css') ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->

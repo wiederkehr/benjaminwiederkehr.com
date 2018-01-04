@@ -15,7 +15,7 @@
   <!-- ——————————————————————————————————————————————————————————————————— OPEN GRAPH -->
   <meta property="og:url" content="<?= html($page->url()) ?>" />
   <meta property="og:title" content="<?= html($page->title()) ?>" />
-  <meta property="og:site_name" content="<?= html($site->name()) ?>" />
+  <meta property="og:site_name" content="<?= html($site->title()) ?>" />
   <meta property="og:description" content="<?= excerpt($page->text(), 300) ?>" />
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@wiederkehr">

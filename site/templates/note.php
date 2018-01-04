@@ -4,7 +4,7 @@
 <div class="container">
   <div id="header" class="span-5">
     <h1 class="logo">
-      <a href="<?= url('/notes') ?>" rel="me" title="<?php echo h($site->title()) ?>">
+      <a href="<?= url('/notes') ?>" rel="me" title="<?= html($site->title()) ?>">
         <span class="title">Benjamin Wiederkehr</span>
         <span class="subtitle">Notes</span>
       </a>
@@ -30,13 +30,8 @@
     </div>
   </div>
   <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
-  <div id="sidebar" class="span-5 secondary">
-    <?php snippet('notes-sidebar') ?>
-  </div>
+  <?php snippet('sidebar', array('about' => 'Hello, my name is Benjamin. I’m Interaction & Information Designer from Zürich. This is where I reflect on the things that keep me busy during the day and up at night.')) ?>
   <!-- ——————————————————————————————————————————————————————————————————— Acknowledgement -->
-  <div id="credits" class="span-18 prepend-6 last secondary">
-    <h3 class="ui">Acknowledgement</h3>
-    <p><?= html($site->copyright()) ?>. Built with <a href="http://getkirby.com/">Kirby</a> and running smoothly on a <a href="http://hostpoint.ch" title="">Hostpoint</a> Server.</p>
-  </div>
+  <?= snippet('acknowledgement') ?>
 </div><!-- .container -->
 <?= snippet('notes-footer') ?>

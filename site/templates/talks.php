@@ -4,7 +4,7 @@
 <div class="container">
   <div id="header" class="span-5 append-19 last">
     <h1 class="logo">
-      <a href="<?= url('/talks') ?>" rel="me" title="<?php echo h($site->title()) ?>">
+      <a href="<?= url('/talks') ?>" rel="me" title="<?= html($site->title()) ?>">
         <span class="title">Benjamin Wiederkehr</span>
         <span class="subtitle">Talks</span>
       </a>
@@ -15,11 +15,7 @@
     <h3 class="ui"><?= html($page->title()) ?></h3>
     <div class="talks">
       <?php
-      if(param('tag')) {
-        $talks = $pages->find('talks')->children()->visible()->filterBy('tags', param('tag'), ',')->flip();
-      } else {
-        $talks = $pages->find('talks')->children()->visible()->flip();
-      }
+      $talks = $pages->find('talks')->children()->visible()->flip();
       foreach($talks as $talk):
       ?>
       <!-- ——————————————————————————————————————————————————————————————————— Talk -->
@@ -31,13 +27,8 @@
     </div><!-- .talks -->
   </div><!-- #content -->
   <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
-  <div id="sidebar" class="span-5 secondary">
-    <?php snippet('talks-sidebar') ?>
-  </div>
+  <?php snippet('sidebar', array('about' => 'Hello, my name is Benjamin. I’m Interaction & Information Designer from Zürich. This is where I document thoughts that I have shared in narrated form as talks, presentation and lectures.')) ?>
   <!-- ——————————————————————————————————————————————————————————————————— Acknowledgement -->
-  <div id="credits" class="span-18 prepend-6 last secondary">
-    <h3 class="ui">Acknowledgement</h3>
-    <p><?= html($site->copyright()) ?>. Built with <a href="http://getkirby.com/">Kirby</a> and running smoothly on a <a href="http://hostpoint.ch" title="">Hostpoint</a> Server.</p>
-  </div>
+  <?= snippet('acknowledgement') ?>
 </div><!-- .container -->
 <?= snippet('talks-footer') ?>

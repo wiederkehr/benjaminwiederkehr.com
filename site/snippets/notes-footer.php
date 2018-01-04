@@ -3,7 +3,6 @@
   <?= js('assets/vendor/jquery.hypher/jquery.hypher.js') ?>
   <?= js('assets/vendor/jquery.hypher/en-us.js') ?>
   <?= js('assets/js/main.js') ?>
-  <?= js('assets/js/notes.js') ?>
   <!-- ——————————————————————————————————————————————————————————————————— ANALYTICS -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

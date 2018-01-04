@@ -5,7 +5,8 @@
   <div id="header" class="span-5 append-19 last">
     <h1 class="logo">
       <a href="<?= url('/talks') ?>" rel="me" title="<?php echo h($site->title()) ?>">
-        <img src="<?= url('assets/img/logos/benjaminwiederkehr_talks_logo.png') ?>" width="230" height="150" alt="<?= html($site->title()) ?>" />
+        <span class="title">Benjamin Wiederkehr</span>
+        <span class="subtitle">Talks</span>
       </a>
     </h1>
   </div>
@@ -21,9 +22,9 @@
       }
       foreach($talks as $talk):
       ?>
-      <!-- ——————————————————————————————————————————————————————————————————— Note -->
+      <!-- ——————————————————————————————————————————————————————————————————— Talk -->
       <div class="talks-item">
-        <h2><a href="<?= $talk->url() ?>"><i class="icon-arrow-right"></i> <?= html($talk->title()) ?></a></h2>
+        <h2><a href="<?= $talk->url() ?>"><i class="fas fa-fw fa-chevron-right"></i> <?= html($talk->title()) ?></a></h2>
         <span class="talks-item-date"><?= $talk->date('F j, Y'); ?></span>
       </div><!-- .talk-->
       <?php endforeach ?>

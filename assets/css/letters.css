@@ -77,34 +77,19 @@ article section a:hover{
 /////////////////////////////////////////////////////////////////*/
 .letter__link {
     background-color: #FFF;
-    background-image: -webkit-linear-gradient(hsla(0,0%,0%,.01), hsla(0,0%,100%,.04) 33%, hsla(0,0%,0%,.03) 33%, hsla(0,0%,100%,.04) 67%, hsla(0,0%,0%,.03) 67%, hsla(0,0%,100%,.02));
-    box-shadow: inset 0 0 0 .1em hsla(0,0%,0%,.1),
-                0 .1em .25em hsla(0,0%,0%,.1);
-}
-.letter__link:after,
-.letter__link:before {
-    bottom: .1em;
-    box-shadow: 0 0 .5em .5em hsla(0,0%,0%,0.0);
-    content: '';
-    height: 3em;
-    position: absolute;
+    background-image:
+      linear-gradient(
+        hsla(0,0%,0%,.01),
+        hsla(0,0%,100%,.04) 33%,
+        hsla(0,0%,0%,.03) 33%,
+        hsla(0,0%,100%,.04) 67%,
+        hsla(0,0%,0%,.03) 67%,
+        hsla(0,0%,100%,.02));
+    box-shadow: 0 .1em .25em rgba(0,0,0,0.1);
     transition: box-shadow 0.2s;
-    width: 80%;
-    z-index: -1;
 }
-.letter__link:after {
-    right: 1em;
-    -webkit-transform: rotate(3deg);
-    -webkit-transform-origin: 100% 100%;
-}
-.letter__link:before {
-    left: 1em;
-    -webkit-transform: rotate(-3deg);
-    -webkit-transform-origin: 0% 100%;
-}​
-.letter:hover .letter__link:before,
-.letter:hover .letter__link:after {
-    box-shadow: 0 0 .5em .5em hsla(0,0%,0%,0.1);
+.letter__link:hover{
+    box-shadow: 0 .2em .5em rgba(0,0,0,0.2);
 }
 
 /* MEDIA QUERIES

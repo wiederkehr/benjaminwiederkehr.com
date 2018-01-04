@@ -5,7 +5,8 @@
   <div id="header" class="span-5 append-19 last">
     <h1 class="logo">
       <a href="<?= url('/notes') ?>" rel="me" title="<?php echo h($site->title()) ?>">
-        <img src="<?= url('assets/img/logos/benjaminwiederkehr_notes_logo.png') ?>" width="230" height="150" alt="<?= html($site->title()) ?>" />
+        <span class="title">Benjamin Wiederkehr</span>
+        <span class="subtitle">Notes</span>
       </a>
     </h1>
   </div>
@@ -23,7 +24,7 @@
       ?>
       <!-- ——————————————————————————————————————————————————————————————————— Note -->
       <div class="notes-item">
-        <h2><a href="<?= $note->url() ?>"><i class="icon-arrow-right"></i> <?= html($note->title()) ?></a></h2>
+        <h2><a href="<?= $note->url() ?>"><i class="fas fa-fw fa-chevron-right"></i> <?= html($note->title()) ?></a></h2>
         <span class="notes-item-date"><?= $note->date('F j, Y'); ?></span>
       </div><!-- .note-->
       <?php endforeach ?>

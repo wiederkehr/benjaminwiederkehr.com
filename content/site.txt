@@ -18,4 +18,4 @@ Keywords: Benjamin, Wiederkehr, Benjamin Wiederkehr, Interactive Things, Datavis
 
 ----
 
-Copyright: © 2015 Benjamin Wiederkehr
+Copyright: © 2018 Benjamin Wiederkehr

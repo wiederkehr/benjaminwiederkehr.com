@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<title><?= html($page->title()) ?></title>
   <!-- ——————————————————————————————————————————————————————————————————— META -->
@@ -25,14 +24,21 @@
   <?php $image_src = ($page->images()->first() != NULL ? $page->images()->first()->url() : $site->url().'/assets/img/logos/benjaminwiederkehr_letters_logo_dark.png') ?>
   <meta property="og:image" content="<?= $image_src ?>" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
   <?= css('http://fonts.googleapis.com/css?family=Cutive+Mono') ?>
   <?= css('assets/css/style.css') ?>
   <?= css('assets/css/responsive.css') ?>
   <?= css('assets/css/letters.css') ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->
+	<!-- ——————————————————————————————————————————————————————————————————— GA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3202544-10"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-3202544-10');
+  </script>
 </head>
 
 <body>

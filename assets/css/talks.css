@@ -16,9 +16,11 @@ h3.ui  { color: #aaa; font-size: 10px; font-weight: normal; margin-bottom: 2px; 
 /* HEADER
 /////////////////////////////////////////////////////////////////*/
 #header         	{ height: 170px; padding-top: 30px;}
-#header h1      	{ margin: 0;}
-#header h1 a    	{ display: block; background: url('../img/logos/benjaminwiederkehr_talks_logo_dark.png') -20px 0 no-repeat;}
-#header h1 a img	{ margin: 0 0 0 -20px; float: none;}
+#header h1				{ font-size: 44px; margin: 0; letter-spacing: -2.5px; line-height: 1; font-family: "ff-netto-web",sans-serif;}
+#header h1 a    	{ display: block; color: rgba(200, 200, 200, 0.9); text-shadow: 0 1px 0px #fff, 0 0 0 #444; transition: color 0.2s;}
+#header h1 a:hover{ color: rgba(60, 60, 60, 0.9);}
+#header .title    { font-weight: bold; display: block;}
+#header .subtitle { font-weight: normal; display: block;}
 
 /* CONTENT
 /////////////////////////////////////////////////////////////////*/
@@ -40,8 +42,8 @@ h3.ui  { color: #aaa; font-size: 10px; font-weight: normal; margin-bottom: 2px; 
 .talks-item h2      { margin:  36px 0;}
 .talks-item h2 a    { display: block; transition: padding 0.2s;}
 .talks-item h2 a:hover{ padding-left: 30px;}
-.talks-item h2 a i  { position: absolute; left: 0; font-size: 28px; opacity: 0; transition: opacity 0.2s;}
-.talks-item h2 a:hover i{ opacity: 1; transition: opacity 0.2s 0.1s;}
+.talks-item h2 a svg{ position: absolute; left: 0; opacity: 0; transition: opacity 0.2s;}
+.talks-item h2 a:hover svg{ opacity: 1; transition: opacity 0.2s 0.1s;}
 .talks-item-date    { font: italic 14px/18px "Georgia", Georgia, serif; color: #aaa; position: absolute; right: 0; top: 5px;}
 @media (max-width: 767px) {
   .talks-item h2    { margin: 60px 0 36px;}
@@ -96,6 +98,7 @@ SECONDARY
 #sidebar                { float: left;}
 #sidebar h3.ui          { padding-bottom: 2px; margin-bottom: 15px; border-bottom: 3px solid #d4d5d3;}
 #sidebar p.sidebar-lead { font: italic 14px/21px "Georgia", Georgia, serif; color: #aaa; margin-top: 36px;}
+#sidebar ul.icons svg   { float: right; font-size: 12px; margin-top: 4px;}
 
 /*
 CREDITS

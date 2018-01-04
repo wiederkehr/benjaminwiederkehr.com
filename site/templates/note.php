@@ -5,7 +5,8 @@
   <div id="header" class="span-5">
     <h1 class="logo">
       <a href="<?= url('/notes') ?>" rel="me" title="<?php echo h($site->title()) ?>">
-        <img src="<?= url('assets/img/logos/benjaminwiederkehr_notes_logo.png') ?>" width="230" height="150" alt="<?= html($site->title()) ?>" />
+        <span class="title">Benjamin Wiederkehr</span>
+        <span class="subtitle">Notes</span>
       </a>
     </h1>
   </div>
@@ -20,11 +21,11 @@
     </div>
     <div class="pagination">
       <?php if($page->hasPrevVisible()): ?>
-      <a class="pagination-previous" href="<?= $page->prevVisible()->url() ?>"><i class="icon-arrow-left"></i> <?= $page->prevVisible()->title() ?></a>
+      <a class="pagination-previous" href="<?= $page->prevVisible()->url() ?>"><i class="fas fa-fw fa-chevron-left"></i> <?= $page->prevVisible()->title() ?></a>
       <?php endif ?>
       <a class="pagination-overview" href="<?= url('/notes') ?>">Index</a>
       <?php if($page->hasNextVisible()): ?>
-      <a class="pagination-next" href="<?= $page->nextVisible()->url() ?>"><?= $page->nextVisible()->title() ?> <i class="icon-arrow-right"></i></a>
+      <a class="pagination-next" href="<?= $page->nextVisible()->url() ?>"><?= $page->nextVisible()->title() ?> <i class="fas fa-fw fa-chevron-right"></i></a>
       <?php endif ?>
     </div>
   </div>

@@ -6,6 +6,7 @@ Author:       Benjamin Wiederkehr
 Start:        100525_BW
 Last update:  160531_BW
 */
+
 /* RESET
 /////////////////////////////////////////////////////////////////*/
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
@@ -256,115 +257,42 @@ select:focus    { border:1px solid #999; background:#fff; }
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-large-datavisualization:before {
-  content: "\e600";
-}
-.icon-large-facebook:before {
-  content: "\e601";
-}
-.icon-large-github:before {
-  content: "\e602";
-}
-.icon-large-google:before {
-  content: "\e603";
-}
-.icon-large-hackshackers:before {
-  content: "\e604";
-}
-.icon-large-interactivethings:before {
-  content: "\e605";
-}
-.icon-large-linkedin:before {
-  content: "\e61b";
-}
-.icon-large-mail:before {
-  content: "\e61c";
-}
-.icon-large-opendata:before {
-  content: "\e61d";
-}
-.icon-large-phone:before {
-  content: "\e61e";
-}
-.icon-large-pinterest:before {
-  content: "\e61f";
-}
-.icon-large-substratum:before {
-  content: "\e620";
-}
-.icon-large-tumblr:before {
-  content: "\e621";
-}
-.icon-large-twitter:before {
-  content: "\e622";
-}
-.icon-large-wiederkehr:before {
-  content: "\e623";
-}
-.icon-phone:before {
-  content: "\e606";
-}
-.icon-mail:before {
-  content: "\e607";
-}
-.icon-heart:before {
-  content: "\e608";
-}
-.icon-star:before {
-  content: "\e609";
-}
-.icon-rss:before {
-  content: "\e60a";
-}
-.icon-minus:before {
-  content: "\e60b";
-}
-.icon-plus:before {
-  content: "\e60c";
-}
-.icon-cross:before {
-  content: "\e60d";
-}
-.icon-list:before {
-  content: "\e624";
-}
-.icon-video:before {
-  content: "\e60f";
-}
-.icon-arrow-left:before {
-  content: "\e610";
-}
-.icon-arrow-down:before {
-  content: "\e611";
-}
-.icon-arrow-up:before {
-  content: "\e612";
-}
-.icon-arrow-right:before {
-  content: "\e613";
-}
-.icon-github:before {
-  content: "\e614";
-}
-.icon-twitter:before {
-  content: "\e615";
-}
-.icon-facebook:before {
-  content: "\e616";
-}
-.icon-googleplus:before {
-  content: "\e617";
-}
-.icon-pinterest:before {
-  content: "\e618";
-}
-.icon-tumblr:before {
-  content: "\e619";
-}
-.icon-linkedin:before {
-  content: "\e61a";
-}
-
+.icon-large-datavisualization:before      {content: "\e600";}
+.icon-large-facebook:before               {content: "\e601";}
+.icon-large-github:before                 {content: "\e602";}
+.icon-large-google:before                 {content: "\e603";}
+.icon-large-hackshackers:before           {content: "\e604";}
+.icon-large-interactivethings:before      {content: "\e605";}
+.icon-large-linkedin:before               {content: "\e61b";}
+.icon-large-mail:before                   {content: "\e61c";}
+.icon-large-opendata:before               {content: "\e61d";}
+.icon-large-phone:before                  {content: "\e61e";}
+.icon-large-pinterest:before              {content: "\e61f";}
+.icon-large-substratum:before             {content: "\e620";}
+.icon-large-tumblr:before                 {content: "\e621";}
+.icon-large-twitter:before                {content: "\e622";}
+.icon-large-wiederkehr:before             {content: "\e623";}
+.icon-phone:before                        {content: "\e606";}
+.icon-mail:before                         {content: "\e607";}
+.icon-heart:before                        {content: "\e608";}
+.icon-star:before                         {content: "\e609";}
+.icon-rss:before                          {content: "\e60a";}
+.icon-minus:before                        {content: "\e60b";}
+.icon-plus:before                         {content: "\e60c";}
+.icon-cross:before                        {content: "\e60d";}
+.icon-list:before                         {content: "\e624";}
+.icon-video:before                        {content: "\e60f";}
+.icon-arrow-left:before                   {content: "\e610";}
+.icon-arrow-down:before                   {content: "\e611";}
+.icon-arrow-up:before                     {content: "\e612";}
+.icon-arrow-right:before                  {content: "\e613";}
+.icon-github:before                       {content: "\e614";}
+.icon-twitter:before                      {content: "\e615";}
+.icon-facebook:before                     {content: "\e616";}
+.icon-googleplus:before                   {content: "\e617";}
+.icon-pinterest:before                    {content: "\e618";}
+.icon-tumblr:before                       {content: "\e619";}
+.icon-linkedin:before                     {content: "\e61a";}
 
 /* GRID
 /////////////////////////////////////////////////////////////////*/

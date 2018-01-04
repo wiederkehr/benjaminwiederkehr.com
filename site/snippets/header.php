@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title><?= html($site->title()) ?></title>
   <!-- ——————————————————————————————————————————————————————————————————— META -->
@@ -20,13 +19,20 @@
   <link rel="image_src" href="assets/img/logos/benjaminwiederkehr_logo_dark.png" />
   <meta property="og:image" content="assets/img/logos/benjaminwiederkehr_logo_dark.png" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
   <?= css('assets/css/style.css') ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->
   <script src="http://use.typekit.com/aea1puq.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+  <!-- ——————————————————————————————————————————————————————————————————— GA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3202544-10"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-3202544-10');
+  </script>
 </head>
 
 <body>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<title><?= html($page->title()) ?></title>
   <!-- ——————————————————————————————————————————————————————————————————— META -->
@@ -22,18 +21,26 @@
   <meta name="twitter:site" content="@wiederkehr">
   <meta name="twitter:creator" content="@wiederkehr">
   <!-- ——————————————————————————————————————————————————————————————————— IMAGE -->
-  <?php $image_src = ($page->images()->first() != NULL ? $page->images()->first()->url() : $site->url().'/assets/img/logos/benjaminwiederkehr_notes_logo_dark.png') ?>
+  <?php $image_src = ($page->images()->first() != NULL ? $page->images()->first()->url() : $site->url().'/assets/img/logos/benjaminwiederkehr_notes_logo.png') ?>
   <meta property="og:image" content="<?= $image_src ?>" />
   <!-- ——————————————————————————————————————————————————————————————————— FAVICON -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
   <?= css('assets/css/style.css') ?>
   <?= css('assets/css/responsive.css') ?>
   <?= css('assets/css/notes.css') ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
   <script src="http://use.typekit.com/aea1puq.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+	<!-- ——————————————————————————————————————————————————————————————————— GA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3202544-10"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-3202544-10');
+  </script>
 </head>
 
 <body>

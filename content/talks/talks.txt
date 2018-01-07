@@ -2,5 +2,9 @@ Title: Talks by Benjamin
 
 ----
 
+Teaser: benjaminwiederkehr_talks_logo.png
+
+----
+
 Text:
-Hello, my name is Benjamin. I'm Interaction & Information Designer from Zürich. This is where I document thoughts that I have shared in narrated form as talks, presentation and lectures.
+Hello, my name is Benjamin. I’m Interaction & Information Designer from Zürich. This is where I document thoughts that I have shared in narrated form as talks, presentation and lectures.

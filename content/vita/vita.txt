@@ -1,0 +1,146 @@
+Title: Vita
+
+----
+
+Lead:
+I am an Interaction Designer with a focus on information visualization and interface design. With my work, I explore opportunities to innovate through the combination of design and technology, to simplify complex data in order to raise awareness, as well as to tell stories with an open intent and meaningful impact.
+
+----
+
+Text:
+<h2 class="divider-headline"><span class="chapter__id">1. </span>Résumé</h2>
+
+<h3 id="resume-section-1">Practice</h3>
+Benjamin Wiederkehr is founding partner and managing director of (link:http://interactivethings.com text:Interactive Things), a design and technology studio established by Christian Siegrist, Jeremy Stucki, and himself in 2009. Today they lead the studio together with their partners Peter Gassner and Christoph Schmid. Interactive Things works at the intersection of science, technology, and design to help their clients to establish engaging and emotional interactions between them and their audience. The Zurich-based team currently consists of 12 multi-facetted designers and developers with backgrounds in Interaction Design, Information Design, Linguistics, Photography, Typography, Software Engineering and Data Science. Over the past five years, Benjamin and his team have worked with national and international, private and public sector organizations of all sizes. Previous and current mandates include the Swiss Confederation, the United Nations, the World Economic Forum, Swisscom, Swiss Post, Migros, UBS, Credit Suisse, PricewaterhouseCoopers, National Geographic, Neue Zürcher Zeitung, Swiss National Science Foundation, ZHAW and ETH, among others.
+
+<h3 id="resume-section-2">Research</h3>
+Between 2005 and 2008, Benjamin has been studying the foundations of interaction design at the BA in Design program of the Zürich University of the Arts, earning a Bachelor’s Degree in Product Design with a specialization in Interaction Design. Between 2012 and 2014, he has been studying visual models and interaction patterns in exploratory tools for personal financial information under the supervision of Dr. Prof. Gerhard Buurman and Dr. Prof. Karmen Franinovic at the MA in Design program of the Zürich University of the Arts. Benjamin has given lectures about information visualization and interface design at the Zurich University of the Arts «Tablet Lectures» (2011), UC Berkeley School of Information «Information Visualization» (2012), Haute École de Géstion Geneva «Information Visualization» (2013), Potsdam University of Applied Sciences «Urban Data Visualization» (2013), and Università Iuav di Venezia «Information Design» (2014).
+
+<h3 id="resume-section-3">Community</h3>
+Beside Benjamin’s academic and professional work, he continues to engage in the national and international design community at large. Since 2009, he publishes insights from his research and work process in the field of data and information visualization on (link:http://datavisualization.ch text:Datavisualization.ch). The website, and the social media ecosystem surrounding it, has attracted a combined following of over 40’000 people. Between 2011 and 2013, he conducted and published a series of interviews with a selection of today’s most influential thinkers and makers under the title (link:http://substratumseries.com text:Substratum Series). The list of interviewees include Ben Fry, Casey Reas, Zachary Lieberman, Golan Levin, Jake Barton, Ivan Young, Natalie Jeremijenko, and Ivan Poupyrev, among others.
+
+<h3 id="resume-section-4">Advisory</h3>
+Since 2010, Benjamin is part of the Swiss chapter of the Open Knowledge Foundation, (link: http://opendata.ch text:Opendata.ch), and helps to facilitate an open access to government data for everyone. In early 2014, he co-founded and since then leads together with Sylke Gruhnwald, data-driven reporter with the Neue Zürcher Zeitung, the Swiss chapter of the (link:http://hackshackers.com/zurich text:Hacks / Hackers Meetup Series) where journalists and technologists explore the future of journalism. Benjamin serves on the Advisory Boards of the Places & Spaces Exhibition by the Indiana University, USA as nominated by curator Katy Börner (2011–present) and the Smart City Demo Center by CMODA in Beijing, China as nominated by exhibition director Lei Yang (2013–present).
+
+<h3 id="resume-section-5">Speaking</h3>
+Benjamin has been asked to present his thinking, research, and work at conferences including SXSW in Austin, USA (2011, 2012), Data In Sight in San Francisco, USA (2011), SEE Conference in Wiesbaden, Germany (2011-2013), Lift Conference in Geneva, Switzerland (2012, 2013), Ars Electronica in Linz, Austria (2013), Open Knowledge Conference in Geneva, Switzerland (2013), Typotag in Munich, Germany (2013), If Book Then Conference in Milan, Italy (2014), and the Visualized Conference in New York, USA (2012, 2014), among others. Beside public conferences, he has been asked to present to companies and organizations including Mozilla in San Francisco, USA (2011), Schweizerische Bundeskanzlei in Berne, Switzerland (2011), LinkedIn in San Francisco, USA (2012), UNECE in Geneva, Switzerland (2012), Swiss Radio and Television in Zürich, Switzerland (2013), and Hacks / Hackers in New York, USA (2014), among others.
+
+<h3 id="resume-section-6">Exhibitions</h3>
+Benjamin’s work has been shown at exhibitions including Places & Spaces Exhibition organized by Indiana University in Indiana, USA (2011), Ville Vivante Exhibition organized by LIFT in Geneva, Switzerland (2012), Beijing Design Week organized by CMODA in Beijing, China (2012), Swiss Positions & Swiss Scales organized by Korea Foundation in Seoul, Korea (2013), Nighttime Dreamreal organized by Power Station of Art in Shanghai, China (2013), Werkschau Grafik 14 in Zürich, Switzerland (2014), and Big Bang Data, in Barcelona, Spain (2014), among others.
+
+<h3 id="resume-section-7">Features</h3>
+Benjamin’s work has been featured in publications including WIRED «Map a city’s mobile calls and you can boost urban planning» (2012), Fast Company «A City Visualizes Its Own Inner Workings, With Infographics Powered By Cellular Data» (2012), The Huffington Post «Education for All and Not Just for Some» (2012), Al Jazeera «”Education First” must put the marginalised at the centre» (2012), The Guardian «Education attainment - disparities by country» (2012), and Page Magazine «»Interactive Storytelling» (2014), among others.
+
+<h3 id="resume-section-8">Publications</h3>
+Benjamin has been asked to contribute articles, essays, and interviews that have been published in Weave Magazine (2011), Page Magazine (2013), Swiss Analytics Magazine (2014), and the upcoming book “New Challenges For Data Design” published by Springer-Verlag (2014). The scientific paper «Confluence Diagram» about collaborative information visualization, co-authored with Dr. Martin Eppler from the University of St. Gallen, has been accepted for the IEEE VIS 2014 poster session.
+
+<h3 id="resume-section-9">Recognitions</h3>
+Benjamin’s work has been publicly recognized for excellence in information design by dpa-Infografik: «Swiss Maps», winner category Interactive Infographic, «Keine Zeit für Wut», winner category Interactive Infographic (2013), European Newspaper Award: «Stabile Arbeitslosenquote», winner category Data Journalism, «Keine Zeit für Wut», winner category Online and Crossmedia (2013), Global Editors Network Data Journalism Award: «NZZ Data», winner category Best Team or Newsroom Portfolio (2014), and Grimme Online Award: «Du fliegst nur einmal», winner category Culture and Entertainment (2014).
+
+<h2 class="divider-headline"><span class="chapter__id">2. </span>Curriculum Vitae</h2>
+
+<h3 id="cv-section-1">Personal</h3>
+<dl class="cv__list">
+    <dt>Name</dt><dd>Benjamin Wiederkehr</dd>
+    <dt>Birthday</dt><dd>01.01.1981</dd>
+    <dt>Nationality</dt><dd>CH</dd>
+    <dt>Address</dt><dd>Adelbändli 10, 5000 Aarau</dd>
+    <dt>Telephone</dt><dd>+41 76 533 33 72</dd>
+    <dt>E-Mail</dt><dd>me@benjaminwiederkehr.com</dd>
+    <dt>Website</dt><dd>http://benjaminwiederkehr.com</dd>
+</dl>
+
+<h3 id="cv-section-2">Education</h3>
+<dl class="cv__list">
+    <dt>2012 – 2014</dt><dd>Zurich University of the Arts, Switzerland, Master of Arts in Design, Major in Interaction Design</dd>
+    <dt>2005 – 2008</dt><dd>Zurich University of the Arts, Switzerland, Bachelor of Arts in Design, Major in Interaction Design</dd>
+    <dt>2004 – 2005</dt><dd>Bern University of the Arts, Switzerland, Preparation Course</dd>
+    <dt>1998 – 2004</dt><dd>AKAD College, Zurich, Switzerland, Swiss Matura</dd>
+</dl>
+
+<h3 id="cv-section-3">Experience</h3>
+<dl class="cv__list">
+    <dt>2009 – Present</dt><dd>Interactive Things GmbH, Zurich, Switzerland, Founding Partner, Managing Director</dd>
+    <dt>2009 – Present</dt><dd>Datavisualization.ch, Zurich, Switzerland, Editor in Chief</dd>
+    <dt>2008 – 2010</dt><dd>coUNDco AG, Zurich, Switzerland, Interaction Designer</dd>
+    <dt>2006 – 2008</dt><dd>coUNDco AG, Zurich, Switzerland, Freelance Interaction Designer</dd>
+    <dt>2005 – 2006</dt><dd>Independent Freelance Interaction Designer</dd>
+    <dt>2002 – 2005</dt><dd>Independent Freelance Web Designer</dd>
+    <dt>1998 – 2002</dt><dd>Swiss Gymnastics Association, Professional Athlete</dd>
+</dl>
+
+<h3 id="cv-section-4">Activities</h3>
+<dl class="cv__list">
+    <dt>2014 – Present</dt><dd>Hacks/Hackers, Zurich, Switzerland, Co-Organizer</dd>
+    <dt>2010 – Present</dt><dd>Opendata.ch, Zurich, Switzerland, Creative Director</dd>
+</dl>
+
+<h3 id="cv-section-5">Languages</h3>
+<dl class="cv__list">
+    <dt>German</dt><dd>Native language</dd>
+    <dt>English</dt><dd>Fluent in spoken and written</dd>
+    <dt>French</dt><dd>Fluent in spoken and written</dd>
+    <dt>Italian</dt><dd>Basic knowledge</dd>
+    <dt>Spanish</dt><dd>Basic knowledge</dd>
+</dl>
+
+<h3 id="cv-section-6">Expertise</h3>
+<dl class="cv__list">
+    <dt>Design</dt><dd>Photoshop, Illustrator, Fireworks, InDesign, Sketch</dd>
+    <dt>Programming</dt><dd>HTML, CSS, JavaScript, ActionScript, Processing, PHP, Python</dd>
+    <dt>Specialties</dt><dd>Data Visualization, User Experience Design, Interaction Design, Interface Design</dd>
+</dl>
+
+<h3 id="cv-section-7">Lectures</h3>
+<dl class="cv__list">
+    <dt>2014</dt><dd>Università Iuav di Venezia, Italy, «Information Visualization for Mobile Devices»</dd>
+    <dt>2013</dt><dd>FH Potsdam, Germany, «Digitale Ebenen: Urban Data Visualization»</dd>
+    <dt>2013</dt><dd>Haute Ecole de Gestion Geneva, Switzerland, «Information Visualization»</dd>
+    <dt>2011</dt><dd>Haute Ecole de Gestion Geneva, Switzerland, «Information Visualization»</dd>
+    <dt>2011</dt><dd>Zurich University of the Arts, Switzerland, «Tablet Lectures»</dd>
+    <dt>2010</dt><dd>Zurich International School, Switzerland, «Data and Information Visualization»</dd>
+    <dt>2008</dt><dd>Swiss Marketing Academy, Switzerland, «Usability and Webdesign»</dd>
+</dl>
+
+<h3 id="cv-section-8">Presentations</h3>
+<dl class="cv__list">
+    <dt>2014</dt><dd>Netzwerk Recherche Jahrestagung, Germany, «Panel on Data Journalism»</dd>
+    <dt>2014</dt><dd>If Book Then Conference, Italy, «Talk on Data-Driven Storytelling»</dd>
+    <dt>2014</dt><dd>Visualized Conference, USA, «The Insights of Visualizing Data»</dd>
+    <dt>2014</dt><dd>Hacks / Hackers NYC, USA, «Talk on Data-Driven Storytelling»</dd>
+    <dt>2013</dt><dd>ZHdK Incubator Inauguration, Switzerland, «Talk on Cultural Entrepreneurship»</dd>
+    <dt>2013</dt><dd>Storytelling Conference, Switzerland, «Talk on Data-Driven Storytelling»</dd>
+    <dt>2013</dt><dd>Open Knowledge Conference, Switzerland. «Talk on Data-Driven Storytelling»</dd>
+    <dt>2013</dt><dd>Ars Electronica, Austria. «Talk on Visualization &amp; Narration»</dd>
+    <dt>2013</dt><dd>Hochschule für Gestaltung und Kunst Basel, Switzerland, «Information Visualization»</dd>
+    <dt>2013</dt><dd>SRF, Switzerland. «Storytelling Through Data Visualization»</dd>
+    <dt>2013</dt><dd>Digitale Wirklichkeiten, Switzerland, «Information Visualization»</dd>
+    <dt>2013</dt><dd>SEE Conference, Germany, «SEE+ Workshop»</dd>
+    <dt>2013</dt><dd>Data Visualization Roundtable, USA, «Social Impact Through Data Visualization»</dd>
+    <dt>2013</dt><dd>Typotag, Germany, «Human Centered Information Visualization»</dd>
+    <dt>2013</dt><dd>Lift Conference, Switzerland, «Workshop on Persuasive Design»</dd>
+    <dt>2013</dt><dd>UX Schweiz, Switzerland, «Benutzerzentrierte Gestaltung interaktiver Datenvisualisierung»</dd>
+    <dt>2012</dt><dd>Junior Design Research Conference, Switzerland, «Persuasion in Information Design»</dd>
+    <dt>2012</dt><dd>Visualized Conference, USA, «The Process of Visualizing Data»</dd>
+    <dt>2012</dt><dd>Int. Medienkongress Berlin, Germany, «Experience Data»</dd>
+    <dt>2012</dt><dd>UNECE, Switzerland, «Work Session on the Communication of Statistics»</dd>
+    <dt>2012</dt><dd>SEE Conference, Germany, «SEE+ Workshop»</dd>
+    <dt>2012</dt><dd>UC Berkeley School of Information, USA, «Data Visualization»</dd>
+    <dt>2012</dt><dd>Bay Area Data Visualization Meetup, USA, «Data Visualization for Multi-Touch Devices»</dd>
+    <dt>2012</dt><dd>LinkedIn, USA, «Data Visualization»</dd>
+    <dt>2012</dt><dd>SXSW, USA, «Intent &amp; Impact: How Visualization Makes A Change»</dd>
+    <dt>2012</dt><dd>Lift Conference, Switzerland, «Ville Vivante»</dd>
+    <dt>2011</dt><dd>Swiss Informatics Society, Switzerland, «Workshop on Information Visualisation»</dd>
+    <dt>2011</dt><dd>Trend Forum Basel, Switzerland, «Information Visualization»</dd>
+    <dt>2011</dt><dd>Data In Sight, USA, «Intent &amp; Impact: Thoughts on Persuasion in Visualization»</dd>
+    <dt>2011</dt><dd>Mozilla, USA, «Everyday Visualization»</dd>
+    <dt>2011</dt><dd>SEE Conference, Germany, «SEE+ Workshop»</dd>
+    <dt>2011</dt><dd>SXSW, USA, «Social Media Data Visualization»</dd>
+    <dt>2011</dt><dd>Swiss Confederation, Switzerland, «Open Data»</dd>
+</dl>
+
+<h3 id="cv-section-9">Mandates</h3>
+<dl class="cv__list">
+    <dt>2013 – Present</dt><dd>Member of Advisory Board for Smart City Demo Center, CMODA Beijing, China</dd>
+    <dt>2011 – Present</dt><dd>Member of Advisory Board for Places &amp; Spaces Exhibition, Indiana University, USA</dd>
+</dl>

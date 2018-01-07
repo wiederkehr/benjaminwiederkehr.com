@@ -1,0 +1,169 @@
+/* OVERRIDE
+/////////////////////////////////////////////////////////////////*/
+h1, h2 { font-family: "ff-netto-web",sans-serif;}
+h2     { margin:  1.8em 0 1em;}
+h3     { font-weight: bold; margin-bottom: 0.5em;}
+
+/* UI HEADLINE
+/////////////////////////////////////////////////////////////////*/
+h3.ui,
+h2.divider-headline{
+  border-bottom: 3px solid #d4d5d3;
+  color: #aaa;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+}
+
+/* CONTENT
+/////////////////////////////////////////////////////////////////*/
+#content			    { padding-bottom: 72px; float: right;}
+.container--home #content{
+  margin-top: 100px;
+}
+
+/* CONTENT HEADER
+/////////////////////////////////////////////////////////////////*/
+#content-header   { margin-top: 150px;}
+#content-header h1{ font-size: 32px; margin: 0; font-weight: bold; text-transform: uppercase;}
+#content-header h2{ font-size: 32px; color: #aaa; margin: 0 0 1em; font-weight: normal; text-transform: uppercase;}
+
+#content-header .lead{
+  font: italic 18px / 1.5 "Georgia", Georgia, serif;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  #header           { height: auto;}
+  #content-header   { height: auto;}
+  #content-header h1{ margin-top: 0;}
+}
+
+/* TEASER
+/////////////////////////////////////////////////////////////////*/
+.teaser{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: background 200ms;
+}
+.teaser a{
+  font-family: "ff-netto-web",sans-serif;
+  color: #efefec;
+  display: block;
+  line-height: 310px;
+  padding: 0 20px;
+  margin: 0 0 20px;
+  text-align: center;
+  background: rgba(69,69,68, 0.75);
+  transition: background 200ms;
+  text-transform: uppercase;
+}
+.teaser a:hover{
+  background: rgba(255,175,175, 0.75);
+  color: #fff;
+}
+.teaser:hover{
+  background-size: 105%;
+}
+.teaser--vita{
+  background-image: url('../img/teaser_vita.png');
+}
+.teaser--work{
+  background-image: url('../img/teaser_work.png');
+}
+.teaser--studio{
+  background-image: url('../img/teaser_studio.png');
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .teaser a{
+    line-height: 230px;
+  }
+}
+@media (max-width: 767px) {
+  .teaser--vita{
+    background-position: 50% 0%;
+  }
+}
+/*
+IMAGE CONTAINER
+/////////////////////////////////////////////////////////////////*/
+.image-container{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50vh;
+}
+.image-container #content-header{
+  color: #fff;
+}
+.image-container #content-header h1{
+  color: #fff;
+}
+.image-container #content-header h2{
+  color: #aaa;
+}
+.header-image--about{
+  background-image: url('../img/header_vita.png');
+  background-position: 0 0;
+}
+/* PAGE
+/////////////////////////////////////////////////////////////////*/
+.page-content h3 {
+  font-family: "ff-netto-web",sans-serif;
+  font-size: 20px;
+  margin: 2.5em 0 0.5em;
+}
+.page-content h2 {
+  margin: 1.8em 0 0.5em;
+}
+.page-content p {
+  /*font-size: 16px;*/
+}
+.page-content .divider-headline{
+  margin-top: 20px;
+  margin-top: 100px;
+  clear: both;
+}
+
+/*
+INFORMATION
+/////////////////////////////////////////////////////////////////*/
+.contact__list dt {
+  width: 80px;
+  color: #aaa;
+}
+.contact__list dd {
+  margin-left: 80px;
+}
+.events__list dt {
+  width: 40px;
+  color: #aaa;
+}
+.events__list dd {
+  margin-left: 40px;
+}
+
+/* SIDEBAR
+/////////////////////////////////////////////////////////////////*/
+.sidebar{
+  padding-top: 50px;
+}
+.sidebar .section-title{
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.chapter__id{
+  display: inline-block;
+  width: 24px;
+}
+.sidebar__section--sticky { width: 190px;}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .sidebar__section--sticky { width: 140px;}
+}
+@media (max-width: 767px) {
+  .sidebar__section--sticky { display: none;}
+}

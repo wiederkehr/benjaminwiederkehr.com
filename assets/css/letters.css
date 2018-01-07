@@ -1,11 +1,3 @@
-@charset "utf-8";
-/*
-Letters Styles
-Description:    Layout and element specific styling for letters
-Author:         Benjamin Wiederkehr
-Start:          121221_BW
-Last update:    160531_BW
-
 /* LAYOUT
 /////////////////////////////////////////////////////////////////*/
 body{ font: 18px/1.5em 'Cutive Mono', monospace; }
@@ -42,55 +34,42 @@ article section a{
 article section a:hover{
   color: #000;
 }
-/* LETTERS VERTICAL
-/////////////////////////////////////////////////////////////////*/
-.letters              { }
-.letters h3.ui        { padding-bottom: 2px; margin-bottom: 15px; border-bottom: 3px solid #d4d5d3; color: #aaa;}
-.letters-item         { border-bottom: 1px solid #d4d5d3; position: relative;}
-.letters-item h2      { margin:  36px 0;}
-.letters-item h2 a    { display: block;}
-.letters-item-date    { font-size: 14px; color: #aaa; position: absolute; right: 0; top: 2px;}
-.remark               { clear: both; font-size: 14px; color: #aaa; }
 
-/* LETTERS GRID
+/* LETTERS
 /////////////////////////////////////////////////////////////////*/
-.letters              { text-align: center;}
-.letters h3.ui        { margin-bottom: 50px;}
+.letters                { text-align: center;}
+.letters .section-title { margin-bottom: 50px; font-size: 18px; text-transform: none;}
+.letter-list            { text-align: center;}
 
-.letter-list          { text-align: center;}
-.letter               { display: inline-block;}
-.letter__link         {
+.letter                 { display: inline-block;}
+.letter__link > *       { box-sizing: border-box;}
+.letter__date           { color: #aaa; display: block; font-size: 14px; height: 33%; padding-top: 40px;}
+.letter__title          { margin: 0; display: block; height: 33%; padding-top: 40px;}
+.letter__readmore       { color: #aaa; display: block; font-size: 14px; height: 33%; opacity: 0; padding-top: 40px; transition: opacity 0.2s;}
+.letter__link:hover .letter__readmore{ opacity: 1;}
+
+.letter__link {
   display: block;
   height: 320px;
   position: relative;
   width: 280px;
-}
-.letter__date         { box-sizing: border-box; color: #aaa; display: block; font-size: 14px; height: 33%; padding-top: 40px;}
-.letter__title        { box-sizing: border-box; margin: 0; display: clock; height: 33%; padding-top: 40px;}
-.letter__readmore     { box-sizing: border-box; color: #aaa; display: block; font-size: 14px; display: clock; height: 33%; opacity: 0; padding-top: 40px; transition: opacity 0.2s;}
-.letter:hover .letter__readmore{ opacity: 1;}
-
-.remark               { border-top: 1px solid #d4d5d3; clear: both; font-size: 14px; color: #aaa; margin-top: 50px; padding-top: 30px;}
-
-
-/* LINK STYLE
-/////////////////////////////////////////////////////////////////*/
-.letter__link {
-    background-color: #FFF;
-    background-image:
-      linear-gradient(
-        hsla(0,0%,0%,.01),
-        hsla(0,0%,100%,.04) 33%,
-        hsla(0,0%,0%,.03) 33%,
-        hsla(0,0%,100%,.04) 67%,
-        hsla(0,0%,0%,.03) 67%,
-        hsla(0,0%,100%,.02));
-    box-shadow: 0 .1em .25em rgba(0,0,0,0.1);
-    transition: box-shadow 0.2s;
+  background-color: #FFF;
+  background-image:
+    linear-gradient(
+      hsla(0,0%,0%,.01),
+      hsla(0,0%,100%,.04) 33%,
+      hsla(0,0%,0%,.03) 33%,
+      hsla(0,0%,100%,.04) 67%,
+      hsla(0,0%,0%,.03) 67%,
+      hsla(0,0%,100%,.02));
+  box-shadow: 0 .1em .25em rgba(0,0,0,0.1);
+  transition: box-shadow 0.2s;
 }
 .letter__link:hover{
     box-shadow: 0 .2em .5em rgba(0,0,0,0.2);
 }
+
+.remark { border-top: 1px solid #d4d5d3; clear: both; font-size: 14px; color: #aaa; margin-top: 50px; padding-top: 30px;}
 
 /* MEDIA QUERIES
 /////////////////////////////////////////////////////////////////*/

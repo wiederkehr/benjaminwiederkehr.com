@@ -10,11 +10,11 @@ Date: May 23, 2014
 
 ----
 
-Teaser: http://benjaminwiederkehr.com/content/talks/002-ifbookthen-2014/slide.004.png
+Teaser: slide.004.png
 
 ----
 
-Excerpt: This is the script with references and acknowledgments of my talk at the If Book Then Conference held at Intesa Sanpaolo in Milano on May 23rd, 2014.
+Description: This is the script with references and acknowledgments of my talk at the If Book Then Conference held at Intesa Sanpaolo in Milano on May 23rd, 2014.
 
 ----
 
@@ -87,7 +87,7 @@ A second example of such an opinionated introduction has been created by Wes Gru
 **These two examples, done by friends of ours over the course of the past year, have experimented with the notion of narrated, opinionated introductions. Some have called this data dramatization and it’s hard to disagree. The data truly becomes much more visceral in this directed representation.**
 
 (image:slide.066.png)
-Another example, from the Google Data Art team around Fernanda Viegas and Martin Wattenberg, doesn’t need a strong introduction to tell a striking story. Actually, it doesn’t tell a very strong story during most times of the day. What we see here is the direct mapping of wind across the North American continent. We see flows and varying densities. But that’s all. 
+Another example, from the Google Data Art team around Fernanda Viegas and Martin Wattenberg, doesn’t need a strong introduction to tell a striking story. Actually, it doesn’t tell a very strong story during most times of the day. What we see here is the direct mapping of wind across the North American continent. We see flows and varying densities. But that’s all.
 
 (image:slide.067.png)
 But when we jump back in time around December of 2012, the map tell a very strong, memorable story about a storm that costed lives.

@@ -29,16 +29,8 @@
   <?= css('assets/css/responsive.css') ?>
   <?= css('assets/css/intro.css') ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->
-  <script src="http://use.typekit.com/aea1puq.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <?= snippet('typekit') ?>
 	<!-- ——————————————————————————————————————————————————————————————————— GA -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3202544-10"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-3202544-10');
-  </script>
+	<?= snippet('analytics') ?>
 </head>
-
 <body>

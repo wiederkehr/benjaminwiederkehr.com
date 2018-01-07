@@ -1,4 +1,5 @@
 <?= snippet('header') ?>
+<?= snippet('navigation') ?>
 
 <div class="container">
   <header>

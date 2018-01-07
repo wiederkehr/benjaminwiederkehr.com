@@ -10,11 +10,11 @@ Date: February 6, 2014
 
 ----
 
-Teaser: http://benjaminwiederkehr.com/content/talks/001-visualized-2014/slide.006.png
+Teaser: slide.006.png
 
 ----
 
-Excerpt: This is the script with references and acknowledgments of my talk at the Visualized Conference held at the Times Center in New York City on February 6th, 2014.
+Description: This is the script with references and acknowledgments of my talk at the Visualized Conference held at the Times Center in New York City on February 6th, 2014.
 
 ----
 
@@ -41,7 +41,7 @@ But, to build these tools that help people make discoveries, we have to know a f
 So today, I would like to speak a little bit about the power of **Learning from our Process**. _Compare to my talk at Visualized 2012 called (link:https://speakerdeck.com/wiederkehr/parts-of-the-process text:Parts of the Process)_
 
 (image:slide.007.png)
-A few days ago, we released a personal portrait of (link:http://iouri-in-sotschi.nzz.ch/ text:Iouri Podladchikov), a Snowboard professional with high aspirations for the Olympic Games in Sochi starting in a few days.  We didn’t know much about the complex movements involved in his runs and the incredible nomenclature for tricks. 
+A few days ago, we released a personal portrait of (link:http://iouri-in-sotschi.nzz.ch/ text:Iouri Podladchikov), a Snowboard professional with high aspirations for the Olympic Games in Sochi starting in a few days.  We didn’t know much about the complex movements involved in his runs and the incredible nomenclature for tricks.
 
 (image:slide.008.png)
 We did our best to explain the complex movements of one of the most difficult tricks in his arsenal, the fittingly titled  Yolo Flip. We enhanced the real-life footage with an simplified illustration to highlight key positions.  Furthermore, we separated the rotations around the horizontal and vertical axis to shed light on the different movements happening in parallel. _We just released an (link:http://datavisualization.ch/showcases/interactively-explore-the-yolo-flip/ text:article) explaining the thinking behind the interactive graphic._

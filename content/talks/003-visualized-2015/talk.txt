@@ -10,11 +10,11 @@ Date: October 8, 2015
 
 ----
 
-Teaser: http://benjaminwiederkehr.com/content/talks/001-visualized-2015/slide.005.png
+Teaser: slide.005.png
 
 ----
 
-Excerpt: This is the script with references and acknowledgments of my talk at the Visualized Conference held at the Times Center in New York City on October 8th, 2015.
+Description: This is the script with references and acknowledgments of my talk at the Visualized Conference held at the Times Center in New York City on October 8th, 2015.
 
 ----
 
@@ -71,7 +71,7 @@ Because tools are optimized for solving a specific problem, they are also, conse
 That means, we can replace our toolset to remove the limitations of our tools in order to overcome the limitations that we have set out to solve with our tools.
 
 (image:slide.017.png)
-If you have been working on data-driven interfaces and visualizations in the past years, chances are that technology has often been a limiting factor for you. Lucky for all of us, there are seemingly no such barriers anymore these days. Accessible applications and libraries allow anyone to create sophisticated results. We have proven the capabilities to improve existing tools or invent new ones. 
+If you have been working on data-driven interfaces and visualizations in the past years, chances are that technology has often been a limiting factor for you. Lucky for all of us, there are seemingly no such barriers anymore these days. Accessible applications and libraries allow anyone to create sophisticated results. We have proven the capabilities to improve existing tools or invent new ones.
 
 (image:slide.018.png)
 Like Ben and Casey have done so brilliantly with (link:# text:Processing). Or Zach, Theo and Arturo did with (link:# text:Openframeworks). Or Mike did with (link:# text:D3). And the beauty here is that we don't have to overcome the same limitation individually. We can do this collectively. And so, in many cases of individual frustration, the community already solved the problem for you. Quicker than you could. Better tested. More reliable. Openly shared. You can go ahead and read about the solution or plug it right in.

@@ -26,19 +26,19 @@ h2.divider-headline{
 
 /* CONTENT HEADER
 /////////////////////////////////////////////////////////////////*/
-#content-header   { margin-top: 150px;}
-#content-header h1{ font-size: 32px; margin: 0; font-weight: bold; text-transform: uppercase;}
-#content-header h2{ font-size: 32px; color: #aaa; margin: 0 0 1em; font-weight: normal; text-transform: uppercase;}
+.content-header   { margin-top: 150px;}
+.content-header__title{ font-size: 32px; margin: 0; font-weight: bold; text-transform: uppercase;}
+.content-header__subtitle{ font-size: 32px; color: #aaa; margin: 0 0 1em; font-weight: normal; text-transform: uppercase;}
 
-#content-header .lead{
+.content-header__lead{
   font: italic 18px / 1.5 "Georgia", Georgia, serif;
   margin-bottom: 0;
 }
 
 @media (max-width: 767px) {
   #header           { height: auto;}
-  #content-header   { height: auto;}
-  #content-header h1{ margin-top: 0;}
+  .content-header   { height: auto;}
+  .content-header__title{ margin-top: 0;}
 }
 
 /* TEASER
@@ -96,18 +96,14 @@ IMAGE CONTAINER
   background-position: 50%;
   height: 50vh;
 }
-.image-container #content-header{
+.content-header{
   color: #fff;
 }
-.image-container #content-header h1{
+.content-header__title{
   color: #fff;
 }
-.image-container #content-header h2{
+.content-header__subtitle{
   color: #aaa;
-}
-.header-image--about{
-  background-image: url('../img/header_vita.png');
-  background-position: 0 0;
 }
 /* PAGE
 /////////////////////////////////////////////////////////////////*/

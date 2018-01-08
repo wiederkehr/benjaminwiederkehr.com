@@ -6,4 +6,15 @@ Subtitle: Interaction & Information Design
 
 ----
 
-Lead: Benjamin Wiederkehr is an Interaction Designer with a focus on information visualization and interface design. With his work, he explores opportunities to innovate through the combination of design and technology, to simplify complex data in order to raise awareness, as well as to tell stories with an open intent and meaningful impact.
+Lead:
+I’m an Interaction Designer with a focus on information visualization and interface design. With my work, I explore opportunities to innovate through the combination of design and technology, to simplify complex data in order to raise awareness, comprehension and engagement, and to tell stories with an open intent and meaningful impact.
+
+----
+
+Roles:
+- Work: Interactive Things Design studio based in Zürich, Switzerland.
+- Publish: Datavisualization.ch Documenting research and practice in data visualization.
+- Interview: Substratum Interview series with today’s most influential thinkers & makers.
+- Organize: Hacks/Hackers ZRH Where journalists and technologists reinvent journalism.
+- Support: Opendata.ch Facilitating an open access to government data for everyone.
+- Write: Notes, Talks and Letters About what keeps me busy at day and up at night.

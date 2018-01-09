@@ -12,9 +12,9 @@ I’m an Interaction Designer with a focus on information visualization and inte
 ----
 
 Roles:
-- Work: Interactive Things Design studio based in Zürich, Switzerland.
-- Publish: Datavisualization.ch Documenting research and practice in data visualization.
-- Interview: Substratum Interview series with today’s most influential thinkers & makers.
-- Organize: Hacks/Hackers ZRH Where journalists and technologists reinvent journalism.
-- Support: Opendata.ch Facilitating an open access to government data for everyone.
-- Write: Notes, Talks and Letters About what keeps me busy at day and up at night.
+- Work: Interactive Things Design studio based in Zürich, Switzerland, (link:http://interactivethings.com text:Interactive Things)
+- Publish: Datavisualization.ch Documenting research and practice in data visualization, (link:http://datavisualization.ch text:Datavisualization.ch)
+- Interview: Substratum Interview series with today’s most influential thinkers & makers, (link:http://substratumseries.com text:Substratum Series)
+- Organize: Hacks/Hackers ZRH Where journalists and technologists reinvent journalism, (link:http://hackshackers.com text:Hacks/Hackers ZRH)
+- Support: Opendata.ch Facilitating an open access to government data for everyone, (link:http://opendata.ch text:Opendata.ch)
+- Write: Notes, Talks and Letters About what keeps me busy at day and up at night, (link:/notes text:Notes, Talks and Letters)

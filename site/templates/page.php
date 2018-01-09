@@ -12,7 +12,7 @@
 </div>
 <div class="container">
   <!-- ——————————————————————————————————————————————————————————————————— Content -->
-  <div id="content" class="span-18 prepend-1 last page-content">
+  <div class="content content--page span-18 prepend-1 last">
     <?= kirbytext($page->text()) ?>
   </div>
   <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->

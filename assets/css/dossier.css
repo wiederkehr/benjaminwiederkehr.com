@@ -19,16 +19,14 @@ h2.divider-headline{
 
 /* CONTENT
 /////////////////////////////////////////////////////////////////*/
-#content			    { padding-bottom: 72px; float: right;}
-.container--home #content{
-  margin-top: 100px;
-}
+.content			    { padding-bottom: 72px; float: right;}
+.content--home    { margin-top: 100px;}
 
 /* CONTENT HEADER
 /////////////////////////////////////////////////////////////////*/
-.content-header   { margin-top: 150px;}
-.content-header__title{ font-size: 32px; margin: 0; font-weight: bold; text-transform: uppercase;}
-.content-header__subtitle{ font-size: 32px; color: #aaa; margin: 0 0 1em; font-weight: normal; text-transform: uppercase;}
+.content-header           { margin-top: 150px;}
+.content-header__title    { font-size: 32px; margin: 0; font-weight: bold; text-transform: uppercase;}
+.content-header__subtitle { font-size: 32px; color: #aaa; margin: 0 0 1em; font-weight: normal; text-transform: uppercase;}
 
 .content-header__lead{
   font: italic 18px / 1.5 "Georgia", Georgia, serif;
@@ -39,6 +37,81 @@ h2.divider-headline{
   #header           { height: auto;}
   .content-header   { height: auto;}
   .content-header__title{ margin-top: 0;}
+}
+
+/*
+IMAGE CONTAINER
+/////////////////////////////////////////////////////////////////*/
+.image-container{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50vh;
+}
+.image-container .content-header__title{
+  color: #fff;
+}
+.image-container .content-header__subtitle{
+  color: #aaa;
+}
+.image-container .content-header__lead{
+  color: #fff;
+}
+
+/* PAGE
+/////////////////////////////////////////////////////////////////*/
+.content--page h3 {
+  font-family: "ff-netto-web",sans-serif;
+  font-size: 20px;
+  margin: 2.5em 0 0.5em;
+}
+.content--page h2 {
+  margin: 1.8em 0 0.5em;
+}
+.content--page .divider-headline{
+  margin-top: 20px;
+  margin-top: 100px;
+  clear: both;
+}
+
+/*
+INFORMATION
+/////////////////////////////////////////////////////////////////*/
+.contact__list dt {
+  width: 80px;
+  color: #aaa;
+}
+.contact__list dd {
+  margin-left: 80px;
+}
+.events__list dt {
+  width: 40px;
+  color: #aaa;
+}
+.events__list dd {
+  margin-left: 40px;
+}
+
+/* SIDEBAR
+/////////////////////////////////////////////////////////////////*/
+.sidebar{
+  padding-top: 50px;
+}
+.sidebar .section-title{
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.chapter__id{
+  display: inline-block;
+  width: 24px;
+}
+.sidebar__section--sticky { width: 190px;}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .sidebar__section--sticky { width: 140px;}
+}
+@media (max-width: 767px) {
+  .sidebar__section--sticky { display: none;}
 }
 
 /* TEASER
@@ -86,80 +159,4 @@ h2.divider-headline{
   .teaser--vita{
     background-position: 50% 0%;
   }
-}
-/*
-IMAGE CONTAINER
-/////////////////////////////////////////////////////////////////*/
-.image-container{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  height: 50vh;
-}
-.content-header{
-  color: #fff;
-}
-.content-header__title{
-  color: #fff;
-}
-.content-header__subtitle{
-  color: #aaa;
-}
-/* PAGE
-/////////////////////////////////////////////////////////////////*/
-.page-content h3 {
-  font-family: "ff-netto-web",sans-serif;
-  font-size: 20px;
-  margin: 2.5em 0 0.5em;
-}
-.page-content h2 {
-  margin: 1.8em 0 0.5em;
-}
-.page-content p {
-  /*font-size: 16px;*/
-}
-.page-content .divider-headline{
-  margin-top: 20px;
-  margin-top: 100px;
-  clear: both;
-}
-
-/*
-INFORMATION
-/////////////////////////////////////////////////////////////////*/
-.contact__list dt {
-  width: 80px;
-  color: #aaa;
-}
-.contact__list dd {
-  margin-left: 80px;
-}
-.events__list dt {
-  width: 40px;
-  color: #aaa;
-}
-.events__list dd {
-  margin-left: 40px;
-}
-
-/* SIDEBAR
-/////////////////////////////////////////////////////////////////*/
-.sidebar{
-  padding-top: 50px;
-}
-.sidebar .section-title{
-  margin-top: 50px;
-  margin-bottom: 15px;
-}
-.chapter__id{
-  display: inline-block;
-  width: 24px;
-}
-.sidebar__section--sticky { width: 190px;}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .sidebar__section--sticky { width: 140px;}
-}
-@media (max-width: 767px) {
-  .sidebar__section--sticky { display: none;}
 }

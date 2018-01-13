@@ -57,6 +57,12 @@ IMAGE CONTAINER
 .image-container .content-header__lead{
   color: #fff;
 }
+.image-container .content-header__lead a{
+  color: #fff;
+}
+.image-container .content-header__lead a:hover{
+  text-decoration: underline;
+}
 
 /* PAGE
 /////////////////////////////////////////////////////////////////*/
@@ -105,7 +111,18 @@ INFORMATION
   display: inline-block;
   width: 24px;
 }
-.sidebar__section--sticky { width: 190px;}
+.sidebar__section--sticky {
+  width: 190px;
+  position: static;
+}
+.sidebar__section--sticky--fixed {
+  position: fixed;
+  top: 0;
+}
+.scroll__link--active {
+  color: #444;
+  border-color: #aaa;
+}
 
 @media (min-width: 768px) and (max-width: 979px) {
   .sidebar__section--sticky { width: 140px;}

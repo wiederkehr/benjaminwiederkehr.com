@@ -1,42 +1,54 @@
 <div class="navigation">
   <div class="navigation__container">
     <a href="#navigation__panel" class="navigation__trigger <?php if(isset($contrast)){ echo 'navigation__trigger--contrast'; } ?>"><span>Navigation</span></a>
-    <nav class="navigation__panel navigation__panel--info">
-      <!-- ——————————————————————————————————————————————————————————————————— About -->
-      <div class="navigation__section span-5 append-1">
-        <h3 class="navigation__heading section-title">About</h3>
-        <p class="navigation__paragraph">
-          <a class="navigation__link" href="<?= html($site->url()) ?>/about">
-            Information about myself, who I am,what I do and how to get in touch with me.
-          </a>
-        </p>
+    <nav class="navigation__panel navigation__panel--info clearfix">
+      <div class="span-12">
+        <!-- ——————————————————————————————————————————————————————————————————— Information -->
+        <h3 class="navigation__heading section-title">Information</h3>
+        <ul class="navigation__list">
+          <li class="navigation__item span-4">
+            <a class="navigation__link" href="<?= html($site->url()) ?>/about">
+              <span class="navigation__title">About</span>
+              <span class="navigation__claim">Who I am and how to get in touch.</span>
+            </a>
+          </li>
+          <li class="navigation__item span-4">
+            <a class="navigation__link" href="<?= html($site->url()) ?>/resume">
+              <span class="navigation__title">Résumé</span>
+              <span class="navigation__claim">How I spend my time and energy.</span>
+            </a>
+          </li>
+          <li class="navigation__item span-4 last">
+            <a class="navigation__link" href="<?= html($site->url()) ?>/events">
+              <span class="navigation__title">Events</span>
+              <span class="navigation__claim">Upcoming and past appearances.</span>
+            </a>
+          </li>
+        </ul>
       </div>
-      <!-- ——————————————————————————————————————————————————————————————————— Notes -->
-      <div class="navigation__section span-5 append-1">
-        <h3 class="navigation__heading section-title">Notes</h3>
-        <p class="navigation__paragraph">
-          <a class="navigation__link" href="<?= html($site->url()) ?>/notes">
-            Reflections on the things that keep me busy during the day and up at night.
-          </a>
-        </p>
-      </div>
-      <!-- ——————————————————————————————————————————————————————————————————— Talks -->
-      <div class="navigation__section span-5 append-1">
-        <h3 class="navigation__heading section-title">Talks</h3>
-        <p class="navigation__paragraph">
-          <a class="navigation__link" href="<?= html($site->url()) ?>/talks">
-            Thoughts that I have shared in narrated form as talks, presentation and lectures.
-          </a>
-        </p>
-      </div>
-      <!-- ——————————————————————————————————————————————————————————————————— Letters -->
-      <div class="navigation__section span-5 append-1 last">
-        <h3 class="navigation__heading section-title">Letters</h3>
-        <p class="navigation__paragraph">
-          <a class="navigation__link" href="<?= html($site->url()) ?>/letters">
-            Personal messages to the people that live, work, think, play, and travel with me.
-          </a>
-        </p>
+      <div class="span-12 last">
+        <!-- ——————————————————————————————————————————————————————————————————— Content -->
+        <h3 class="navigation__heading section-title">Content</h3>
+         <ul class="navigation__list">
+          <li class="navigation__item span-4">
+            <a class="navigation__link" href="<?= html($site->url()) ?>/notes">
+              <span class="navigation__title">Notes</span>
+              <span class="navigation__claim">Reflections on what keeps me busy.</span>
+            </a>
+          </li>
+          <li class="navigation__item span-4">
+            <a class="navigation__link" href="<?= html($site->url()) ?>/talks">
+              <span class="navigation__title">Talks</span>
+              <span class="navigation__claim">Thoughts that I have shared as talks.</span>
+            </a>
+          </li>
+          <li class="navigation__item span-4 last">
+            <a class="navigation__link" href="<?= html($site->url()) ?>/letters">
+              <span class="navigation__title">Letters</span>
+              <span class="navigation__claim">Personal messages to my friends.</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>

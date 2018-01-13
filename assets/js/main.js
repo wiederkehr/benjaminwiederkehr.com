@@ -7,35 +7,49 @@ $(document).ready(function(){
       $('.navigation__panel').slideToggle(200);
     });
   };
-  if($('.menu__trigger').length > 0) {
-    $('.menu__trigger').click(function(e){
-      e.preventDefault();
-      $('.menu__container').toggleClass('menu__container--active');
-      $('.menu__trigger').toggleClass('menu__trigger--active');
-      $('.menu__panel').slideToggle(200);
-    });
-  };
 
-  if($('.sidebar a[href^="#"]').length > 0) {
-    $('.sidebar a[href^="#"]').click(function(e) {
+  if($('.scroll__link').length > 0) {
+
+    $('.scroll__link').click(function(e) {
   		e.preventDefault();
-  		$(window).stop(true).scrollTo(this.hash, {duration:1000, interrupt:true, offset:{top:-37}});
+      $("body, html").animate({scrollTop: $(this.hash).offset().top - 45}, 600);
   	});
+
+    var setCurrentItem = function() {
+      var sections = $('[id^=scroll-section]');
+      var current = sections[0].id;
+      for (var i = 0; i < sections.length; i++) {
+        if ( $('#' + sections[i].id).offset().top - 50 <= $(window).scrollTop() ) {
+          current = sections[i].id;
+        }
+      };
+      $(".scroll__link").removeClass('scroll__link--active').blur();
+      $(".scroll__link[href='#"+current+"']").addClass('scroll__link--active');
+    };
+
+    $(window).scroll(function(){
+      setCurrentItem();
+    });
+
+    setCurrentItem();
   };
 
   if($('.sidebar__section--sticky').length > 0) {
-    var elementPosition = $('.sidebar__section--sticky').offset();
-    $(window).scroll(function(){
-      if($(window).scrollTop() > elementPosition.top - 50){
-        $('.sidebar__section--sticky')
-        .css('position','fixed')
-        .css('top','0')
-        .toggleClass('fixed');
+    var sidebarOffset = $('.sidebar__section--sticky').offset();
+
+    var setSidebarPosition = function() {
+      if($(window).scrollTop() > sidebarOffset.top - 50){
+        $('.sidebar__section--sticky').addClass('sidebar__section--sticky--fixed');
       } else {
-        $('.sidebar__section--sticky')
-        .css('position','static');
+        $('.sidebar__section--sticky').removeClass('sidebar__section--sticky--fixed');
       };
+    };
+
+    $(window).scroll(function(){
+      setSidebarPosition();
     });
+
+    setSidebarPosition();
   };
 
 });

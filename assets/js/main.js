@@ -1,20 +1,19 @@
 $(document).ready(function(){
+  // Hide and Show Functionality for Navigation
   if($('.navigation__trigger').length > 0) {
     $('.navigation__trigger').click(function(e){
       e.preventDefault();
-      $('.navigation__container').toggleClass('navigation__container--active');
       $('.navigation__trigger').toggleClass('navigation__trigger--active');
-      $('.navigation__panel').slideToggle(200);
+      $('.navigation').toggleClass('navigation--active');
     });
   };
 
+  // Scroll-To and Scroll-Spy Functionality for Local Sidebar Links
   if($('.scroll__link').length > 0) {
-
     $('.scroll__link').click(function(e) {
   		e.preventDefault();
       $("body, html").animate({scrollTop: $(this.hash).offset().top - 45}, 600);
   	});
-
     var setCurrentItem = function() {
       var sections = $('[id^=scroll-section]');
       var current = sections[0].id;
@@ -26,17 +25,15 @@ $(document).ready(function(){
       $(".scroll__link").removeClass('scroll__link--active').blur();
       $(".scroll__link[href='#"+current+"']").addClass('scroll__link--active');
     };
-
+    setCurrentItem();
     $(window).scroll(function(){
       setCurrentItem();
     });
-
-    setCurrentItem();
   };
 
+  // Affix Functionality for Sticky Sidebar
   if($('.sidebar__section--sticky').length > 0) {
     var sidebarOffset = $('.sidebar__section--sticky').offset();
-
     var setSidebarPosition = function() {
       if($(window).scrollTop() > sidebarOffset.top - 50){
         $('.sidebar__section--sticky').addClass('sidebar__section--sticky--fixed');
@@ -44,12 +41,10 @@ $(document).ready(function(){
         $('.sidebar__section--sticky').removeClass('sidebar__section--sticky--fixed');
       };
     };
-
+    setSidebarPosition();
     $(window).scroll(function(){
       setSidebarPosition();
     });
-
-    setSidebarPosition();
   };
 
 });

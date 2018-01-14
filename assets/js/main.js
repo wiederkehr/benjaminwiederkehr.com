@@ -5,6 +5,7 @@ $(document).ready(function(){
       e.preventDefault();
       $('.navigation__trigger').toggleClass('navigation__trigger--active');
       $('.navigation').toggleClass('navigation--active');
+      $('.home__link').toggleClass('home__link--active');
     });
   };
 

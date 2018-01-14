@@ -1,5 +1,7 @@
-<div class="navigation__container">
-  <a href="#navigation__panel" class="navigation__trigger <?php if(isset($contrast)){ echo 'navigation__trigger--contrast'; } ?>"><span>Navigation</span></a>
+<div class="tools">
+  <div class="tools__container">
+    <a href="#navigation__panel" class="navigation__trigger <?php if(isset($contrast)){ echo 'navigation__trigger--contrast'; } ?>"><span>Navigation</span></a>
+  </div>
 </div>
 <div class="navigation">
   <div class="navigation__container">
@@ -28,7 +30,7 @@
           </li>
         </ul>
       </div>
-      <div class="span-11 append-1 last">
+      <div class="span-11 prepend-1 last">
         <!-- ——————————————————————————————————————————————————————————————————— Content -->
         <h3 class="navigation__heading section-title">Content</h3>
          <ul class="navigation__list">

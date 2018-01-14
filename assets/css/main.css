@@ -85,95 +85,37 @@ SECTIONS
 .section-title__span--right {
   float: right;
 }
-/* NAVIGATION
+/* TOOLS
 /////////////////////////////////////////////////////////////////*/
-.navigation{
-  position: fixed;
+.tools{
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  bottom: 0;
-  background: #e3e3e0;
-  z-index: 1000;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0ms ease-out 200ms,
-              opacity 200ms ease-out 200ms;
+  height: 40px;
+  z-index: 2000;
 }
-.navigation--active {
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0ms ease-out 0ms,
-              opacity 200ms ease-out 0ms;
-}
-
-.navigation__container{
+.tools__container{
   width: 950px;
   margin-right: auto;
   margin-left: auto;
-  zoom: 1;
-  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
-.navigation__panel{
-  padding: 32px 0 64px;
-  opacity: 0;
-  transform: translateY(100px);
-  transition: opacity 200ms ease-out 0ms,
-              transform 200ms ease-out 0ms;
+@media (min-width: 768px) and (max-width: 979px) {
+  .tools__container{width:710px;}
 }
-.navigation--active .navigation__panel{
-  opacity: 1;
-  transform: translateY(200px);
-  transition: opacity 200ms ease-out 0ms,
-              transform 200ms ease-out 0ms;
+@media (max-width: 767px) {
+  .tools__container{ width: auto; margin: 0 20px;}
 }
-.navigation__heading {
-  font-family: "ff-netto-web",sans-serif;
-  font-size: 16px;
-  margin-bottom: 0;
-}
-.navigation__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.navigation__item {
-
-}
-.navigation__link {
-  display: block;
-  box-sizing: border-box;
-  border-bottom: 1px solid #d4d5d3;
-  padding: 1em 0;
-}
-.navigation__link:hover{
-}
-.navigation__title{
-  font-family: "ff-netto-web",sans-serif;
-  font-size: 24px;
-  display: block;
-}
-.navigation__claim{
-  color: #aaa;
-  font: italic 14px/21px "Georgia", Georgia, serif;
-  display: block;
-  padding: 0 10px 0 0;
-  transition: color 200ms;
-
-}
-.navigation__link:hover .navigation__claim{
-  color: #444;
-}
+/* TRIGGER
+/////////////////////////////////////////////////////////////////*/
 .navigation__trigger {
-  position: absolute;
-  top: 0;
-  right: -10px;
   display: block;
   width: 20px;
   padding: 10px;
   height: 20px;
-  z-index: 2000;
+  transform: translateX(10px);
 }
 .navigation__trigger span {
   position: absolute;
@@ -239,10 +181,93 @@ SECTIONS
 .navigation__trigger--active:hover span:after {
   transform: translateY(0) rotate(-45deg);
 }
+/* NAVIGATION
+/////////////////////////////////////////////////////////////////*/
+.navigation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background: #e3e3e0;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  /* This timing applies on the way OUT */
+  transition: visibility 400ms ease-in-out 200ms,
+              opacity 400ms ease-in-out 200ms;
+}
+.navigation--active {
+  visibility: visible;
+  opacity: 1;
+  /* This timing applies on the way IN */
+  transition: visibility 400ms ease-out 0ms,
+              opacity 400ms ease-out 0ms;
+}
+.navigation__panel{
+  opacity: 0;
+  transform: translateY(-50px);
+  /* This timing applies on the way OUT */
+  transition: opacity 400ms ease-in 0ms,
+              transform 400ms ease-in 0ms;
+
+}
+.navigation--active .navigation__panel{
+  opacity: 1;
+  transform: translateY(0px);
+  /* This timing applies on the way IN */
+  transition: opacity 400ms ease-out 400ms,
+              transform 400ms ease-out 400ms;
+}
+.navigation__container{
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navigation__heading {
+  font-family: "ff-netto-web",sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation__item {
+
+}
+.navigation__link {
+  display: block;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d4d5d3;
+  padding: 1em 0;
+}
+.navigation__link:hover{
+}
+.navigation__title{
+  font-family: "ff-netto-web",sans-serif;
+  font-size: 24px;
+  display: block;
+}
+.navigation__claim{
+  color: #aaa;
+  font: italic 14px/21px "Georgia", Georgia, serif;
+  display: block;
+  padding: 0 10px 0 0;
+  transition: color 200ms;
+
+}
+.navigation__link:hover .navigation__claim{
+  color: #444;
+}
 @media (min-width: 768px) and (max-width: 979px) {
   .navigation__container{width:710px;}
 }
 @media (max-width: 767px) {
-  .navigation{ margin: 0 -20px; padding: 0 20px;}
-  .navigation__container{ width: auto;}
+  .navigation__container{ width: auto; margin: 0 20px;}
 }

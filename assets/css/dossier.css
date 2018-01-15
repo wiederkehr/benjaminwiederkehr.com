@@ -24,7 +24,7 @@ h2.divider-headline{
 
 /* CONTENT HEADER
 /////////////////////////////////////////////////////////////////*/
-.content-header           { margin-top: 150px;}
+.content-header           { }
 .content-header__title    { font-size: 32px; margin: 0; font-weight: bold; text-transform: uppercase;}
 .content-header__subtitle { font-size: 32px; color: #aaa; margin: 0 0 1em; font-weight: normal; text-transform: uppercase;}
 
@@ -46,7 +46,11 @@ IMAGE CONTAINER
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
-  height: 50vh;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em 0;
 }
 .image-container .content-header__title{
   color: #fff;
@@ -62,6 +66,11 @@ IMAGE CONTAINER
 }
 .image-container .content-header__lead a:hover{
   text-decoration: underline;
+}
+@media (max-width: 767px) {
+  #header           { height: auto;}
+  .content-header   { height: auto;}
+  .content-header__title{ margin-top: 0;}
 }
 
 /* PAGE

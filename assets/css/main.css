@@ -106,11 +106,9 @@ SECTIONS
   position: relative;
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  .tools { position: relative;}
-  .tools__container{width:710px;}
+  .tools__container{ width:710px;}
 }
 @media (max-width: 767px) {
-  .tools { position: relative;}
   .tools__container{ width: auto;}
 }
 /* HOME LINK
@@ -126,6 +124,9 @@ SECTIONS
   color: #aaa;
   transition: opacity 400ms ease-in 0ms,
               visibility 400ms ease-in 0ms;
+}
+@media (max-width: 767px) {
+  .home__link { transform: translateX(10px);}
 }
 .home__link--active {
   position: fixed;
@@ -152,6 +153,10 @@ SECTIONS
 .navigation__trigger--active {
   position: fixed;
   transform: translateX(-30px);
+}
+@media (max-width: 767px) {
+  .navigation__trigger { transform: translateX(-10px);}
+  .navigation__trigger--active { transform: translateX(-50px);}
 }
 .navigation__trigger span {
   position: absolute;
@@ -282,13 +287,25 @@ SECTIONS
   box-sizing: border-box;
   border-bottom: 1px solid #d4d5d3;
   padding: 1em 0;
+  transition: all 200ms;
 }
 .navigation__link:hover{
+  border-color: #aaa;
 }
 .navigation__title{
   font-family: "ff-netto-web",sans-serif;
   font-size: 24px;
+  line-height: 1;
+  margin-bottom: .5em;
   display: block;
+  position: relative;
+  padding-left: 0;
+  transition: all 200ms ease-in;
+}
+.navigation__link:hover .navigation__title {
+  color: #f55;
+  padding-left: 30px;
+  transition: all 200ms ease-out;
 }
 .navigation__claim{
   color: #aaa;
@@ -301,10 +318,25 @@ SECTIONS
 .navigation__link:hover .navigation__claim{
   color: #444;
 }
+.navigation__link .navigation__title svg{
+  font-size: 0.875em;
+  position: absolute;
+  left: 0;
+  top: 0.125em;
+  opacity: 0;
+  color: #444;
+  transform: translateX(-20px);
+  transition: all 200ms ease-in;
+}
+.navigation__link:hover .navigation__title svg{
+  color: #f55;
+  opacity: 1;
+  transform: translateX(0px);
+  transition: all 200ms ease-out;
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
-  .navigation {justify-content: flex-start; padding-top: 40px;}
   .navigation__container{width:710px;}
-  .navigation__claim {display: none;}
 }
 @media (max-width: 767px) {
   .navigation {justify-content: flex-start; padding-top: 40px;}

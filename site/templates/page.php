@@ -1,29 +1,40 @@
-<?= snippet('header', array('style' => 'dossier')) ?>
+<?= snippet('header') ?>
 <?= snippet('navigation', array('contrast' => true)) ?>
 
-<div class="image-container" style="background-image: url(<?= $page->image('header.png')->url() ?>); background-position: 0 0;">
+<!-- ——————————————————————————————————————————————————————————————————— Header -->
+<header class='page-header page-header--image' style="background-image: url(<?= $page->image('header.png')->url() ?>);">
   <div class="container">
-    <div class="content-header span-18 prepend-6 last">
-      <h1 class="content-header__title"><?= html($page->title()) ?></h1>
-      <h2 class="content-header__subtitle"><?= html($site->title()) ?></h2>
-      <p class="content-header__lead"><?= html($page->lead()) ?></p>
+    <div class="span-18 prepend-6 last">
+      <h1 class="page-header__title"><?= html($page->title()) ?></h1>
+      <h2 class="page-header__subtitle"><?= html($site->title()) ?></h2>
+      <p class="page-header__lead"><?= html($page->lead()) ?></p>
     </div>
   </div>
-</div>
-<div class="container">
-  <!-- ——————————————————————————————————————————————————————————————————— Content -->
-  <div class="content content--page span-18 prepend-1 last">
-    <?= kirbytext($page->text()) ?>
+</header>
+
+<!-- ——————————————————————————————————————————————————————————————————— Main -->
+<section class="main">
+  <div class="container">
+    <!-- ——————————————————————————————————————————————————————————————————— Content -->
+    <article class="content content--page content--sidebar span-18 prepend-1 last">
+      <?= kirbytext($page->text()) ?>
+    </article>
+    <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
+    <aside class="sidebar span-5">
+      <div class="sidebar__section--sticky">
+        <?= html($page->aside()) ?>
+      </div>
+    </aside>
   </div>
-  <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
-  <div class="sidebar span-5">
-    <div class="sidebar__section--sticky">
-      <?= html($page->table_of_content()) ?>
+</section>
+
+<!-- ——————————————————————————————————————————————————————————————————— Footer -->
+<footer class="credits">
+  <div class="container">
+    <div class="span-18 prepend-6 last">
+      <?= snippet('credits') ?>
     </div>
   </div>
-  <!-- ——————————————————————————————————————————————————————————————————— Credits -->
-  <div class="credits span-18 prepend-6 last">
-    <?= snippet('credits') ?>
-  </div>
-</div><!-- .container -->
+</footer>
+
 <?= snippet('footer') ?>

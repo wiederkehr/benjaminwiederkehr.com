@@ -8,9 +8,9 @@
     </div>
   </div>
 </div>
-<div class="navigation">
-  <div class="navigation__container">
-    <nav class="navigation__panel navigation__panel--info clearfix">
+<nav class="navigation">
+  <div class="container">
+    <div class="navigation__panel navigation__panel--info clearfix">
       <div class="span-11 append-1">
         <!-- ——————————————————————————————————————————————————————————————————— Information -->
         <h3 class="navigation__heading section-title">Information</h3>
@@ -22,8 +22,8 @@
             </a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="<?= html($site->url()) ?>/resume">
-              <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Résumé</span>
+            <a class="navigation__link" href="<?= html($site->url()) ?>/vita">
+              <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Vita</span>
               <span class="navigation__claim">How I spend my time and energy.</span>
             </a>
           </li>
@@ -59,6 +59,6 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
   </div>
-</div>
+</nav>

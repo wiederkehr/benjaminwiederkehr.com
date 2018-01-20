@@ -1,32 +1,46 @@
 <?= snippet('header') ?>
 <?= snippet('navigation') ?>
 
-<div class="container">
-  <div class="header span-5">
-    <h1 class="header__logo">
-      <a class="header__link" href="<?= url('/notes') ?>" rel="me" title="<?= html($site->title()) ?>">
-        <span class="header__title">Benjamin Wiederkehr</span>
-        <span class="header__subtitle">Notes</span>
-      </a>
-    </h1>
-  </div>
-  <div class="content__header span-18 prepend-1 last">
-    <h1 class="content__title"><?= html($page->title()) ?></h1>
-  </div>
-  <!-- ——————————————————————————————————————————————————————————————————— Content -->
-  <div class="content span-18 prepend-1 last">
-    <h3 class="section-title"><?= $page->date('F j, Y'); ?></h3>
-    <div class="content__body content__body--note">
-      <?= kirbytext($page->text()) ?>
+<!-- ——————————————————————————————————————————————————————————————————— Header -->
+<header class='articles-header'>
+  <div class="container">
+    <div class="span-5">
+      <h1 class="articles-header__logo">
+        <a class="articles-header__link" href="<?= url('/notes') ?>" title="<?= html($page->title()) ?>">
+          <span class="articles-header__title">Benjamin Wiederkehr</span>
+          <span class="articles-header__subtitle">Notes</span>
+        </a>
+      </h1>
     </div>
-    <?= snippet('pagination') ?>
+    <div class="article-header span-18 prepend-1 last">
+      <h2 class="article-header__title"><?= html($page->title()) ?></h2>
+    </div>
   </div>
-  <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
-  <?php snippet('sidebar', array('about' => 'Hello, my name is Benjamin. I’m Interaction & Information Designer from Zürich. This is where I reflect on the things that keep me busy during the day and up at night.')) ?>
-  <!-- ——————————————————————————————————————————————————————————————————— Credits -->
-  <div class="credits span-18 prepend-6 last">
-    <?= snippet('credits') ?>
+</header>
+
+<!-- ——————————————————————————————————————————————————————————————————— Main -->
+<section class="main">
+  <div class="container">
+    <!-- ——————————————————————————————————————————————————————————————————— Content -->
+    <div class="content content--sidebar span-18 prepend-1 last">
+      <h3 class="section-title"><?= $page->date('F j, Y'); ?></h3>
+      <article class="article-body article-body--note">
+        <?= kirbytext($page->text()) ?>
+      </article>
+      <?= snippet('pagination') ?>
+    </div>
+    <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
+    <?php snippet('sidebar', array('about' => 'Hello, my name is Benjamin. I’m Interaction & Information Designer from Zürich. This is where I reflect on the things that keep me busy during the day and up at night.')) ?>
   </div>
-</div><!-- .container -->
+</section>
+
+<!-- ——————————————————————————————————————————————————————————————————— Footer -->
+<footer class="credits">
+  <div class="container">
+    <div class="span-18 prepend-6 last">
+      <?= snippet('credits') ?>
+    </div>
+  </div>
+</footer>
 
 <?= snippet('footer') ?>

@@ -36,7 +36,7 @@ $(document).ready(function(){
   if($('.sidebar__section--sticky').length > 0) {
     var sidebarOffset = $('.sidebar__section--sticky').offset();
     var setSidebarPosition = function() {
-      if($(window).scrollTop() > sidebarOffset.top - 50){
+      if($(window).scrollTop() > sidebarOffset.top - 48){
         $('.sidebar__section--sticky').addClass('sidebar__section--sticky--fixed');
       } else {
         $('.sidebar__section--sticky').removeClass('sidebar__section--sticky--fixed');

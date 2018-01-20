@@ -10,8 +10,8 @@ To inquire about an appearance at a future event, please <a href="/about#contact
 ----
 
 Text:
-<h2 class="divider-headline">Events</h2>
-<h3 id="scroll-section-1">Upcoming</h3>
+<h1 class="section-title">Events</h1>
+<h2 id="scroll-section-1">Upcoming</h2>
 <dl class="events__list">
   <dt>2018</dt><dd>SRF, Switzerland. «Storytelling Through Data Visualization»</dd>
   <dt>2018</dt><dd>Namics Conference, Austria, «Talk on Information Visualization»</dd>
@@ -21,7 +21,7 @@ Text:
   <dt>2018</dt><dd>Swiss Confederation, Switzerland, «Open Data»</dd>
 </dl>
 
-<h3 id="scroll-section-2">Past Public</h3>
+<h2 id="scroll-section-2">Past Public</h2>
 <dl class="events__list">
   <dt>2016</dt><dd>UX Camp, Switzerland, «Talk on Living Style Guides»</dd>
   <dt>2016</dt><dd>MAZ MultimediaTag, Switzerland, «Talk on Interactive Storytelling»</dd>
@@ -66,7 +66,7 @@ Text:
   <dt>2011</dt><dd>SXSW, USA, «Social Media Data Visualization»</dd>
 </dl>
 
-<h3 id="scroll-section-3">Past Academic</h3>
+<h2 id="scroll-section-3">Past Academic</h2>
 <dl class="events__list">
   <dt>2016</dt><dd>Schloss Dagstuhl, Germany, «Seminar on Data-Driven Storytelling»</dd>
   <dt>2016</dt><dd>Zürich University of the Arts, Switzerland, «Mentoring on Interaction Design»</dd>
@@ -90,7 +90,7 @@ Text:
   <dt>2008</dt><dd>Swiss Marketing Academy, Switzerland, «Lecture on Usability and Webdesign»</dd>
 </dl>
 
-<h3 id="scroll-section-4">Past Corporate</h3>
+<h2 id="scroll-section-4">Past Corporate</h2>
 <dl class="events__list">
   <dt>2013</dt><dd>SRF, Switzerland. «Storytelling Through Data Visualization»</dd>
   <dt>2013</dt><dd>Namics Conference, Austria, «Talk on Information Visualization»</dd>
@@ -102,11 +102,11 @@ Text:
 
 ----
 
-Table of Content:
-<h3 class="sidebar__title section-title">Table of Content</h3>
+Aside:
+<h3 class="sidebar__title section-title">Content</h3>
 <ul class="sidebar__content sidebar__list">
-  <li><a class="sidebar__link scroll__link" href="#scroll-section-1"><span class="chapter__id">1</span>Upcoming</a></li>
-  <li><a class="sidebar__link scroll__link" href="#scroll-section-2"><span class="chapter__id">2</span>Past Public</a></li>
-  <li><a class="sidebar__link scroll__link" href="#scroll-section-3"><span class="chapter__id">3</span>Past Academic</a></li>
-  <li><a class="sidebar__link scroll__link" href="#scroll-section-4"><span class="chapter__id">4</span>Past Corporate</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-1">Upcoming</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-2">Past Public</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-3">Past Academic</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-4">Past Corporate</a></li>
 </ul>

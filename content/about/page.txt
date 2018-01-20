@@ -8,15 +8,15 @@ I am an Interaction Designer with a focus on information visualization and inter
 ----
 
 Text:
-<h2 class="divider-headline">About</h2>
-<h3 id="scroll-section-1">Biography</h3>
+<h1 class="section-title">About</h1>
+<h2 id="scroll-section-1">Biography</h2>
 Benjamin Wiederkehr is an Interaction Designer with a focus on information visualization and interface design. With his work, he explores opportunities to innovate through the combination of design and technology, to simplify complex data in order to raise awareness, as well as to tell stories with an open intent and meaningful impact.
 
 Between 2005 and 2008, Benjamin has been studying the foundations of interaction design at the BA in Design program of the Zürich University of the Arts, earning a Bachelor’s Degree in Product Design with a specialization in Interaction Design. Between 2012 and 2014, he has been studying visual models and interaction patterns in exploratory tools for personal financial information at the MA in Design program of the Zürich University of the Arts. His research and work interests center around persuasive technology, information and knowledge visualization and emerging interaction principles between humans and data. Benjamin lectures on the topics of information visualization and interaction design at the Zürich University of the Arts and the University of the Arts Bern. In the past, he gave lectures at international universities including UC Berkeley, FH Potsdam, and IUAV Venice.
 
 He is founding partner and managing director of Interactive Things, a design and technology studio specialized in data-driven tools and experiences. Together with his team, Benjamin helps clients including the United Nations, World Economic Forum, National Geographic, and Al Jazeera to create enga­ging and emotional interactions with their audience. Their work has been exhibited in Indiana, Beijing, Seoul, Shanghai, London, and Barcelona and it has been awarded with the European Newspaper Award, GEN Data Journalism Award, and the Grimme Online Award.
 
-<h3 id="scroll-section-2">Contact</h3>
+<h2 id="scroll-section-2">Contact</h2>
 <dl class="contact__list">
   <dt>Phone</dt><dd>(tel: +41765333372 text: +41 76 533 33 33)</dd>
   <dt>Email</dt><dd>(email: hello@benjaminwiederkehr.com text:hello@benjaminwiederkehr.com)</dd>
@@ -24,15 +24,15 @@ He is founding partner and managing director of Interactive Things, a design and
   <dt>Address</dt><dd>(link:https://goo.gl/maps/AWRmAMus7dp text:Dennlerstrasse 1, CH-8048 Zürich, Switzerland)</dd>
 </dl>
 
-<h3 id="scroll-section-3">Connect</h3>
-(link:https://facebook.com/benjamin.wiederkehr text:Facebook), (link:https://twitter.com/wiederkehr text:Twitter), (link:https://linkedin.com/in/benjaminwiederkehr text:LinkedIn), (link:https://www.instagram.com/wiederkehr/ text:Instagram), (link:https://www.pinterest.ch/wiederkehr/ text:Pinterest), (link:https://found.benjaminwiederkehr.com/ text:Tumblr), (link:https://github.com/wiederkehr text:GitHub)
+<h2 id="scroll-section-3">Connect</h2>
+(link:https://twitter.com/wiederkehr text:Twitter), (link:https://facebook.com/benjamin.wiederkehr text:Facebook), (link:https://linkedin.com/in/benjaminwiederkehr text:LinkedIn), (link:https://www.instagram.com/wiederkehr/ text:Instagram), (link:https://www.pinterest.ch/wiederkehr/ text:Pinterest), (link:https://found.benjaminwiederkehr.com/ text:Tumblr), (link:https://github.com/wiederkehr text:GitHub)
 
 ----
 
-Table of Content:
-<h3 class="sidebar__title section-title">Table of Content</h3>
+Aside:
+<h3 class="sidebar__title section-title">Content</h3>
 <ul class="sidebar__content sidebar__list">
-  <li><a class="sidebar__link scroll__link" href="#scroll-section-1"><span class="chapter__id">1</span> Biography</a></li>
-  <li><a class="sidebar__link scroll__link" href="#scroll-section-2"><span class="chapter__id">2</span> Contact</a></li>
-  <li><a class="sidebar__link scroll__link" href="#scroll-section-3"><span class="chapter__id">3</span> Connect</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-1">Biography</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-2">Contact</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-3">Connect</a></li>
 </ul>

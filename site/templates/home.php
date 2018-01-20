@@ -1,35 +1,46 @@
-<?= snippet('header', array('style' => 'dossier')) ?>
+<?= snippet('header') ?>
 <?= snippet('navigation') ?>
 
-<div class="container">
-  <div class="content-header span-24">
-    <h1 class="content-header__title"><?= html($page->title()) ?></h1>
-    <h2 class="content-header__subtitle"><?= html($page->subtitle()) ?></h2>
-    <p class="content-header__lead"><?= html($page->lead()) ?></p>
-  </div>
-</div>
-<div class="container">
-  <!-- ——————————————————————————————————————————————————————————————————— Content -->
-  <div class="content content--home span-24">
-    <div class="span-8">
-      <div class="teaser teaser--vita">
-        <a href="<?= url('/vita') ?>">Vita</a>
-      </div>
-    </div>
-    <div class="span-8">
-      <div class="teaser teaser--work">
-        <a href="<?= url('/work') ?>">Work</a>
-      </div>
-    </div>
-    <div class="span-8 last">
-      <div class="teaser teaser--studio">
-        <a href="<?= url('/studio') ?>">Studio</a>
-      </div>
+<header class='page-header page-header--home'>
+  <div class="container">
+    <div class="span-24">
+      <h1 class="page-header__title"><?= html($page->title()) ?></h1>
+      <h2 class="page-header__subtitle"><?= html($page->subtitle()) ?></h2>
+      <p class="page-header__lead"><?= html($page->lead()) ?></p>
     </div>
   </div>
-  <!-- ——————————————————————————————————————————————————————————————————— Credits -->
-  <div class="credits span-24">
-    <?= snippet('credits') ?>
+</header>
+
+<!-- ——————————————————————————————————————————————————————————————————— Content -->
+<section class="main">
+  <div class="container">
+    <div class="content content--home span-24">
+      <div class="span-8">
+        <div class="teaser teaser--vita">
+          <a href="<?= url('/vita') ?>">Vita</a>
+        </div>
+      </div>
+      <div class="span-8">
+        <div class="teaser teaser--work">
+          <a href="<?= url('/work') ?>">Work</a>
+        </div>
+      </div>
+      <div class="span-8 last">
+        <div class="teaser teaser--studio">
+          <a href="<?= url('/studio') ?>">Studio</a>
+        </div>
+      </div>
+    </div>
   </div>
-</div><!-- .container -->
+</section>
+
+<!-- ——————————————————————————————————————————————————————————————————— Credits -->
+<footer class="credits">
+  <div class="container">
+    <div class="span-24">
+      <?= snippet('credits') ?>
+    </div>
+  </div>
+</footer>
+
 <?= snippet('footer') ?>

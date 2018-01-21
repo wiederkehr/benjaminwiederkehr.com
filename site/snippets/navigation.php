@@ -18,19 +18,19 @@
           <li class="navigation__item">
             <a class="navigation__link" href="<?= html($site->url()) ?>/about">
               <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> About</span>
-              <span class="navigation__claim">Who I am, what I do and how to get in touch with me.</span>
+              <span class="navigation__claim">Brief overview about who I am, what I do, and how to get in touch with me.</span>
             </a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="<?= html($site->url()) ?>/vita">
               <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Vita</span>
-              <span class="navigation__claim">How I spend my time and energy.</span>
+              <span class="navigation__claim">My curriculum vitae with all details about my work and life.</span>
             </a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="<?= html($site->url()) ?>/events">
               <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Events</span>
-              <span class="navigation__claim">Upcoming and past appearances.</span>
+              <span class="navigation__claim">Complete list of past and future events and appearances.</span>
             </a>
           </li>
         </ul>
@@ -54,7 +54,7 @@
           <li class="navigation__item">
             <a class="navigation__link" href="<?= html($site->url()) ?>/letters">
               <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Letters</span>
-              <span class="navigation__claim">Personal messages to the people that live, work, think, play, and travel with me.</span>
+              <span class="navigation__claim">Personal messages to the people that I live, work, think, play, and travel with.</span>
             </a>
           </li>
         </ul>

@@ -11,10 +11,54 @@ I’m an Interaction Designer with a focus on information visualization and inte
 
 ----
 
-Roles:
-- Work: Interactive Things Design studio based in Zürich, Switzerland, (link:http://interactivethings.com text:Interactive Things)
-- Publish: Datavisualization.ch Documenting research and practice in data visualization, (link:http://datavisualization.ch text:Datavisualization.ch)
-- Interview: Substratum Interview series with today’s most influential thinkers & makers, (link:http://substratumseries.com text:Substratum Series)
-- Organize: Hacks/Hackers ZRH Where journalists and technologists reinvent journalism, (link:http://hackshackers.com text:Hacks/Hackers ZRH)
-- Support: Opendata.ch Facilitating an open access to government data for everyone, (link:http://opendata.ch text:Opendata.ch)
-- Write: Notes, Talks and Letters About what keeps me busy at day and up at night, (link:/notes text:Notes, Talks and Letters)
+Work:
+Short paragraph about my motivation for working. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+- (link:interactivethings.com text:Interactive Things)
+
+----
+
+Write:
+Short paragraph about my motivation for writing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+- (link:datavisualization.ch text:Datavisualization.ch)
+- (link:substratumseries.com text:Substratumseries.com)
+
+----
+
+Speak:
+Short paragraph about my motivation for speaking. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+----
+
+Teach:
+Short paragraph about my motivation for teaching. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+----
+
+Organize:
+Short paragraph about my motivation for organizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+- Co-Organizer of Hacks/Hackers Zürich where journalists and technologists meet.
+- Co-Organizer of Make.OpenData.ch where designers and developers build stuff with open data.
+
+----
+
+Learn:
+Short paragraph about my motivation for continuous learning. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+- New boundaries in interaction design and data visualization
+- How data empowers individuals and not corporations
+- Designing more human and more resilient organizations
+
+----
+
+Other:
+But, you might also know me as being:
+- Retired gymnast
+- Retired dj
+- Caretaker of Tollak
+- Husband of Anna
+
+----

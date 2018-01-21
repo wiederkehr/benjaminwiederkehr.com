@@ -11,6 +11,7 @@
 .page-header__title{
   font-size: 2rem;
   font-weight: bold;
+  line-height: 1;
   margin: 0;
   text-transform: uppercase;
 }
@@ -18,11 +19,12 @@
   color: #aaa;
   font-size: 2rem;
   font-weight: normal;
+  line-height: 1;
   margin: 0 0 1em;
   text-transform: uppercase;
 }
 .page-header__lead{
-  font: italic 18px / 1.5 "Georgia", Georgia, serif;
+  font-size: 1.5rem;
   margin: 0;
 }
 .page-header--image{
@@ -48,6 +50,9 @@
   .page-header{
     min-height: 100vh;
   }
+  .page-header__lead{
+    font-size: 1.25rem;
+  }
 }
 
 /* ARTICLES HEADER — for article index pages
@@ -57,6 +62,7 @@
 }
 .articles-header__logo{
   font-size: 2.75rem;
+  line-height: 1;
   letter-spacing: -2.5px;
   margin: 0;
 }
@@ -89,6 +95,7 @@
 .article-header__title{
   font-size: 2.75rem;
   font-weight: normal;
+  line-height: 1;
   margin: 5.5rem 0 0 0;
 }
 @media (max-width: 979px) {
@@ -117,21 +124,25 @@
   }
 }
 
+.content--page a {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
 /* CONTACT LIST
 /////////////////////////////////////////////////////////////////*/
 .contact__list dt {
-  width: 80px;
-  color: #aaa;
+  width: 6em;
 }
 .contact__list dd {
-  margin-left: 80px;
+  margin-left: 6em;
 }
 .events__list dt {
-  width: 40px;
-  color: #aaa;
+  width: 3em;
+  font-feature-settings: "tnum";
 }
 .events__list dd {
-  margin-left: 40px;
+  margin-left: 3em;
 }
 
 /* ARTICLES — for blog index pages
@@ -141,6 +152,7 @@
   position: relative;
 }
 .articles__title{
+  line-height: 1;
   margin:  2rem 0;
 }
 .articles__link{
@@ -160,7 +172,7 @@
   opacity: 1;
 }
 .articles__item__date{
-  font: italic 0.875rem "Georgia", Georgia, serif;
+  font-size: 0.875rem;
   color: #aaa;
   position: absolute;
   right: 0;
@@ -183,7 +195,8 @@
   padding: 0 0 .5rem;
   margin: 2rem 0;
 }
-.article-body a:hover {
+.article-body a {
+  font-weight: normal;
   text-decoration: underline;
 }
 .article-body img {
@@ -198,6 +211,7 @@ PAGINATION
   font-size: 0.75rem;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .pagination__link {
   color: #aaa;
@@ -225,20 +239,20 @@ PAGINATION
   margin: 0 0 2rem
 }
 .sidebar__lead{
-  font: italic 0.875rem / 1.5 "Georgia", Georgia, serif;
+  font-size: 0.875rem;
   margin-top: 2rem
 }
 .sidebar__list{
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   list-style: none;
 }
 .sidebar__link{
   border-bottom: 1px solid #d4d5d3;
   color: #aaa;
   display: block;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.5rem;
-  text-decoration: none;
 }
 .sidebar__link:hover,
 .sidebar__link--active,
@@ -271,27 +285,28 @@ CREDITS
 /////////////////////////////////////////////////////////////////*/
 .credits{
   color: #aaa;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   padding-bottom: 3rem;
 }
-.credits__link{
+.credits a{
   color: #aaa;
-  font-weight: bold;
-  text-decoration: none;
 }
-.credits__link:hover{
+.credits a:hover{
   color: #444;
   text-decoration: none;
 }
-
+.credits__body{
+  display: flex;
+  justify-content: space-between;
+}
 /*
 SECTION TITLE
 /////////////////////////////////////////////////////////////////*/
 .section-title {
   border-bottom: 3px solid #d4d5d3;
   color: #aaa;
-  font-family: "Helvetica", Arial, sans-serif;
-  font-size: 0.625rem;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
   font-weight: normal;
   margin: 0 0 1rem;
   padding: 0 0 2px;
@@ -332,6 +347,7 @@ SECTION TITLE
   align-items: center;
   color: #aaa;
   display: flex;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   height: 20px;
   opacity: 0;
   padding: 10px;
@@ -354,7 +370,6 @@ SECTION TITLE
 }
 .home__link span {
   display: inline-block;
-  font-size: 0.75rem;
   text-transform: uppercase;
   margin-left: 0.5em;
 }
@@ -482,7 +497,7 @@ SECTION TITLE
               transform 400ms ease-out 400ms;
 }
 .navigation__heading {
-  font-family: "ff-netto-web";
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   margin-bottom: 0;
 }
@@ -505,8 +520,8 @@ SECTION TITLE
 }
 .navigation__title{
   display: block;
-  font-family: "ff-netto-web";
-  font-size: 24px;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
   line-height: 1;
   margin-bottom: 0.5rem;
   padding-left: 0;
@@ -514,16 +529,14 @@ SECTION TITLE
   transition: all 200ms ease-in;
 }
 .navigation__link:hover .navigation__title {
-  color: #f55;
   padding-left: 2rem;
   transition: all 200ms ease-out;
 }
 .navigation__claim{
   color: #aaa;
   display: block;
-  font: italic 14px/21px "Georgia", Georgia, serif;
+  font-weight: normal;
   transition: color 200ms;
-
 }
 .navigation__link:hover .navigation__claim{
   color: #444;
@@ -539,16 +552,11 @@ SECTION TITLE
   transition: all 200ms ease-in;
 }
 .navigation__link:hover .navigation__title svg{
-  color: #f55;
   opacity: 1;
   transform: translateX(0px);
   transition: all 200ms ease-out;
 }
 @media (max-width: 767px) {
-  .navigation {
-    justify-content: flex-start;
-    padding-top: 3rem;
-  }
   .navigation__title{
     margin-bottom: 0;
   }
@@ -556,49 +564,71 @@ SECTION TITLE
     display: none;
   }
 }
-/* TEASER
+
+/* ROLES
 /////////////////////////////////////////////////////////////////*/
-.teaser{
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  transition: background 200ms;
+.role{
+  display: flex;
+  margin-bottom: 3rem;
 }
-.teaser a{
-  font-family: "ff-netto-web",sans-serif;
-  color: #efefec;
-  display: block;
-  line-height: 310px;
-  padding: 0 20px;
-  margin: 0 0 20px;
+.role--odd {
+  flex-direction: row;
+}
+.role--even {
+  flex-direction: row-reverse;
+}
+.role__content {
+  flex-basis: 50%;
+  padding-left: 2rem;
+}
+.role--even .role__content {
+  padding-left: 0;
+  padding-right: 2rem;
+}
+.role__figure {
+  flex-basis: 50%;
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
+.role--even .role__figure {
+  padding-right: 0;
+  padding-left: 2rem;
+}
+.role__link{
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow:  0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
+  height: 310px;
+  padding: 20px;
   text-align: center;
-  background: rgba(69,69,68, 0.75);
-  transition: background 200ms;
   text-transform: uppercase;
+  transition: all 200ms;
 }
-.teaser a:hover{
-  background: rgba(255,175,175, 0.75);
+.role__link:hover{
+  box-shadow:  0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(245,165,155, 1);
   color: #fff;
 }
-.teaser:hover{
-  background-size: 105%;
-}
-.teaser--vita{
-  background-image: url('../img/teaser_vita.png');
-}
-.teaser--work{
-  background-image: url('../img/teaser_work.png');
-}
-.teaser--studio{
-  background-image: url('../img/teaser_studio.png');
-}
 @media (min-width: 768px) and (max-width: 979px) {
-  .teaser a{
-    line-height: 230px;
+  .role__link{
+    height: 230px;
   }
 }
 @media (max-width: 767px) {
-  .teaser--vita{
-    background-position: 50% 0%;
+  .role--odd,
+  .role--even {
+    flex-direction: column;
+  }
+  .role--odd .role__content,
+  .role--even .role__content,
+  .role--odd .role__figure,
+  .role--even .role__figure{
+    padding-left: 0;
+    padding-right: 0;
   }
 }

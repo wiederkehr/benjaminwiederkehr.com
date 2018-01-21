@@ -6,6 +6,14 @@ Author: Benjamin Wiederkehr
 
 ----
 
+Credits: © (date: year) (email: hello@benjaminwiederkehr.com text: Benjamin Wiederkehr)
+
+----
+
+Twitter: (twitter: @wiederkehr)
+
+----
+
 Description: Benjamin Wiederkehr, wholeheartedly passionate about making things understandable. Partner at Interactive Things, Editor at Datavisualization.ch
 
 ----

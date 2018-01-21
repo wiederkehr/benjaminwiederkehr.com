@@ -3,15 +3,21 @@
 body {
   background:#efefec;
   color:#444;
-  font-size: 100%;
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 112.5%;
+  font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  font-variant-numeric: lining-nums;
   line-height: 1.5;
+}
+@media (max-width: 767px) {
+  body {
+    font-size: 100%;
+  }
 }
 
 /* Headings
 /////////////////////////////////////////////////////////////////*/
-h1 { font-family: "ff-netto-web"; font-size: 2.0rem; line-height: 1; margin: 2em 0 1em; font-weight: bold;}
-h2 { font-family: "ff-netto-web"; font-size: 1.5rem; line-height: 1; margin: 2em 0 1em; font-weight: bold;}
+h1 { font-family: "ff-netto-web", sans-serif; font-size: 2.0rem; margin: 2em 0 1em; font-weight: bold;}
+h2 { font-family: "ff-netto-web", sans-serif; font-size: 1.5rem; margin: 2em 0 0.5em; font-weight: bold;}
 h3 { font-size: 1.0rem; margin: 1em 0; font-weight: bold;}
 h4 { font-size: 1.0rem; margin: 1em 0; font-weight: normal;}
 h5 { font-size: 1.0rem; margin: 1em 0; font-weight: normal;}
@@ -31,8 +37,9 @@ ul          { list-style-type:disc; }
 ol          { list-style-type:decimal; }
 
 dl          { margin: 0 0 1.5em 0; }
-dl dt       { float: left; text-align: left;}
+dt          { color: #aaa; float: left; text-align: left; }
 dd          { }
+dl:after    { content:""; display:table; clear:both; }
 
 abbr,
 acronym     { border-bottom:1px dotted #666; }
@@ -40,10 +47,10 @@ address     { margin-top:1.5em; font-style:italic; }
 del         { color:#666; }
 
 a:focus,
-a:hover     { color:#444;}
+a:hover     { color:#222;}
 a:focus,
 a:active    { outline:none;}
-a           { color:#444; text-decoration:none; font-weight: bold;}
+a           { color:#444; text-decoration: none; text-decoration-skip: ink; font-weight: bold;}
 
 small       { font-size: 0.8333em; }
 blockquote  { margin:1.5em; color:#666; font-style:italic; }

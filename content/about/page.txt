@@ -17,11 +17,16 @@ Between 2005 and 2008, Benjamin has been studying the foundations of interaction
 He is founding partner and managing director of Interactive Things, a design and technology studio specialized in data-driven tools and experiences. Together with his team, Benjamin helps clients including the United Nations, World Economic Forum, National Geographic, and Al Jazeera to create enga­ging and emotional interactions with their audience. Their work has been exhibited in Indiana, Beijing, Seoul, Shanghai, London, and Barcelona and it has been awarded with the European Newspaper Award, GEN Data Journalism Award, and the Grimme Online Award.
 
 <h2 id="scroll-section-2">Contact</h2>
+
 <dl class="contact__list">
-  <dt>Phone</dt><dd>(tel: +41765333372 text: +41 76 533 33 33)</dd>
-  <dt>Email</dt><dd>(email: hello@benjaminwiederkehr.com text:hello@benjaminwiederkehr.com)</dd>
-  <dt>Telegram</dt><dd>(link: https://t.me/wiederkehr text:https://t.me/wiederkehr)</dd>
-  <dt>Address</dt><dd>(link:https://goo.gl/maps/AWRmAMus7dp text:Dennlerstrasse 1, CH-8048 Zürich, Switzerland)</dd>
+  <dt>Phone</dt>
+  <dd>(tel: +41765333372 text: +41 76 533 33 33)</dd>
+  <dt>Email</dt>
+  <dd>(email: hello@benjaminwiederkehr.com text:hello@benjaminwiederkehr.com)</dd>
+  <dt>Telegram</dt>
+  <dd>(link: https://t.me/wiederkehr text:https://t.me/wiederkehr)</dd>
+  <dt>Address</dt>
+  <dd>(link:https://goo.gl/maps/AWRmAMus7dp text:Dennlerstrasse 1, CH-8048 Zürich, Switzerland)</dd>
 </dl>
 
 <h2 id="scroll-section-3">Connect</h2>

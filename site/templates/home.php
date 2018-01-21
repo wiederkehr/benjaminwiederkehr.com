@@ -14,21 +14,67 @@
 <!-- ——————————————————————————————————————————————————————————————————— Content -->
 <section class="main">
   <div class="container">
-    <div class="content content--home span-24">
-      <div class="span-8">
-        <div class="teaser teaser--vita">
-          <a href="<?= url('/vita') ?>">Vita</a>
-        </div>
+    <div class="role role--odd">
+      <div class="role__figure">
+        <a class="role__link" href="<?= url('interactivethings.com') ?>">Work</a>
       </div>
-      <div class="span-8">
-        <div class="teaser teaser--work">
-          <a href="<?= url('/work') ?>">Work</a>
-        </div>
+      <div class="role__content">
+        <h2>Work</h2>
+        <?= kirbytext($page->work()) ?>
       </div>
-      <div class="span-8 last">
-        <div class="teaser teaser--studio">
-          <a href="<?= url('/studio') ?>">Studio</a>
-        </div>
+    </div>
+    <div class="role role--even">
+      <div class="role__figure">
+        <a class="role__link" href="<?= url('#') ?>">Write</a>
+      </div>
+      <div class="role__content">
+        <h2>Write</h2>
+        <?= kirbytext($page->write()) ?>
+      </div>
+    </div>
+    <div class="role role--odd">
+      <div class="role__figure">
+        <a class="role__link" href="<?= url('#') ?>">Speak</a>
+      </div>
+      <div class="role__content">
+        <h2>Speak</h2>
+        <?= kirbytext($page->speak()) ?>
+      </div>
+    </div>
+    <div class="role role--even">
+      <div class="role__figure">
+        <a class="role__link" href="<?= url('#') ?>">Teach</a>
+      </div>
+      <div class="role__content">
+        <h2>Teach</h2>
+        <?= kirbytext($page->teach()) ?>
+      </div>
+    </div>
+    <div class="role role--odd">
+      <div class="role__figure">
+        <a class="role__link" href="<?= url('#') ?>">Organize</a>
+      </div>
+      <div class="role__content">
+        <h2>Organize</h2>
+        <?= kirbytext($page->organize()) ?>
+      </div>
+    </div>
+    <div class="role role--even">
+      <div class="role__figure">
+        <a class="role__link" href="<?= url('#') ?>">Learn</a>
+      </div>
+      <div class="role__content">
+        <h2>Learn</h2>
+        <?= kirbytext($page->learn()) ?>
+      </div>
+    </div>
+    <div class="role role--odd">
+      <div class="role__figure">
+        <a class="role__link" href="<?= url('#') ?>">Other</a>
+      </div>
+      <div class="role__content">
+        <h2>Other</h2>
+        <?= kirbytext($page->other()) ?>
       </div>
     </div>
   </div>

@@ -2,7 +2,7 @@
 <?= snippet('navigation', array('contrast' => true)) ?>
 
 <!-- ——————————————————————————————————————————————————————————————————— Header -->
-<header class='page-header page-header--image' style="background-image: url(<?= $page->image('header.png')->url() ?>);">
+<header class="page-header page-header--image page-header--<?= html($page->slug()) ?>" style="background-image: url(<?= $page->image('header.png')->url() ?>);">
   <div class="container">
     <div class="span-18 prepend-6 last">
       <h1 class="page-header__title"><?= html($page->title()) ?></h1>

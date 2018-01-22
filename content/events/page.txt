@@ -3,9 +3,7 @@ Title: Events
 ----
 
 Lead:
-Benjamin has been asked to present his academic and practical work at conferences, congresses, and festivals worldwide. Besides public appearances, he has been invited to present to corporate companies and organizations. The main topics of his talks and lectures include information visualization, interaction design, and data-driven storytelling.
-
-To inquire about an appearance at a future event, please <a href="/about#contact">get in touch</a>.
+I have been asked to share my work at conferences, congresses, and festivals worldwide. Besides public appearances, I was invited to present to corporate companies and organizations. The main topics of my talks and lectures include interaction design, information visualization, and data-driven storytelling. To inquire about an appearance at a future event, please <a href="/about#contact">get in touch</a>.
 
 ----
 

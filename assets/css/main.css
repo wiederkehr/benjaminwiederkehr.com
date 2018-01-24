@@ -360,22 +360,25 @@ SECTION TITLE
   height: 20px;
   opacity: 0;
   padding: 10px;
-  transform: translateX(-10px);
+  position: fixed;
+  transform: translate(-10px, -100%);
   visibility: hidden;
   transition: opacity 400ms ease-in 0ms,
+              transform 400ms ease-out 0ms,
               visibility 400ms ease-in 0ms;
 }
 @media (max-width: 767px) {
   .home__link {
-    transform: translateX(10px);
+    transform: translate(10px, -50px);
   }
 }
 .home__link--active {
   opacity: 1;
-  position: fixed;
   visibility: visible;
-  transition: opacity 400ms ease-out 400ms,
-              visibility 400ms ease-out 400ms;
+  transform: translate(-10px, 0);
+  transition: opacity 400ms ease-out 600ms,
+              transform 400ms ease-out 600ms,
+              visibility 400ms ease-out 600ms;
 }
 .home__link span {
   display: inline-block;

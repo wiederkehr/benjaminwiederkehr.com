@@ -11,7 +11,7 @@
 <nav class="navigation">
   <div class="container">
     <div class="navigation__panel navigation__panel--info clearfix">
-      <div class="span-11 append-1">
+      <div class="navigation__column navigation__column--left span-11 append-1">
         <!-- ——————————————————————————————————————————————————————————————————— Information -->
         <h3 class="navigation__heading section-title">Information</h3>
         <ul class="navigation__list">
@@ -35,7 +35,7 @@
           </li>
         </ul>
       </div>
-      <div class="span-11 prepend-1 last">
+      <div class="navigation__column navigation__column--right span-11 prepend-1 last">
         <!-- ——————————————————————————————————————————————————————————————————— Content -->
         <h3 class="navigation__heading section-title">Content</h3>
          <ul class="navigation__list">

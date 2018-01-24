@@ -487,8 +487,8 @@ SECTION TITLE
   width: 100%;
   z-index: 1000;
   /* This timing applies on the way OUT */
-  transition: visibility 400ms ease-in-out 200ms,
-              opacity 400ms ease-in-out 200ms;
+  transition: visibility 400ms ease-in-out 400ms,
+              opacity 400ms ease-in-out 400ms;
 }
 .navigation--active {
   visibility: visible;
@@ -498,19 +498,26 @@ SECTION TITLE
               opacity 400ms ease-out 0ms;
 }
 .navigation__panel{
+}
+.navigation__column {
   opacity: 0;
   transform: translateY(-50px);
   /* This timing applies on the way OUT */
   transition: opacity 400ms ease-in 0ms,
               transform 400ms ease-in 0ms;
-
 }
-.navigation--active .navigation__panel{
+.navigation__column--right {
+  transition-delay: 200ms;
+}
+.navigation--active .navigation__column{
   opacity: 1;
   transform: translateY(0px);
   /* This timing applies on the way IN */
   transition: opacity 400ms ease-out 400ms,
               transform 400ms ease-out 400ms;
+}
+.navigation--active .navigation__column--left {
+  transition-delay: 200ms;
 }
 .navigation__heading {
   font-family: "ff-netto-web", Helvetica, Arial, sans-serif;

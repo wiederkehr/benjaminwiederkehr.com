@@ -53,7 +53,7 @@
   text-decoration: underline;
 }
 .page-header--image .page-header__lead a:hover{
-  color: #f55;
+  color: #aaa;
 }
 @media (max-width: 767px) {
   .page-header{

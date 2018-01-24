@@ -368,18 +368,21 @@ SECTION TITLE
               transform 400ms ease-out 0ms,
               visibility 400ms ease-in 0ms;
 }
-@media (max-width: 767px) {
-  .home__link {
-    transform: translate(10px, -50px);
-  }
-}
 .home__link--active {
   opacity: 1;
   visibility: visible;
   transform: translate(-10px, 0);
-  transition: opacity 400ms ease-out 600ms,
-              transform 400ms ease-out 600ms,
-              visibility 400ms ease-out 600ms;
+  transition: opacity 400ms ease-out 800ms,
+              transform 400ms ease-out 800ms,
+              visibility 400ms ease-out 800ms;
+}
+@media (max-width: 767px) {
+  .home__link {
+    transform: translate(10px, -50px);
+  }
+  .home__link--active {
+    transform: translate(10px, 0);
+  }
 }
 .home__link span {
   display: inline-block;

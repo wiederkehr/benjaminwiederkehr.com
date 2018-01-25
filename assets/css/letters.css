@@ -45,67 +45,63 @@ article section a:hover{
   text-align: center;
 }
 .letters-list{
-  margin: 4rem 0;
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 768px) {
-  .letters-list{
-    flex-direction: row;
-  }
-}
 .letter{
-}
-.letter__link > *{
-  box-sizing: border-box;
-}
-.letter__date{
-  color: #aaa;
-  display: block;
-  font-size: 14px;
-  height: 33%;
-  padding-top: 40px;
-}
-.letter__title{
-  margin: 0;
-  display: block;
-  height: 33%;
-  padding-top: 40px;
-}
-.letter__readmore{
-  color: #aaa;
-  display: block;
-  font-size: 14px;
-  height: 33%;
-  opacity: 0;
-  padding-top: 40px;
-  transition: opacity 0.2s;
-}
-.letter__link:hover .letter__readmore{
-  opacity: 1;
+  flex-basis: 50%;
+  margin: 2rem;
 }
 .letter__link {
+  background-color: #fff;
   box-shadow: 0 .1em .25em rgba(0,0,0,0.1);
-  background-color: #FFF;
-  background-image:
-    linear-gradient(
-      hsla(0,0%,0%,.01),
-      hsla(0,0%,100%,.04) 33%,
-      hsla(0,0%,0%,.03) 33%,
-      hsla(0,0%,100%,.04) 67%,
-      hsla(0,0%,0%,.03) 67%,
-      hsla(0,0%,100%,.02));
-  display: block;
+  display: flex;
+  flex-direction: column;
   height: 320px;
-  margin-bottom: 1rem;
   position: relative;
   transition: box-shadow 0.2s;
 }
 .letter__link:hover{
   box-shadow: 0 .4em 1em rgba(0,0,0,0.2);
 }
-@media (min-width: 768px) {
-
+.letter__part{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+.letter__part--top{
+  background:
+    linear-gradient(
+    hsla(0,0%,0%,.01),
+    hsla(0,0%,100%,.04));
+}
+.letter__part--middle{
+  background:
+    linear-gradient(
+    hsla(0,0%,0%,.03),
+    hsla(0,0%,100%,.04));
+}
+.letter__part--bottom{
+  background:
+    linear-gradient(
+    hsla(0,0%,0%,.03),
+    hsla(0,0%,100%,.02));
+}
+.letter__date{
+  color: #aaa;
+  font-size: 14px;
+  font-weight: normal;
+}
+.letter__title{
+  margin: 0;
+}
+.letter__readmore{
+  color: #aaa;
+  font-size: 14px;
+  font-weight: normal;
 }
 .remark {
   border-top: 1px solid #d4d5d3;
@@ -113,6 +109,18 @@ article section a:hover{
   color: #aaa;
   margin: 0;
   padding-top: 2rem;
+}
+@media (min-width: 768px) {
+  .letters-list{
+    flex-direction: row;
+  }
+  .letter__readmore{
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .letter__link:hover .letter__readmore{
+    opacity: 1;
+  }
 }
 
 /* MEDIA QUERIES

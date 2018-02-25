@@ -1,10 +1,10 @@
 <div class="tools">
   <div class="tools__container">
     <div class="tools__section tools__section--left">
-      <a href="<?= html($site->url()) ?>/" class="home__link"><i class="fas fa-arrow-left"></i> <span>Home</span></a>
+      <a href="<?= html($site->url()) ?>/" class="home__link"><i class="fas fa-arrow-left"></i> <span class="home__link__label">Home</span></a>
     </div>
     <div class="tools__section tools__section--right">
-      <a href="#navigation__panel" class="navigation__trigger <?php if(isset($contrast)){ echo 'navigation__trigger--contrast'; } ?>"><span>Navigation</span></a>
+      <a href="#navigation__panel" class="navigation__trigger <?php if(isset($contrast)){ echo 'navigation__trigger--contrast'; } ?>"><span class="navigation__trigger__label">Menu</span><span class="navigation__trigger__icon"></span></a>
     </div>
   </div>
 </div>
@@ -24,13 +24,13 @@
           <li class="navigation__item">
             <a class="navigation__link" href="<?= html($site->url()) ?>/vita">
               <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Vita</span>
-              <span class="navigation__claim">My curriculum vitae with all details about my work and life.</span>
+              <span class="navigation__claim">Curriculum vitae with the most relevant milestones of my work and life.</span>
             </a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="<?= html($site->url()) ?>/events">
               <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Events</span>
-              <span class="navigation__claim">Complete list of past and future events and appearances.</span>
+              <span class="navigation__claim">List of professional appearances at past and future events.</span>
             </a>
           </li>
         </ul>

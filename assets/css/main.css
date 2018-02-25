@@ -384,7 +384,7 @@ SECTION TITLE
     transform: translate(10px, 0);
   }
 }
-.home__link span {
+.home__link__label {
   display: inline-block;
   text-transform: uppercase;
   margin-left: 0.5em;
@@ -393,22 +393,38 @@ SECTION TITLE
 /////////////////////////////////////////////////////////////////*/
 .navigation__trigger {
   display: block;
-  height: 20px;
-  width: 20px;
-  padding: 10px;
-  transform: translateX(10px);
+  padding: 10px calc(20px + 0.5em) 10px 10px;
+  position: absolute;
+  right: 0;
 }
 .navigation__trigger--active {
   position: fixed;
-  transform: translateX(-30px);
+  transform: translateX(-23px);
 }
 @media (max-width: 767px) {
   .navigation__trigger { transform: translateX(-10px);}
   .navigation__trigger--active { transform: translateX(-50px);}
 }
-.navigation__trigger span {
+.navigation__trigger__label {
+  color: #aaa;
+  display: inline-block;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
+  user-select: none;
+  text-transform: uppercase;
+  transition: color 200ms;
+}
+.navigation__trigger:hover .navigation__trigger__label,
+.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__label {
+  color: #333;
+}
+.navigation__trigger--contrast:hover .navigation__trigger__label {
+  color: #fff;
+}
+
+.navigation__trigger__icon {
   position: absolute;
   top: 50%;
+  right: 0px;
   display: block;
   width: 20px;
   height: 2px;
@@ -418,11 +434,11 @@ SECTION TITLE
   user-select: none;
   transition: background-color 200ms;
 }
-.navigation__trigger--active span {
+.navigation__trigger--active .navigation__trigger__icon {
   background-color: transparent;
 }
-.navigation__trigger span:before,
-.navigation__trigger span:after {
+.navigation__trigger__icon:before,
+.navigation__trigger__icon:after {
   position: absolute;
   left: 0;
   width: 100%;
@@ -431,43 +447,43 @@ SECTION TITLE
   content: '';
   transition: transform 200ms, background-color 200ms;
 }
-.navigation__trigger:hover span,
-.navigation__trigger:hover span:before,
-.navigation__trigger:hover span:after,
-.navigation__trigger--active.navigation__trigger--contrast:hover span:before,
-.navigation__trigger--active.navigation__trigger--contrast:hover span:after{
+.navigation__trigger:hover .navigation__trigger__icon,
+.navigation__trigger:hover .navigation__trigger__icon:before,
+.navigation__trigger:hover .navigation__trigger__icon:after,
+.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__icon:before,
+.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__icon:after{
   background-color: #333;
 }
-.navigation__trigger--contrast:hover span,
-.navigation__trigger--contrast:hover span:before,
-.navigation__trigger--contrast:hover span:after{
+.navigation__trigger--contrast:hover .navigation__trigger__icon,
+.navigation__trigger--contrast:hover .navigation__trigger__icon:before,
+.navigation__trigger--contrast:hover .navigation__trigger__icon:after{
   background-color: #fff;
 }
-.navigation__trigger--active:hover span{
+.navigation__trigger--active:hover .navigation__trigger__icon{
   background-color: transparent;
 }
-.navigation__trigger span:before {
+.navigation__trigger .navigation__trigger__icon:before {
   transform: translateY(-200%);
 }
-.navigation__trigger span:after {
+.navigation__trigger .navigation__trigger__icon:after {
   transform: translateY(200%);
 }
-.navigation__trigger--active span:before {
+.navigation__trigger--active .navigation__trigger__icon:before {
   transform: translateY(0) rotate(45deg);
 }
-.navigation__trigger--active span:after {
+.navigation__trigger--active .navigation__trigger__icon:after {
   transform: translateY(0) rotate(-45deg);
 }
-.navigation__trigger:hover span:before {
+.navigation__trigger:hover .navigation__trigger__icon:before {
   transform: translateY(0) rotate(90deg);
 }
-.navigation__trigger:hover span:after {
+.navigation__trigger:hover .navigation__trigger__icon:after {
   transform: translateY(0) rotate(-90deg);
 }
-.navigation__trigger--active:hover span:before {
+.navigation__trigger--active:hover .navigation__trigger__icon:before {
   transform: translateY(0) rotate(45deg);
 }
-.navigation__trigger--active:hover span:after {
+.navigation__trigger--active:hover .navigation__trigger__icon:after {
   transform: translateY(0) rotate(-45deg);
 }
 /* NAVIGATION

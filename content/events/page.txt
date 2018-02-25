@@ -11,16 +11,14 @@ Text:
 <h1 class="section-title">Events</h1>
 <h2 id="scroll-section-1">Upcoming</h2>
 <dl class="events__list">
-  <dt>2018</dt><dd>SRF, Switzerland. «Storytelling Through Data Visualization»</dd>
-  <dt>2018</dt><dd>Namics Conference, Austria, «Talk on Information Visualization»</dd>
-  <dt>2018</dt><dd>UNECE, Switzerland, «Work Session on the Communication of Statistics»</dd>
-  <dt>2018</dt><dd>LinkedIn, USA, «Introduction to Data Visualization»</dd>
-  <dt>2018</dt><dd>Mozilla, USA, «Introduction to Everyday Visualization»</dd>
-  <dt>2018</dt><dd>Swiss Confederation, Switzerland, «Open Data»</dd>
+  <dt>2018</dt><dd>Bern University of Applied Sciences, Switzerland, «Lecture on Data Visualization»</dd>
+  <dt>2018</dt><dd>Bern University of the Arts, Switzerland, «Lecture on Interactive Visualization»</dd>
 </dl>
 
 <h2 id="scroll-section-2">Past Public</h2>
 <dl class="events__list">
+  <dt>2018</dt><dd>World IA Day Talk, Switzerland, «Design Against Violence»</dd>
+  <dt>2017</dt><dd>Open Food Hackdays, Switzerland «Culinary Data Visualization»</dd>
   <dt>2016</dt><dd>UX Camp, Switzerland, «Talk on Living Style Guides»</dd>
   <dt>2016</dt><dd>MAZ MultimediaTag, Switzerland, «Talk on Interactive Storytelling»</dd>
   <dt>2016</dt><dd>Interactive Media Talk, Switzerland, «Talk on Information Visualization»</dd>
@@ -37,7 +35,7 @@ Text:
   <dt>2014</dt><dd>Visualized, USA, «Talk on Information Visualization»</dd>
   <dt>2014</dt><dd>Hacks/Hackers NYC, USA, «Talk on Data-Driven Storytelling»</dd>
   <dt>2014</dt><dd>ScienceComm 14, Switzerland, «Talk on Visualization in Science Communication»</dd>
-  <dt>2013</dt><dd>ZHdK Incubator Inauguration, Switzerland, «Talk on Cultural Entrepreneurship»</dd>
+  <dt>2013</dt><dd>Zürich University of the Arts Incubator Inauguration, Switzerland, «Talk on Cultural Entrepreneurship»</dd>
   <dt>2013</dt><dd>Storytelling Conference, Switzerland, «Talk on Data-Driven Storytelling»</dd>
   <dt>2013</dt><dd>Open Knowledge Conference, Switzerland, «Workshop on Data-Driven Storytelling»</dd>
   <dt>2013</dt><dd>Open Knowledge Conference, Switzerland, «Talk on Data-Driven Storytelling»</dd>
@@ -66,15 +64,20 @@ Text:
 
 <h2 id="scroll-section-3">Past Academic</h2>
 <dl class="events__list">
+  <dt>2018</dt><dd>University of Bern, Switzerland, «Lecture on Information Visualization»</dd>
+  <dt>2017</dt><dd>Zürich University of the Arts, Switzerland, «Module on Interactive Visualization»</dd>
+  <dt>2017</dt><dd>Zürich University of Applied Sciences, Switzerland, «IAM Live Pannel»</dd>
+  <dt>2017</dt><dd>Zürich University of Applied Sciences School of Management and Law, Switzerland, «Lecture on Information Visualization»</dd>
+  <dt>2017</dt><dd>University of Bern, Switzerland, «Lecture on Information Visualization»</dd>
   <dt>2016</dt><dd>Schloss Dagstuhl, Germany, «Seminar on Data-Driven Storytelling»</dd>
   <dt>2016</dt><dd>Zürich University of the Arts, Switzerland, «Mentoring on Interaction Design»</dd>
   <dt>2016</dt><dd>University of Bern, Switzerland, «Lecture on Information Visualization»</dd>
-  <dt>2016</dt><dd>ZHAW School of Management and Law, Switzerland, «Lecture on Information Visualization»</dd>
+  <dt>2016</dt><dd>Zürich University of Applied Sciences School of Management and Law, Switzerland, «Lecture on Information Visualization»</dd>
   <dt>2016</dt><dd>Zürich University of the Arts, Switzerland, «Talk on Interaction Design»</dd>
   <dt>2016</dt><dd>University of Zürich, Switzerland, «Lecture on Information Visualization»</dd>
   <dt>2015</dt><dd>University of Bern, Switzerland, «Lecture on Information Visualization»</dd>
   <dt>2015</dt><dd>SUPSI MAS Interaction Design, Switzerland, «Lecture on User-Centered & Data-Driven Design»</dd>
-  <dt>2015</dt><dd>ZHAW School of Management and Law, Switzerland, «Lecture on Information Visualization»</dd>
+  <dt>2015</dt><dd>Zürich University of Applied Sciences School of Management and Law, Switzerland, «Lecture on Information Visualization»</dd>
   <dt>2014</dt><dd>Università Iuav di Venezia, Italy, «Lecture on Information Visualization»</dd>
   <dt>2013</dt><dd>Zürich University of the Arts, Switzerland, «Talk on Cultural Enterpreneurship»</dd>
   <dt>2013</dt><dd>Hochschule für Gestaltung und Kunst Basel, Switzerland, «Talk on Information Visualization»</dd>
@@ -90,9 +93,11 @@ Text:
 
 <h2 id="scroll-section-4">Past Corporate</h2>
 <dl class="events__list">
+  <dt>2017</dt><dd>United Nations, Switzerland, «UN Expert Group Meeting Talk»</dd>
+  <dt>2017</dt><dd>United Nations, Switzerland, «UN Designers Lunch»</dd>
   <dt>2013</dt><dd>SRF, Switzerland. «Storytelling Through Data Visualization»</dd>
   <dt>2013</dt><dd>Namics Conference, Austria, «Talk on Information Visualization»</dd>
-  <dt>2012</dt><dd>UNECE, Switzerland, «Work Session on the Communication of Statistics»</dd>
+  <dt>2012</dt><dd>United Nations, Switzerland, «Work Session on the Communication of Statistics»</dd>
   <dt>2012</dt><dd>LinkedIn, USA, «Introduction to Data Visualization»</dd>
   <dt>2011</dt><dd>Mozilla, USA, «Introduction to Everyday Visualization»</dd>
   <dt>2011</dt><dd>Swiss Confederation, Switzerland, «Open Data»</dd>

@@ -3,18 +3,19 @@ Title: About
 ----
 
 Lead:
-I am an Interaction Designer with a focus on information visualization and interface design. With my work, I explore opportunities to innovate through the combination of design and technology, to simplify complex data in order to raise awareness, as well as to tell stories with an open intent and meaningful impact.
+
+Although I view the world through the lens of a designer, I consider our scope of influence reaching beyond the ink on paper or the pixels on screen. I believe that we must develop a strong opinion about the rationale and responsibility of our work. Pushing the design discipline towards more considered, more inclusive, more longstanding practices.
 
 ----
 
 Text:
 <h1 class="section-title">About</h1>
 <h2 id="scroll-section-1">Biography</h2>
-Benjamin Wiederkehr is an Interaction Designer with a focus on information visualization and interface design. With his work, he explores opportunities to innovate through the combination of design and technology, to simplify complex data in order to raise awareness, as well as to tell stories with an open intent and meaningful impact.
+Benjamin Wiederkehr is an Interaction Designer with a focus on information visualization and interface design. With his work, he simplifies complex data to raise awareness, understanding, and engagement. He cares deeply about creating digital products that are accessible to all and contribute to the common good.
 
-Between 2005 and 2008, Benjamin has been studying the foundations of interaction design at the BA in Design program of the Zürich University of the Arts, earning a Bachelor’s Degree in Product Design with a specialization in Interaction Design. Between 2012 and 2014, he has been studying visual models and interaction patterns in exploratory tools for personal financial information at the MA in Design program of the Zürich University of the Arts. His research and work interests center around persuasive technology, information and knowledge visualization and emerging interaction principles between humans and data. Benjamin lectures on the topics of information visualization and interaction design at the Zürich University of the Arts and the University of the Arts Bern. In the past, he gave lectures at international universities including UC Berkeley, FH Potsdam, and IUAV Venice.
+Between 2005 and 2008, Benjamin has been studying the foundations of Interaction Design at the BA in Design program of the Zürich University of the Arts, earning a Bachelor’s Degree in Product Design with a specialization in Interaction Design. Between 2012 and 2014, he has been studying visual models and interaction patterns in exploratory tools for personal financial information at the MA in Design program of the Zürich University of the Arts. His research and work interests center around persuasive technology, information and knowledge visualization, and emerging interaction principles between humans and data. Benjamin lectures on the topics of data visualization and interaction design at the Zürich University of the Arts and the University of the Arts Bern. He has furthermore given lectures at international universities including UC Berkeley, FH Potsdam, and IUAV Venice.
 
-He is founding partner and managing director of Interactive Things, a design and technology studio specialized in data-driven tools and experiences. Together with his team, Benjamin helps clients including the United Nations, World Economic Forum, National Geographic, and Al Jazeera to create enga­ging and emotional interactions with their audience. Their work has been exhibited in Indiana, Beijing, Seoul, Shanghai, London, and Barcelona and it has been awarded with the European Newspaper Award, GEN Data Journalism Award, and the Grimme Online Award.
+He is co-founder and managing director of Interactive Things, a design and technology studio specialized in data-driven tools and experiences. Together with his team, Benjamin helps clients including the United Nations, World Economic Forum, National Geographic, and Al Jazeera to create enga­ging and emotional interactions with their audience. Their work has been exhibited in Indiana, Beijing, Seoul, Shanghai, London, and Barcelona and it has been awarded with the European Newspaper Award, GEN Data Journalism Award, and the Grimme Online Award.
 
 <h2 id="scroll-section-2">Contact</h2>
 

@@ -3,7 +3,7 @@ Title: Events
 ----
 
 Lead:
-I have been invited to share my work at conferences, congresses, and festivals worldwide. Besides public events, I was asked to present to corporate companies and to lecture at academic institutions. The main topics of my talks include interaction design, information visualization, and data-driven storytelling. To inquire about an appearance at a future event, please <a href="/about#contact">get in touch</a>.
+I’ve been invited to share my work at conferences, congresses, and festivals worldwide. Besides public events, I was asked to present to corporate companies and to lecture at academic institutions. The main topics of my talks include interaction design, information visualization, and data-driven storytelling. To inquire about an appearance at a future event, please <a href="/about#contact">get in touch</a>.
 
 ----
 

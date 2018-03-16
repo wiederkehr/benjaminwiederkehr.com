@@ -68,15 +68,6 @@
         <?= kirbytext($page->learn()) ?>
       </div>
     </div>
-    <div class="role role--odd">
-      <div class="role__figure">
-        <a class="role__link" href="<?= url('#') ?>">Other</a>
-      </div>
-      <div class="role__content">
-        <h2>Other</h2>
-        <?= kirbytext($page->other()) ?>
-      </div>
-    </div>
   </div>
 </section>
 

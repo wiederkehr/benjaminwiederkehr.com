@@ -150,8 +150,9 @@
 }
 .events__list dt {
   width: 3em;
-  font-feature-settings: 'tnum';
+  font-feature-settings: "tnum";
 }
+
 .events__list dd {
   margin-left: 3em;
 }
@@ -262,7 +263,7 @@ PAGINATION
   border-bottom: 1px solid #d4d5d3;
   color: #aaa;
   display: block;
-  font-family: 'ff-netto-web', Helvetica, Arial, sans-serif;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.5rem;
 }
@@ -321,7 +322,7 @@ SECTION TITLE
 .section-title {
   border-bottom: 3px solid #d4d5d3;
   color: #aaa;
-  font-family: 'ff-netto-web', Helvetica, Arial, sans-serif;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   margin: 0 0 1rem;
@@ -370,22 +371,20 @@ SECTION TITLE
   align-items: center;
   color: #aaa;
   display: flex;
-  font-family: 'ff-netto-web', Helvetica, Arial, sans-serif;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   height: 20px;
   opacity: 0;
   padding: 10px;
   position: fixed;
   transform: translate(-10px, -100%);
   visibility: hidden;
-  transition: opacity 400ms ease-in 0ms, transform 400ms ease-out 0ms,
-    visibility 400ms ease-in 0ms;
+  transition: opacity 400ms ease-in 0ms, transform 400ms ease-out 0ms, visibility 400ms ease-in 0ms;
 }
 .home__link--active {
   opacity: 1;
   visibility: visible;
   transform: translate(-10px, 0);
-  transition: opacity 400ms ease-out 800ms, transform 400ms ease-out 800ms,
-    visibility 400ms ease-out 800ms;
+  transition: opacity 400ms ease-out 800ms, transform 400ms ease-out 800ms, visibility 400ms ease-out 800ms;
 }
 @media (max-width: 767px) {
   .home__link {
@@ -416,14 +415,13 @@ SECTION TITLE
 .navigation__trigger__label {
   color: #aaa;
   display: inline-block;
-  font-family: 'ff-netto-web', Helvetica, Arial, sans-serif;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   user-select: none;
   text-transform: uppercase;
   transition: color 200ms;
 }
 .navigation__trigger:hover .navigation__trigger__label,
-.navigation__trigger--active.navigation__trigger--contrast:hover
-  .navigation__trigger__label {
+.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__label {
   color: #333;
 }
 .navigation__trigger--contrast:hover .navigation__trigger__label {
@@ -453,16 +451,14 @@ SECTION TITLE
   width: 100%;
   height: 100%;
   background: #aaa;
-  content: '';
+  content: "";
   transition: transform 200ms, background-color 200ms;
 }
 .navigation__trigger:hover .navigation__trigger__icon,
 .navigation__trigger:hover .navigation__trigger__icon:before,
 .navigation__trigger:hover .navigation__trigger__icon:after,
-.navigation__trigger--active.navigation__trigger--contrast:hover
-  .navigation__trigger__icon:before,
-.navigation__trigger--active.navigation__trigger--contrast:hover
-  .navigation__trigger__icon:after {
+.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__icon:before,
+.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__icon:after {
   background-color: #333;
 }
 .navigation__trigger--contrast:hover .navigation__trigger__icon,
@@ -514,8 +510,7 @@ SECTION TITLE
   width: 100%;
   z-index: 1000;
   /* This timing applies on the way OUT */
-  transition: visibility 400ms ease-in-out 400ms,
-    opacity 400ms ease-in-out 400ms;
+  transition: visibility 400ms ease-in-out 400ms, opacity 400ms ease-in-out 400ms;
 }
 .navigation--active {
   visibility: visible;
@@ -544,7 +539,7 @@ SECTION TITLE
   transition-delay: 200ms;
 }
 .navigation__heading {
-  font-family: 'ff-netto-web', Helvetica, Arial, sans-serif;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   margin-bottom: 0;
 }
@@ -567,7 +562,7 @@ SECTION TITLE
 }
 .navigation__title {
   display: block;
-  font-family: 'ff-netto-web', Helvetica, Arial, sans-serif;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   line-height: 1;
   margin-bottom: 0.5rem;
@@ -649,7 +644,7 @@ SECTION TITLE
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: 'ff-netto-web', Helvetica, Arial, sans-serif;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
   height: 310px;
   padding: 20px;
   text-align: center;

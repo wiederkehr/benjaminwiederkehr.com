@@ -1,7 +1,7 @@
 <div class="tools">
   <div class="tools__container">
     <div class="tools__section tools__section--left">
-      <a href="<?= html($site->url()) ?>/" class="home__link"><i class="fas fa-arrow-left"></i> <span class="home__link__label">Home</span></a>
+      <a href="<?= html($site->url()) ?>/" class="home__link" title="Back to Home"><i class="fas fa-arrow-left"></i> <span class="home__link__label">Home</span></a>
     </div>
     <div class="tools__section tools__section--right">
       <a href="#navigation__panel" class="navigation__trigger <?php if(isset($contrast)){ echo 'navigation__trigger--contrast'; } ?>"><span class="navigation__trigger__label">Menu</span><span class="navigation__trigger__icon"></span></a>

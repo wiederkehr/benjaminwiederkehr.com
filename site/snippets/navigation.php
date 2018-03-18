@@ -24,13 +24,13 @@
           <li class="navigation__item">
             <a class="navigation__link" href="<?= html($site->url()) ?>/vita">
               <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Vita</span>
-              <span class="navigation__claim">Curriculum vitae with the most relevant milestones of my work and life.</span>
+              <span class="navigation__claim">Curriculum vitae with the most relevant achievements of my professional life so far.</span>
             </a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="<?= html($site->url()) ?>/events">
               <span class="navigation__title"><i class="fas fa-fw fa-chevron-right"></i> Events</span>
-              <span class="navigation__claim">List of professional appearances at past and future events.</span>
+              <span class="navigation__claim">More or less complete list of professional appearances at past and future events.</span>
             </a>
           </li>
         </ul>

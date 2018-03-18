@@ -1,8 +1,4 @@
-Name: Benjamin Wiederkehr
-
-----
-
-Title: Benjamin Wiederkehr — Interaction and Information Designer
+Title: Benjamin Wiederkehr
 
 ----
 
@@ -10,12 +6,16 @@ Author: Benjamin Wiederkehr
 
 ----
 
-Description: Benjamin Wiederkehr, wholeheartedly passionate about making things understandable. Partner at Interactive Things, Editor at Datavisualization.ch
+Credits: © (date: year) (email: hello@benjaminwiederkehr.com text: Benjamin Wiederkehr)
 
 ----
 
-Keywords: Benjamin, Wiederkehr, Benjamin Wiederkehr, Interactive Things, Datavisualization.ch, Interaction Design, User Experience Design, Data Visualization
+Twitter: (twitter: @wiederkehr)
 
 ----
 
-Copyright: © 2018 Benjamin Wiederkehr
+Description: Benjamin Wiederkehr, Interaction Designer with a focus on information visualization and interface design. Partner at Interactive Things, Editor at Datavisualization.ch
+
+----
+
+Keywords: Benjamin, Wiederkehr, Benjamin Wiederkehr, Interactive Things, Datavisualization.ch, Interaction Design, Interface Design, Information Visualization, Data Visualization

@@ -6,10 +6,6 @@ Date: May 27, 2010
 
 ----
 
-Tags:
-
-----
-
 Text:
 I took the some time during an extended weekend to finally refine the design of this website. What started as the idea of giving it a fresh look ended up in creating a design solution that spans over multiple web properties, changing the domain name and building a new microsite from scratch.
 

@@ -1,4 +1,5 @@
-<?= snippet('letter-header') ?>
+<?= snippet('header', array('style' => 'letters')) ?>
+<?= snippet('navigation') ?>
 
 <div class="letters_container">
   <header>
@@ -14,4 +15,4 @@
   </article>
 </div><!-- .letters_container -->
 
-<?= snippet('letter-footer') ?>
+<?= snippet('footer') ?>

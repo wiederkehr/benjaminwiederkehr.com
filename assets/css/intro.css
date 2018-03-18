@@ -19,9 +19,10 @@ header{ position: relative; margin: 30px 0 0;}
 
 /* HEADER
 /////////////////////////////////////////////////////////////////*/
-header h1       { height: 110px; width: 230px; margin: 0;}
-header h1 a     { display: block; height: 110px; width: 230px; background: url('../img/logos/benjaminwiederkehr_logo_dark.png') -20px 0 no-repeat;}
-header h1 a img	{ margin: 0 0 0 -20px; float: none;}
+header h1				{ height: 110px; width: 230px; font-size: 44px; margin: 0; letter-spacing: -2.5px; line-height: 1; font-family: "ff-netto-web",sans-serif;}
+header h1 a    	{ display: block; color: rgba(200, 200, 200, 0.9); text-shadow: 0 1px 0px #fff, 0 0 0 #444; transition: color 0.2s;}
+header h1 a:hover{ color: rgba(60, 60, 60, 0.9);}
+header .title    { font-weight: bold; display: block;}
 header p        { width: 250px; font: italic 14px/18px "Georgia", Georgia, serif; color: #aaa;}
 
 .photobooth     { position: absolute; top: 20px; right: 0; height: 190px; padding: 0; box-shadow: 0 5px 4px -4px rgba(0,0,0,0.2);}

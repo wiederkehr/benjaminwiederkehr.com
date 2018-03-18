@@ -6,10 +6,6 @@ Date: December 28, 2012
 
 ----
 
-Tags:
-
-----
-
 Text:
 After three years of working as an Interaction Designer and helping clients to create understandable visualizations and usable applications, I decided to revive my academic work. In February 2012 I will start my studies as Master of Arts in Design at the (link:http://www.zhdk.ch text:Zurich University of the Arts). In the (link:http://master.design.zhdk.ch/studium/fields-of-excellence/interaktion text:Field of Excellence Interaction) I will work for 18 months on a design research project in the area of dynamic, interactive information visualization.
 

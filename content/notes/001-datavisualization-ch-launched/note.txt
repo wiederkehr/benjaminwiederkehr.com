@@ -6,9 +6,5 @@ Date: January 9, 2009
 
 ----
 
-Tags:
-
-----
-
 Text:
 I’m very excited to announce the launch of a new website over at (link:http://www.datavisualization.ch text:Datavisualization.ch). As you can tell by the domain name the content is all about data and information visualization. It evolved from our research blog, we used to gather the resources for our <a href="http://bachelor.benjaminwiederkehr.com">bachelor’s project</a>.

@@ -1,86 +1,84 @@
 # Kirby
 
-Kirby is a file-based CMS.   
-Easy to setup, easy to use, flexible as hell.
+Kirby is a file-based CMS.
+Easy to setup. Easy to use. Flexible as hell.
 
-<http://getkirby.com>
+## Trial
 
-Subscribe to the Kirby newsletter: <http://tinyletter.com/kirby>    
-or follow @getkirby on Twitter for updates: <http://twitter.com/getkirby>
-Kirby even has a Facebook page: <http://facebook.com/getkirby>
+You can try Kirby on your local machine or on a test
+server as long as you need to make sure it is the right
+tool for your next project.
 
+## Buy a license
 
-## Buy
+You can purchase your Kirby license at
+<https://getkirby.com/buy>
 
-Though Kirby's source code is available on Github: <http://github.com/bastianallgeier/kirbycms>, you must purchase a license per website. Please go to <http://getkirby.com/buy> for more information.
+A Kirby license is valid for a single domain. You can find
+Kirby's license agreement here: <https://getkirby.com/license>
 
+## The Starterkit
+
+Kirby's Starterkit comes with a small demo website and a fully
+configured panel. Feel free to modify it and play with it as
+much as you like.
+
+There's also the [Langkit](https://github.com/getkirby/langkit.git)
+in case you need a multi-language installation.
+
+## The Panel
+
+You can find the login for Kirby's admin interface at
+http://yourdomain.com/panel. You will be guided through the signup
+process for your first user, when you visit the panel
+for the first time.
 
 ## Installation
 
-Installing Kirby couldn't be simpler. Just connect to your FTP-Server and upload all files contained in the Kirby package to the document root of your server – done!
+Kirby does not require a database, which makes it very easy to
+install. Just copy Kirby's files to your server and visit the
+URL for your website in the browser.
 
-Visit <http://yourdomain.com> (you should probably replace that with your url :)) and take a look at your brand new, Kirby-flavoured site.
+**Please check if the invisible .htaccess file has been
+copied to your server correctly**
 
+### Requirements
 
-### Adding your license code
+Kirby runs on PHP 5.4+, Apache or Nginx.
 
-After you've purchased a license for Kirby, please add your license code to site/config/config.php:
+### Download
 
-	c::set('license', 'put your license code here');
+You can download the latest version of the Starterkit
+from https://download.getkirby.com
 
+### With Git
 
-### Running Kirby in a subfolder of your domain
+If you are familiar with Git, you can clone Kirby's
+Starterkit repository from Github.
 
-Kirby will try to automatically detect if your site is installed in a subfolder. I.e.: `http://yourdomain.com/subfolder`
-
-Sometimes auto-detection might fail, depending on your server setup. In that case, go to `site/config/config.php` and make sure you manually set the url config variable:
-	
-	c::set('url', 'http://yourdomain.com/subfolder');
-
-Afterwards make sure to also set the subfolder name:
-
-	c::set('subfolder', 'mySubfolderName');
-
-You probably also need to adjust the RewriteBase in the `.htaccess` file if you want to use mod_rewrite. You will find more information about all this in the default config file and the `.htaccess` file.
-
-
-### URL Rewriting
-
-If you are not allowed to have your own `.htaccess` file or to use mod_rewrite, go to `site/config/config.php` and search for the part where you can switch off url rewriting. 
-
-
-#### Trouble with URL Rewriting?
-
-If you're seeing 404 errors for pages other than your index page, you may need to make sure Apache is allowing mod_rewrite configuration in your `.htaccess` file.
-
-Open up your site's VirtualHost file and make sure that the `AllowOverride` directive is set to `All`, or at least that it contains `FileInfo` and  `Options` for your site's directory.
-
-**Here's an example VirtualHost:**
-
-	<VirtualHost *:80>
-		ServerName yourdomain.com
-		DocumentRoot "/path/to/your/site"
-		# ...
-		<Directory /path/to/your/site>
-			AllowOverride All
-			# ...
-		</Directory>
-	</VirtualHost>
-
+    git clone https://github.com/getkirby/starterkit.git
 
 ## Documentation
-<http://getkirby.com/docs>
 
+<https://getkirby.com/docs>
+
+## Issues and feedback
+
+If you have a Github account, please report issues
+directly on Github:
+
+- <https://github.com/getkirby/kirby/issues>
+- <https://github.com/getkirby/panel/issues>
+- <https://github.com/getkirby/starterkit/issues>
+
+Otherwise you can use Kirby's forum: https://forum.getkirby.com
+or send us an email: <support@getkirby.com>
 
 ## Support
-<http://getkirby.com/contact>
 
-
-## Contact 
-<mail@getkirby.com>
-
+<https://getkirby.com/support>
 
 ## Copyright
 
-© 2009-2012 Bastian Allgeier (OpenWe GmbH)
+© 2009-2016 Bastian Allgeier (Bastian Allgeier GmbH)
 <http://getkirby.com>

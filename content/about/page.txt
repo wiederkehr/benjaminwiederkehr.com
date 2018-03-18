@@ -1,0 +1,44 @@
+Title: About
+
+----
+
+Lead:
+
+Although I view the world through the lens of a designer, I consider our scope of influence reaching beyond the ink on paper or the pixels on screen. I believe that we must develop a strong opinion about the rationale and responsibility of our work. Pushing the design discipline towards more considered, more inclusive, more longstanding practices.
+
+----
+
+Text:
+<h1 class="section-title">About</h1>
+<h2 id="scroll-section-1">Biography</h2>
+Benjamin Wiederkehr is an Interaction Designer with a focus on information visualization and interface design. With his work, he simplifies complex data to raise awareness, understanding, and engagement. He cares deeply about creating digital products that are accessible to all and contribute to the common good.
+
+Between 2005 and 2008, Benjamin has been studying the foundations of Interaction Design at the BA in Design program of the Zürich University of the Arts, earning a Bachelor’s Degree in Product Design with a specialization in Interaction Design. Between 2012 and 2014, he has been studying visual models and interaction patterns in exploratory tools for personal financial information at the MA in Design program of the Zürich University of the Arts. His research and work interests center around persuasive technology, information and knowledge visualization, and emerging interaction principles between humans and data. Benjamin lectures on the topics of data visualization and interaction design at the Zürich University of the Arts and the University of the Arts Bern. He has furthermore given lectures at international universities including UC Berkeley, FH Potsdam, and IUAV Venice.
+
+He is co-founder and managing director of Interactive Things, a design and technology studio specialized in data-driven tools and experiences. Together with his team, Benjamin helps clients including the United Nations, World Economic Forum, National Geographic, and Al Jazeera to create enga­ging and emotional interactions with their audience. Their work has been exhibited in Indiana, Beijing, Seoul, Shanghai, London, and Barcelona and it has been awarded with the European Newspaper Award, GEN Data Journalism Award, and the Grimme Online Award.
+
+<h2 id="scroll-section-2">Contact</h2>
+
+<dl class="contact__list">
+  <dt>Phone</dt>
+  <dd>(tel: +41765333372 text: +41 76 533 33 33)</dd>
+  <dt>Email</dt>
+  <dd>(email: hello@benjaminwiederkehr.com text:hello@benjaminwiederkehr.com)</dd>
+  <dt>Telegram</dt>
+  <dd>(link: https://t.me/wiederkehr text:https://t.me/wiederkehr)</dd>
+  <dt>Address</dt>
+  <dd>(link:https://goo.gl/maps/AWRmAMus7dp text:Dennlerstrasse 1, CH-8048 Zürich, Switzerland)</dd>
+</dl>
+
+<h2 id="scroll-section-3">Connect</h2>
+(link:https://twitter.com/wiederkehr text:Twitter), (link:https://facebook.com/benjamin.wiederkehr text:Facebook), (link:https://linkedin.com/in/benjaminwiederkehr text:LinkedIn), (link:https://www.instagram.com/wiederkehr/ text:Instagram), (link:https://www.pinterest.ch/wiederkehr/ text:Pinterest), (link:https://found.benjaminwiederkehr.com/ text:Tumblr), (link:https://github.com/wiederkehr text:GitHub)
+
+----
+
+Aside:
+<h3 class="sidebar__title section-title">Content</h3>
+<ul class="sidebar__content sidebar__list">
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-1">Biography</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-2">Contact</a></li>
+  <li><a class="sidebar__link scroll__link" href="#scroll-section-3">Connect</a></li>
+</ul>

@@ -1,0 +1,10 @@
+/* CLEAR
+/////////////////////////////////////////////////////////////////*/
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.clear {
+  clear:both;
+}

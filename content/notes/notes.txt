@@ -2,5 +2,9 @@ Title: Notes by Benjamin
 
 ----
 
+Teaser: benjaminwiederkehr_notes_logo.png
+
+----
+
 Text:
-Hello, my name is Benjamin. I'm Interaction & Information Designer from Zürich. This is where I reflect on the things that keep me busy during the day and up at night.
+Hello, my name is Benjamin. I’m Interaction & Information Designer from Zürich. This is where I reflect on the things that keep me busy during the day and up at night.

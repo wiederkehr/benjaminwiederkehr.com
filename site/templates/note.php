@@ -1,42 +1,46 @@
-<?= snippet('notes-header') ?>
-<?= snippet('meta') ?>
+<?= snippet('header') ?>
+<?= snippet('navigation') ?>
 
-<div class="container">
-  <div id="header" class="span-5">
-    <h1 class="logo">
-      <a href="<?= url('/notes') ?>" rel="me" title="<?php echo h($site->title()) ?>">
-        <span class="title">Benjamin Wiederkehr</span>
-        <span class="subtitle">Notes</span>
-      </a>
-    </h1>
-  </div>
-  <div id="content-header" class="span-18 prepend-1 last">
-    <h1><?= html($page->title()) ?></h1>
-  </div>
-  <!-- ——————————————————————————————————————————————————————————————————— Content -->
-  <div id="content" class="span-18 prepend-1 last note">
-    <h3 class="note-date ui"><?= $page->date('F j, Y'); ?></h3>
-    <div class="note-body">
-      <?= kirbytext($page->text()) ?>
+<!-- ——————————————————————————————————————————————————————————————————— Header -->
+<header class='articles-header'>
+  <div class="container">
+    <div class="span-5">
+      <h1 class="articles-header__logo">
+        <a class="articles-header__link" href="<?= url('/notes') ?>" title="<?= html($page->title()) ?>">
+          <span class="articles-header__title">Benjamin Wiederkehr</span>
+          <span class="articles-header__subtitle">Notes</span>
+        </a>
+      </h1>
     </div>
-    <div class="pagination">
-      <?php if($page->hasPrevVisible()): ?>
-      <a class="pagination-previous" href="<?= $page->prevVisible()->url() ?>"><i class="fas fa-fw fa-chevron-left"></i> <?= $page->prevVisible()->title() ?></a>
-      <?php endif ?>
-      <a class="pagination-overview" href="<?= url('/notes') ?>">Index</a>
-      <?php if($page->hasNextVisible()): ?>
-      <a class="pagination-next" href="<?= $page->nextVisible()->url() ?>"><?= $page->nextVisible()->title() ?> <i class="fas fa-fw fa-chevron-right"></i></a>
-      <?php endif ?>
+    <div class="article-header span-18 prepend-1 last">
+      <h2 class="article-header__title"><?= html($page->title()) ?></h2>
     </div>
   </div>
-  <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
-  <div id="sidebar" class="span-5 secondary">
-    <?php snippet('notes-sidebar') ?>
+</header>
+
+<!-- ——————————————————————————————————————————————————————————————————— Main -->
+<section class="main">
+  <div class="container">
+    <!-- ——————————————————————————————————————————————————————————————————— Content -->
+    <div class="content content--sidebar span-18 prepend-1 last">
+      <h3 class="section-title"><?= $page->date('F j, Y'); ?></h3>
+      <article class="article-body article-body--note">
+        <?= kirbytext($page->text()) ?>
+      </article>
+      <?= snippet('pagination') ?>
+    </div>
+    <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->
+    <?php snippet('sidebar', array('about' => 'Hello, my name is Benjamin. I’m Interaction & Information Designer from Zürich. This is where I reflect on the things that keep me busy during the day and up at night.')) ?>
   </div>
-  <!-- ——————————————————————————————————————————————————————————————————— Acknowledgement -->
-  <div id="credits" class="span-18 prepend-6 last secondary">
-    <h3 class="ui">Acknowledgement</h3>
-    <p><?= html($site->copyright()) ?>. Built with <a href="http://getkirby.com/">Kirby</a> and running smoothly on a <a href="http://hostpoint.ch" title="">Hostpoint</a> Server.</p>
+</section>
+
+<!-- ——————————————————————————————————————————————————————————————————— Footer -->
+<footer class="credits">
+  <div class="container">
+    <div class="span-18 prepend-6 last">
+      <?= snippet('credits') ?>
+    </div>
   </div>
-</div><!-- .container -->
-<?= snippet('notes-footer') ?>
+</footer>
+
+<?= snippet('footer') ?>

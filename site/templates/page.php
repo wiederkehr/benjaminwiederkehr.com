@@ -16,7 +16,7 @@
 <section class="main">
   <div class="container">
     <!-- ——————————————————————————————————————————————————————————————————— Content -->
-    <article class="content content--page content--sidebar span-18 prepend-1 last">
+    <article class="content content--page content--<?= html($page->slug()) ?> content--sidebar span-18 prepend-1 last">
       <?= kirbytext($page->text()) ?>
     </article>
     <!-- ——————————————————————————————————————————————————————————————————— Sidebar -->

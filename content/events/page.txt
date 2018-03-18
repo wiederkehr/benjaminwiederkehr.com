@@ -22,6 +22,7 @@ Text:
 
 <h2 id="scroll-section-2">Past Public</h2>
 <dl class="events__list">
+  <dt>2017</dt><dd>Zürich University of Applied Sciences, Switzerland, «IAM Live Panel»</dd>
   <dt>2017</dt><dd>Open Food Hackdays, Switzerland «Culinary Data Visualization»</dd>
   <dt>2016</dt><dd>UX Camp, Switzerland, «Talk on Living Style Guides»</dd>
   <dt>2016</dt><dd>MAZ MultimediaTag, Switzerland, «Talk on Interactive Storytelling»</dd>
@@ -69,7 +70,6 @@ Text:
 <h2 id="scroll-section-3">Past Academic</h2>
 <dl class="events__list">
   <dt>2017</dt><dd>Zürich University of the Arts, Switzerland, «Module on Interactive Visualization»</dd>
-  <dt>2017</dt><dd>Zürich University of Applied Sciences, Switzerland, «IAM Live Pannel»</dd>
   <dt>2017</dt><dd>Zürich University of Applied Sciences School of Management and Law, Switzerland, «Lecture on Information Visualization»</dd>
   <dt>2017</dt><dd>University of Bern, Switzerland, «Lecture on Information Visualization»</dd>
   <dt>2016</dt><dd>Schloss Dagstuhl, Germany, «Seminar on Data-Driven Storytelling»</dd>

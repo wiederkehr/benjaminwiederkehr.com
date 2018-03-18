@@ -1,3 +1,11 @@
+/*
+Letters Styles
+Description:  Specific styling for the letters overview and detail view on BenjaminWiederkehr.com
+Author:       Benjamin Wiederkehr
+Start:        180105_BW
+Last update:  180105_BW
+*/
+
 /* LAYOUT
 /////////////////////////////////////////////////////////////////*/
 .letters_container {
@@ -9,96 +17,87 @@
     margin: 4rem auto;
   }
 }
-header{
+header {
   position: relative;
   margin: 0;
 }
-article{
+article {
   margin: 0;
 }
 /* HEADER
 /////////////////////////////////////////////////////////////////*/
-header p{
+header p {
   text-align: right;
 }
 /* ARTICLE
 /////////////////////////////////////////////////////////////////*/
-article header h1{
+article header h1 {
   font-size: 2em;
   margin-bottom: 1em;
 }
-article section p{
+article section p {
   margin-bottom: 2em;
   hyphens: auto;
 }
-article section a{
+article section a {
   font-weight: normal;
   color: #222;
 }
-article section a:hover{
+article section a:hover {
   color: #000;
 }
 
 /* LETTERS
 /////////////////////////////////////////////////////////////////*/
-.letters{
+.letters {
   text-align: center;
 }
-.letters-list{
+.letters-list {
   margin: 2rem 0;
   display: flex;
   flex-direction: column;
 }
-.letter{
+.letter {
   flex-basis: 50%;
   margin: 2rem;
 }
 .letter__link {
   background-color: #fff;
-  box-shadow: 0 .1em .25em rgba(0,0,0,0.1);
+  box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   height: 320px;
   position: relative;
   transition: box-shadow 0.2s;
 }
-.letter__link:hover{
-  box-shadow: 0 .4em 1em rgba(0,0,0,0.2);
+.letter__link:hover {
+  box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.2);
 }
-.letter__part{
+.letter__part {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
 }
-.letter__part--top{
-  background:
-    linear-gradient(
-    hsla(0,0%,0%,.01),
-    hsla(0,0%,100%,.04));
+.letter__part--top {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.01), hsla(0, 0%, 100%, 0.04));
 }
-.letter__part--middle{
-  background:
-    linear-gradient(
-    hsla(0,0%,0%,.03),
-    hsla(0,0%,100%,.04));
+.letter__part--middle {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.03), hsla(0, 0%, 100%, 0.04));
 }
-.letter__part--bottom{
-  background:
-    linear-gradient(
-    hsla(0,0%,0%,.03),
-    hsla(0,0%,100%,.02));
+.letter__part--bottom {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.03), hsla(0, 0%, 100%, 0.02));
 }
-.letter__date{
+.letter__date {
   color: #aaa;
   font-size: 14px;
   font-weight: normal;
 }
-.letter__title{
+.letter__title {
   margin: 0;
 }
-.letter__readmore{
+.letter__readmore {
   color: #aaa;
   font-size: 14px;
   font-weight: normal;
@@ -111,14 +110,14 @@ article section a:hover{
   padding-top: 2rem;
 }
 @media (min-width: 768px) {
-  .letters-list{
+  .letters-list {
     flex-direction: row;
   }
-  .letter__readmore{
+  .letter__readmore {
     opacity: 0;
     transition: opacity 0.2s;
   }
-  .letter__link:hover .letter__readmore{
+  .letter__link:hover .letter__readmore {
     opacity: 1;
   }
 }
@@ -126,6 +125,11 @@ article section a:hover{
 /* MEDIA QUERIES
 /////////////////////////////////////////////////////////////////*/
 @media (max-width: 767px) {
-  .letters-item h2    { margin: 60px 0 36px;}
-  .letters-item-date  { top: -1.5em; left:0;}
+  .letters-item h2 {
+    margin: 60px 0 36px;
+  }
+  .letters-item-date {
+    top: -1.5em;
+    left: 0;
+  }
 }

@@ -1,3 +1,11 @@
+/*
+Main Styles
+Description:  Styling for the main site BenjaminWiederkehr.com
+Author:       Benjamin Wiederkehr
+Start:        180105_BW
+Last update:  180318_BW
+*/
+
 /* PAGE-HEADER for regular content pages
 /////////////////////////////////////////////////////////////////*/
 .page-header {
@@ -672,4 +680,155 @@ SECTION TITLE
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+/* Cards
+/////////////////////////////////////////////////////////////////*/
+.container--card-grid {
+  width: 970px;
+}
+.card {
+  float: left;
+  height: auto;
+  position: relative;
+  width: 25%;
+}
+.card--l {
+  width: 50%;
+}
+.card--m-v {
+  width: 33.33333%;
+}
+.card--m-h {
+  width: 50%;
+}
+
+.card__figure {
+  background-image: linear-gradient(0deg, #a0a0a0, #b0b0b0);
+  border-radius: 3px;
+  margin: 10px;
+  padding-top: calc(133.3333% - 20px);
+  position: relative;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.card__figure--navy {
+  background-image: linear-gradient(0deg, #00263e, #003b5c);
+}
+.card__figure--black {
+  background-image: linear-gradient(0deg, #101010, #202020);
+}
+.card__figure--slate {
+  background-image: linear-gradient(0deg, #404040, #505050);
+}
+.card__figure--dust {
+  background-image: linear-gradient(0deg, #707070, #808080);
+}
+
+.card--m-h .card__figure {
+  padding-top: calc(66.6666% - 20px);
+}
+
+.card--row-begin {
+  clear: left;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 3rem 1.5rem;
+  position: absolute;
+}
+.card__supertitle {
+  color: #fff;
+  font-family: "ff-netto-web", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.card__title {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0;
+}
+.card--l .card__title {
+  font-size: 2.5rem;
+}
+.card__subtitle {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 1rem;
+}
+.card__lead {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0;
+}
+.card__link,
+.card__link:link,
+.card__link:visited {
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: normal;
+  justify-content: flex-end;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 1.5rem;
+  position: absolute;
+  transition: color 200ms;
+}
+.card__link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  .container--card-grid {
+    width: 730px;
+  }
+  .card {
+    width: 33.33333%;
+  }
+  .card--l {
+    width: 100%;
+  }
+  .card--l .card__figure {
+    padding-top: calc(66.6666% - 20px);
+  }
+  .card--m-h .card__figure {
+    padding-top: calc(133.3333% - 20px);
+  }
+  .card--row-begin {
+    clear: none;
+  }
+}
+@media (max-width: 767px) {
+  .container--card-grid {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: auto;
+  }
+  .card {
+    width: 100%;
+  }
+  .card__figure {
+    padding-top: calc(66.6666% - 20px);
+  }
+  .card--l .card__title {
+    font-size: 1.25rem;
+  }
+  .card--row-begin {
+    clear: none;
+  }
+}
+
+.learn-more__button {
+  clear: both;
+  text-align: center;
+  padding: 3rem 0 0;
+  margin: 0;
 }

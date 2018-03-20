@@ -24,7 +24,7 @@
   <link rel="icon" href="<?= $site->url() . '/assets/img/favicon.ico' ?>" type="image/x-icon" />
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
 	<?= css('https://fonts.googleapis.com/css?family=Cutive+Mono') ?>
-  <?= css('assets/css/global.css') ?>
+  <?= css('assets/css/style.2.0.css') ?>
   <?= css('assets/css/main.css') ?>
   <?php if(isset($style)) { echo css('assets/css/' . $style . '.css'); } ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->

@@ -30,6 +30,13 @@ He is co-founder and managing director of Interactive Things, a design and techn
   <dd>(link:https://goo.gl/maps/AWRmAMus7dp text:Dennlerstrasse 1, CH-8048 Zürich, Switzerland)</dd>
 </dl>
 
+<h2 id="scroll-section-2">Media</h2>
+
+<dl class="contact__list">
+  <dt>Portrait</dt>
+  <dd>(link: https://benjaminwiederkehr.com/assets/content/about/benjaminwiederkehr_portrait.zip text:Download high-resolution photo)</dd>
+</dl>
+
 <h2 id="scroll-section-3">Connect</h2>
 (link:https://twitter.com/wiederkehr text:Twitter), (link:https://facebook.com/benjamin.wiederkehr text:Facebook), (link:https://linkedin.com/in/benjaminwiederkehr text:LinkedIn), (link:https://www.instagram.com/wiederkehr/ text:Instagram), (link:https://www.pinterest.ch/wiederkehr/ text:Pinterest), (link:https://found.benjaminwiederkehr.com/ text:Tumblr), (link:https://github.com/wiederkehr text:GitHub)
 

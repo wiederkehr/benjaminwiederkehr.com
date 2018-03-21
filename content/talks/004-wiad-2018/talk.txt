@@ -1,0 +1,180 @@
+Title: Design Against Violence
+
+----
+
+Event: World IA Day
+
+----
+
+Date: February 24, 2018
+
+----
+
+Teaser: slide.003.png
+
+----
+
+Description: This is the script with references and acknowledgments of my talk at the World Information Architecture Day held at the Zürich University of the Arts in Zürich on February 24th, 2018.
+
+----
+
+Text:
+
+This is the script with references and acknowledgments of my talk at the (link:http://2018.wiadswitzerland.org/ text:World Information Architecture Day) held at the Zürich University of the Arts in Zürich on February 24th, 2018.
+
+(image:slide.001.png)
+Hello everyone! Thank you very much for the invitation to speak about one of the most important projects that we ever had the chance to work on. And thanks to all of you for showing up on a Saturday morning to listen to it.
+
+(image:slide.002.png)
+My name is Benjamin and I’m one of the co-founders and the managing director of (link:http://interactivethings.com text:Interactive Things). We’re a small design studio with a focus on data-driven digital products. Which means, we work at the intersection between people and data. As a team of twelve designers and developers we combine expertise in information design, interaction design, data visualization, and software engineering. We’re located close by here in Zürich.
+
+(image:slide.003.png)
+Two years ago, we received a message from the World Health Organization. We were invited to submit a proposal for building (link:http://apps.who.int/violence-info/ text:a platform) with a seemingly simple goal: Provide information about violence. We submitted our proposal and were selected to be their partner for this project. Over the course of the following 18 months, we learned that the details turned out to be a bit more complicated than this. Today, I’ll give you a look inside our process and share our most important learnings.
+
+(image:slide.007.png)
+Globally, close to half a million people are victims of homicide every year. Hundreds of millions more suffer non-fatal forms of interpersonal violence. I know, these numbers are hard to make sense of. To make it more local, there were over 10’000 violent crimes reported with the cantonal police in Zürich last year.
+
+Such violence contributes to ill-health, particularly for women and children. It often ruins the lives of individuals for decades. And, violence also undermines the social and economic development of whole communities and societies.
+
+But, violence is not an inherent part of the human condition. It can be predicted and prevented. In recent decades, science has produced knowledge and strategies that prevent violence.
+
+(image:slide.008.png)
+The World Health Organization made it clear to our team, why this project was so important. Reliable information on this humanitarian issue is hard to come by. It’s scattered across statistical databases filled by scientists, technical reports written by and for domain experts, and published in exclusive academic journals.
+
+This situation makes me think of this quote by (link:http://www.naisbitt.com/ text:John Naisbitt) from his book Mega Trends:
+>We are drowning in information but starved for knowledge.
+
+Meaning, that the information is there. Scientifically correct, comprehensive, conclusive. But not yet consolidated, accessible, and inclusive. This is where we would come in.
+
+(image:slide.009.png)
+But first, we had to understand who we had to serve.
+
+(image:slide.018.png)
+As part of the United Nations, the World Health Organization’ main role is to direct international health  efforts and to lead partners in global health responses. Providing information that is evidence-based and actionable is one of their vectors of impact. They target four specific audience groups.
+
+- Policy Makers, who directly impact future policy. They are interested in reliable high-level evidence for decision and policy making.
+- Researchers who develop knowledge through observation. They are interested in robust scientific data and tools to explore that data.
+- Journalists who bring this knowledge in an understandable form to the masses. They are interested in obtaining comprehensible stories for communication and distribution.
+- And finally, the general public who is interested in easy-to-understand facts and figures.
+
+(image:slide.019.png)
+Serving such a diverse audience, it was important to us to deeply understand the needs that we had to fulfill. We worked closely with our client and recruited end users to get this right. We applied a set of methods called the (link:https://jtbd.info/ text:Jobs-to-be-Done) framework. You will have the chance to learn more about these methods in Alina’s talk in the afternoon session. For now, it’s enough to know that we defined the overall objective that our platform had to achieve on three levels of detail.
+
+(image:slide.020.png)
+First, the big picture. Our overarching vision was: ** To have one single, authoritative, comprehensive and highly accessible place for information on interpersonal violence and its prevention.**
+
+(image:slide.021.png)
+Then, we broke this vision down into what individual needs had to be fulfilled. We call these the jobs-to-be-done.
+
+One example of a job-to-be-done could be:
+**Helping to identify universal and culturally-specific risk factors and causes of violence to inform prevention efforts.**
+
+You see that they are still pretty high-level in terms of user interaction. But, they are very specific to the content, tightly coupled with the audience, and neatly aligned behind the overarching vision.
+
+(image:slide.022.png)
+And finally, the needs are broken down to individual tasks that a user has to complete to fulfill their needs. We call them job stories.
+
+One example of a job story could be this:
+**When I need to create a strategy against a specific form of interpersonal violence, I want to know what kind of actions in other countries have been taken and how effective those programmes were, so I can learn from it, apply similar programmes in my own country, and be sure to use my available resources effectively.**
+
+These stories are more concrete and actionable. Still, they are decoupled from a specific visualization, interaction, or interface. Each job story can be fulfilled in many different ways. The task of selecting the right one is left in the hands of the designers and developers who built the platform.
+
+(image:slide.023.png)
+Everyone who had to collect data from just a few different people or bring together a few sheets of Excel tables will nod in agreement when I say: “Data is messy and cleaning it up is hard”. Our job, in collaboration with the team from the Liverpool John Moores University, was to bring together data from over 3700 scientific studies, spanning 50 years of research, and covering up to 200 countries. You might have guessed it: “messy” is the most harmless word I could use to describe the source data.
+
+(image:slide.032.png)
+Our process looked roughly like this:
+
+- **Collect**: The data collection was done in a two-step process. First, we started collecting systematic reviews about violence with the intention to cover as much ground as possible. Systematic reviews are collections and summarizations of empirical evidence. Studies of studies, so to speak. Second, for areas not covered by systematic reviews, we dove into individual studies to fill the gaps.
+- **Harmonize**: Then, we conducted a meta-analysis using statistical methods to summarize the results of these studies. In order to provide the users with an intuitive interface, it’s mandatory that metrics, dimensions, and terms are used consistently across all views.
+- **Organize**: Now that we have the data set consolidated, we have to think about how our audience will find what they need. Mapping our structural model to their mental model. We derived meaningful abstractions, summaries, and clusters. For example, we sorted the studies by observation subject. This resulted in the sections Prevalence, Consequences, and Risk Factors for each violence type.
+- **Visualize**: As a last step, we developed a set of visualizations that convey the essence of the data, while being easy to read and navigate. We decided purposfully to keep these visualizations minimal. They should translate statistical complexity into visual simplicity. Let me give you a few examples.
+
+(image:slide.033.png)
+To analyze the data, we created workbench visualizations. These are custom tools to explore specific characteristics of the data set. Not intended for public consumption. Intended to be thrown away.
+
+What you see here are dendograms or tree visualizations. They show the taxonomic relationships within the consequences of a violence type. On the left are the potential consequences of child maltreatment and on the right the ones of elder abuse. You see that they both have three levels of hierarchy. But you also see that they are vastly different in terms of the numer of consequences, which you can tell from the many leaf nodes on the left and the few on the right.
+
+(image:slide.034.png)
+These are the tree diagrams for risk factors. Again for child maltreatment on the left and elder abuse on the right.
+
+Although, we like the aesthetics of these trees and they were helpful to explore the data, they were not fit to convey evidence and insight with immediacy. We had to dramatically simplify them. The simplest way to achieve simplicity is through thoughtful reduction.
+
+(image:slide.035.png)
+- First, we reduced the measure of association betwen violence type and the risk factor to the median odds ratio across all relevant studies. The height of the triangles shows this association.
+- Then, we reduced the hierarchy to only show the first-level consequences; the second-level is visible on demand; the third-level is omitted altogether.
+- Lastly, we reduced the list of first-level risk factors to the most important four and grouped the rest.
+
+(image:slide.036.png)
+In the same spirit of simplicity, we designed the other visualizations on the platform. Here’s an example of the geographic distribution of the homicide rate per country. Without any interaction needed, the map reveals patterns with shocking clarity.
+
+(image:slide.037.png)
+Another example is this flower visualization. It represents the availability of relevant studies about the six different types of violence. Each violence type is represented as a color-coded leaf. If the leaf is grey, no data is available about this violence type. We use it on the homepage to introduce the violence types and on the country pages to indicate what data is available for each country.
+
+(image:slide.038.png)
+An earlier version of this visualization was richer in data. We designed a version which shows the median value per violence type as a summary of its subtypes. This would render a specific and recognizable symbol for each country. A fingerprint so to speak.
+
+(image:slide.039.png)
+But, a few reasons made this version not feasible:
+- First, for certain countries, these values would have been based on few studies only. Thus, making the evidence less reliable.
+- Second, the data can be measured within different timeframes. We use lifetime and last year prevalence. We cannot mix them without distorting the resulting insight.
+- Third, the nature of subtypes are vastly different from each other. It’s impossible, even unethical, to calculate a comparison between physical abuse and psychological abuse.
+
+So instead, we limited the data density to a binary value: data is available or not.
+
+(image:slide.040.png)
+These visualizations were the easy part. I’ve shown how we developed charts summarizing the findings derived from the data set. The next challenge was to combine these with a more powerful tool for more advanced users. A tool that allows the exploration of individual studies in detail. A tool that scientists will accept and trust. Still, we wanted to maintain an effortless experience when a user switches from one to the other.
+
+(image:slide.041.png)
+We started with another workbench visualization which we used to analyze the data. What you see here is a mix between a bubble chart, a dorling diagram, and a histogram. It’s a weighted beeswarm plot. Each bubble represents one study. The area of the bubble shows the sample size. The horizontal position shows the observed prevalence. The vertical position indicates the amount of consensus between separate studies.
+
+We used these charts to identify areas of low statistical coverage. And we used this information to extend the data base with additional single studies. Because this technique was so helpful to us and the researchers we worked with, we decided to reuse this crude visualization as the basis for our expert tool.
+
+(image:slide.042.png)
+We polished the aesthetics and designed more understandable axes, but kept the general concept in tact. This visualization is capable of answering multiple questions at once:
+- How uniform are the findings from the studies?
+- Is there a difference in the findings from studies with small and large sample sizes?
+- Do studies of similar sample size conclude a similar outcome?
+
+And, by allowing the users to freely filter the data set, the scope of observation can be as wide or as narrow as it is helpful to answer many more questions. Here’s a quick overview of the possibilities.
+
+(image:slide.043.png)
+The studies are organized first by violence type. Then each types is split up into subtypes. Each view can be filtered by gender, geographic regions, income groups, publication year, and other parameters. This allows more advanced users to vertically and horizontally analyze the different subtypes of interpersonal violence and its’ importance and influence in our society.
+
+(image:slide.045.png)
+To brings this all together, let’s look at where we ended up.
+
+(image:slide.046.png)
+To stay consistent with our main design principle of simplicity, we kept the hierarchy flat and the different page types limited. The homepage provides the necessary framing about the topic and introduces the different types of violence. Direct access to the countries and studies pages are provided but with lower priority. The navigation between all views is never more than two clicks away.
+
+(image:slide.047.png)
+For each one of the violence types we created a (link:http://apps.who.int/violence-info/child-maltreatment text:dedicated page) to summarize the most important findings. First, we provide a definition of the violence type and the global prevalence. Then, we show potential consequences and risk factors. Each page ends with a list of possible prevention and response strategies.
+
+(image:slide.049.png)
+A (link:http://apps.who.int/violence-info/countries text:global overview) allows to browse the countries and areas covered by the scientific studies and shows what data is available for them.
+
+(image:slide.051.png)
+(link:http://apps.who.int/violence-info/country/KE text:Detail pages) for each country show the facts and figures about the country itself, the reported homicide rate and the available studies on violence prevalence, laws, and prevention programs.
+
+(image:slide.053.png)
+Finally, the (link:http://apps.who.int/violence-info/studies text:studies analysis tool) can be used to browse and search for systematic reviews and individual studies.
+
+Over the course of the project duration we made hundreds of decisions. What data to show, where to place it, and how to visualize it. These seem to be design decisions that we can ground in principles developed by Norman or Tufte. To be honest, it wasn’t always that easy. For example…
+
+(image:slide.058.png)
+(image:slide.062.png)
+(image:slide.066.png)
+
+(image:slide.067.png)
+We came to realize that with a data system of this scale and scope, more dynamics are at play. This leads to a tug of war over language, visuals, and metrics which influences what the user eventually experiences in profound ways. This realization is what I would like to to leave you with today.
+
+(image:slide.069.png)
+I believe that it’s our responsibility — as designers, as engineers, and as users — to stay critical towards the owners of data, the providers or data, and the data itself. While working with data, it’s important that we do not mistake the map for the territory. The word is not the thing. The number is not the lived experience. Data is not truth.
+
+(image:slide.072.png)
+And so, it’s also our responsibility — as the creators of such data systems — to stay considered towards whom the data is taken from. The humans.
+
+(image:slide.073.png)
+Thank you!
+
+_Explore the platform (link:http://apps.who.int/violence-info/ text:Violence Info)._

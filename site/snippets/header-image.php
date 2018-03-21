@@ -1,5 +1,5 @@
 <?php
-  $image = html($site->url() . '/assets/img/logos/benjaminwiederkehr_logo.png');
+  $image = html($site->url() . '/assets/img/benjaminwiederkehr_photo.png');
   if ($page->content()->has('teaser')) {
     $image = $page->contentURL() . '/' . $page->teaser();
   }else if ($page->hasImages()) {

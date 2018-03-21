@@ -23,14 +23,14 @@
   <!-- ——————————————————————————————————————————————————————————————————— ICON -->
   <link rel="icon" href="<?= $site->url() . '/assets/img/favicon.ico' ?>" type="image/x-icon" />
   <!-- ——————————————————————————————————————————————————————————————————— CSS -->
-	<?= css('http://fonts.googleapis.com/css?family=Cutive+Mono') ?>
-  <?= css('assets/css/global.css') ?>
+  <?= css('assets/css/style.2.0.css') ?>
   <?= css('assets/css/main.css') ?>
   <?php if(isset($style)) { echo css('assets/css/' . $style . '.css'); } ?>
   <!-- ——————————————————————————————————————————————————————————————————— JS -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-	<script src="http://use.typekit.com/aea1puq.js"></script>
+	<script src="https://use.typekit.com/aea1puq.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
+
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3202544-10"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];

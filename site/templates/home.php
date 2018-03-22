@@ -9,10 +9,17 @@
       <p class="page-header__lead"><?= html($page->lead()) ?></p>
     </div>
   </div>
+  <div class="page-header__action">
+    <div class="container">
+      <a class="page-header__action__link" href="#roles-grid">
+        <span class="page-header__action__label">More about me <i class="fas fa-chevron-down"></i></span>
+      </a>
+    </div>
+  </div>
 </header>
 
 <!-- ——————————————————————————————————————————————————————————————————— Content -->
-<section class="main">
+<section class="main" id="roles-grid">
   <div class="container container--card-grid">
     <h3 class="section-title" style="margin-left: 10px; margin-right: 10px">What I do</h3>
     <div class="card card--l">

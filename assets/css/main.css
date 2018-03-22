@@ -799,9 +799,13 @@ SECTION TITLE
   }
 }
 
-.learn-more__button {
+.learn-more {
   clear: both;
-  text-align: center;
-  padding: 3rem 0 0;
+  font-weight: bold;
   margin: 0;
+  padding: 3rem 0 0;
+  text-align: center;
+}
+.learn-more a {
+  text-decoration: underline;
 }

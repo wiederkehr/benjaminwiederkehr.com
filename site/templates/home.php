@@ -113,7 +113,7 @@
       </div>
       </div>
     </div>
-    <p class="learn-more__button"><a href="/about" title="About Benjamin Wiederkehr">Learn more about me</a></p>
+    <p class="learn-more">Learn more about <a href="<?= url('/about') ?>" title="About Benjamin Wiederkehr">me</a>, my <a href="<?= url('/vita') ?>" title="Benjamin Wiederkehr Vita">vita</a>, and my <a href="<?= url('/events') ?>" title="Benjamin Wiederkehr Events">events</a>.</p>
   </div>
 </section>
 

@@ -21,7 +21,7 @@
 <!-- ——————————————————————————————————————————————————————————————————— Content -->
 <section class="main" id="roles-grid">
   <div class="container container--card-grid">
-    <h3 class="section-title" style="margin-left: 10px; margin-right: 10px">What I do</h3>
+    <h3 class="section-title" style="margin-left: 10px; margin-right: 10px">How I spend my time</h3>
     <div class="card card--l">
       <div class="card__figure card__figure--navy">
         <div class="card__content">

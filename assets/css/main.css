@@ -36,6 +36,46 @@ Last update:  180318_BW
   font-size: 1.5rem;
   margin: 0;
 }
+.page-header__action {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+.page-header__action__link {
+  display: block;
+  padding: 2rem 0;
+}
+@media (max-width: 767px) {
+  .page-header__action__link {
+    padding: 1rem 0;
+  }
+}
+.page-header__action__label {
+}
+.page-header__action__link .fa-chevron-down {
+  animation: fade 3s infinite;
+}
+.page-header__action__link:hover .fa-chevron-down {
+  animation: fade 1s infinite;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  80% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+}
 .page-header--image {
   background-color: #333;
   background-position: 0 0;
@@ -46,7 +86,7 @@ Last update:  180318_BW
   background-position: 0 0;
 }
 .page-header--vita {
-  background-position: 0% 0;
+  background-position: 0 0;
 }
 .page-header--events {
   background-position: 100% 0;
@@ -759,9 +799,13 @@ SECTION TITLE
   }
 }
 
-.learn-more__button {
+.learn-more {
   clear: both;
-  text-align: center;
-  padding: 3rem 0 0;
+  font-weight: bold;
   margin: 0;
+  padding: 3rem 0 0;
+  text-align: center;
+}
+.learn-more a {
+  text-decoration: underline;
 }

@@ -9,19 +9,26 @@
       <p class="page-header__lead"><?= html($page->lead()) ?></p>
     </div>
   </div>
+  <div class="page-header__action">
+    <div class="container">
+      <a class="page-header__action__link" href="#roles-grid">
+        <span class="page-header__action__label">More about me <i class="fas fa-chevron-down"></i></span>
+      </a>
+    </div>
+  </div>
 </header>
 
 <!-- ——————————————————————————————————————————————————————————————————— Content -->
-<section class="main">
+<section class="main" id="roles-grid">
   <div class="container container--card-grid">
-    <h3 class="section-title" style="margin-left: 10px; margin-right: 10px">What I do</h3>
+    <h3 class="section-title" style="margin-left: 10px; margin-right: 10px">How I spend my time</h3>
     <div class="card card--l">
       <div class="card__figure card__figure--navy">
         <div class="card__content">
           <span class="card__supertitle">Work</span>
           <h2 class="card__title">Interactive Things</h2>
           <p class="card__subtitle">A design studio for data-driven digital products.</p>
-          <a class="card__link" target="blank" href="<?= url('#') ?>">Work with us</a>
+          <a class="card__link" target="blank" href="<?= url('https://interactivethings.com') ?>">Work with us</a>
       </div>
       </div>
     </div>
@@ -70,7 +77,7 @@
         <div class="card__content">
           <span class="card__supertitle">Speak</span>
           <p class="card__lead">Talks on interaction design, information visualization, and data-driven storytelling.</p>
-          <a class="card__link" target="blank" href="<?= url('/events') ?>">See all events</a>
+          <a class="card__link" href="<?= url('/events') ?>">See all events</a>
       </div>
       </div>
     </div>
@@ -102,11 +109,11 @@
       <div class="card__figure card__figure--dust">
         <div class="card__content">
           <span class="card__supertitle">Learn</span>
-          <p class="card__lead">How to build a more human, more inclusive, and more resilient  organization.</p>
+          <p class="card__lead">How to build a more human, more inclusive, and more resilient organization.</p>
       </div>
       </div>
     </div>
-    <p class="learn-more__button"><a href="/about" title="About Benjamin Wiederkehr">Learn more about me</a></p>
+    <p class="learn-more">Learn more about <a href="<?= url('/about') ?>" title="About Benjamin Wiederkehr">me</a>, my <a href="<?= url('/vita') ?>" title="Benjamin Wiederkehr Vita">vita</a>, and my <a href="<?= url('/events') ?>" title="Benjamin Wiederkehr Events">events</a>.</p>
   </div>
 </section>
 

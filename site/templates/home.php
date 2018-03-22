@@ -28,7 +28,7 @@
           <span class="card__supertitle">Work</span>
           <h2 class="card__title">Interactive Things</h2>
           <p class="card__subtitle">A design studio for data-driven digital products.</p>
-          <a class="card__link" target="blank" href="<?= url('#') ?>">Work with us</a>
+          <a class="card__link" target="blank" href="<?= url('https://interactivethings.com') ?>">Work with us</a>
       </div>
       </div>
     </div>
@@ -77,7 +77,7 @@
         <div class="card__content">
           <span class="card__supertitle">Speak</span>
           <p class="card__lead">Talks on interaction design, information visualization, and data-driven storytelling.</p>
-          <a class="card__link" target="blank" href="<?= url('/events') ?>">See all events</a>
+          <a class="card__link" href="<?= url('/events') ?>">See all events</a>
       </div>
       </div>
     </div>
@@ -109,7 +109,7 @@
       <div class="card__figure card__figure--dust">
         <div class="card__content">
           <span class="card__supertitle">Learn</span>
-          <p class="card__lead">How to build a more human, more inclusive, and more resilient  organization.</p>
+          <p class="card__lead">How to build a more human, more inclusive, and more resilient organization.</p>
       </div>
       </div>
     </div>

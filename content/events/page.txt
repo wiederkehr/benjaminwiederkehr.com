@@ -11,17 +11,17 @@ Text:
 <h1 class="section-title">Events</h1>
 <h2 id="scroll-section-1">Upcoming</h2>
 <dl class="events__list">
-  <dt>2018</dt><dd>University of Bern, Switzerland, «Lecture on Information Visualization»</dd>
-  <dt>2018</dt><dd>World IA Day Talk, Switzerland, «Design Against Violence»</dd>
-  <dt>2018</dt><dd>Hochschule Mannheim, Germany, «Lecture on Data Visualization»</dd>
-  <dt>2018</dt><dd>Bern University of the Arts, Switzerland, «Lecture on Interactive Visualization»</dd>
-  <dt>2018</dt><dd>Bern University of Applied Sciences, Switzerland, «Talk on Human Data Design»</dd>
-  <dt>2018</dt><dd>Bern University of Applied Sciences, Switzerland, «Lecture on Data Visualization»</dd>
-  <dt>2018</dt><dd>Creative Hub, Switzerland, «Talk on Creative Entrepreneurship»</dd>
+  <dt>2019</dt><dd>Bern University of the Arts, Switzerland, «Lecture on Interactive Visualization»</dd>
+  <dt>2019</dt><dd>Bern University of Applied Sciences, Switzerland, «Lecture on Data Visualization»</dd>
+  <dt>2019</dt><dd>SHOW Conference, Switzerland, «Design Against Violence»</dd>
+  <dt>2019</dt><dd>University of Bern, Switzerland, «Lecture on Data Visualization»</dd>
+  <dt>2019</dt><dd>Bern University of Applied Sciences, Switzerland, «Lecture on Data Visualization»</dd>
 </dl>
 
 <h2 id="scroll-section-2">Past Public</h2>
 <dl class="events__list">
+  <dt>2018</dt><dd>Creative Hub, Switzerland, «Talk on Creative Entrepreneurship»</dd>
+  <dt>2018</dt><dd>World IA Day Talk, Switzerland, «Design Against Violence»</dd>
   <dt>2017</dt><dd>Zürich University of Applied Sciences, Switzerland, «IAM Live Panel»</dd>
   <dt>2017</dt><dd>Open Food Hackdays, Switzerland «Culinary Data Visualization»</dd>
   <dt>2016</dt><dd>UX Camp, Switzerland, «Talk on Living Style Guides»</dd>
@@ -69,6 +69,12 @@ Text:
 
 <h2 id="scroll-section-3">Past Academic</h2>
 <dl class="events__list">
+  <dt>2018</dt><dd>Lucern University of Applied Sciences, Switzerland, «Lecture on Interactive Visualization»</dd>
+  <dt>2018</dt><dd>University of Bern, Switzerland, «Lecture on Information Visualization»</dd>
+  <dt>2018</dt><dd>Hochschule Mannheim, Germany, «Lecture on Data Visualization»</dd>
+  <dt>2018</dt><dd>Bern University of the Arts, Switzerland, «Lecture on Interactive Visualization»</dd>
+  <dt>2018</dt><dd>Bern University of Applied Sciences, Switzerland, «Talk on Human Data Design»</dd>
+  <dt>2018</dt><dd>Bern University of Applied Sciences, Switzerland, «Lecture on Data Visualization»</dd>
   <dt>2017</dt><dd>Zürich University of the Arts, Switzerland, «Module on Interactive Visualization»</dd>
   <dt>2017</dt><dd>Zürich University of Applied Sciences School of Management and Law, Switzerland, «Lecture on Information Visualization»</dd>
   <dt>2017</dt><dd>University of Bern, Switzerland, «Lecture on Information Visualization»</dd>

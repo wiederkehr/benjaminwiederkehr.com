@@ -9,11 +9,19 @@ I’m regularly invited to share my work at conferences, congresses, and festiva
 
 Text:
 <h1 class="section-title">Events</h1>
-<h2 id="scroll-section-1">Upcoming</h2>
+<h2 id="scroll-section-1">This Year</h2>
 <dl class="events__list">
-  <dt>2019</dt><dd>Bern University of the Arts, Switzerland, «Lecture on Interactive Visualization»</dd>
+  <dt>2019</dt><dd>University of St.Gallen, Switzerland, «Data Storytelling Lecture»</dd>
+  <dt>2019</dt><dd>EU Dataviz Conference Talk, Luxembourg, «Talk on Exploratory and Explanatory Data Visualization»</dd>
+  <dt>2019</dt><dd>Market Information Services Conference Switzerland, « Talk on Data Visualization»</dd>
+  <dt>2019</dt><dd>World Interaction Design Day, Switzerland, «Talk on Truth and Responsibility in Data Visualization»</dd>
+  <dt>2019</dt><dd>Lucern University of the Arts, Switzerland, «Talk on Data Storytelling</dd>
+  <dt>2019</dt><dd>swissQuant Private Wealth Conference, Switzerland, «Talk on Customer Journey Mapping»</dd>
+  <dt>2019</dt><dd>IT-Beschaffungskonferenz, Switzerland, «Talk on Open Source Software for Governments»</dd>
   <dt>2019</dt><dd>Bern University of Applied Sciences, Switzerland, «Lecture on Data Visualization»</dd>
+  <dt>2019</dt><dd>SUPSI BA Visual Communication, Switzerland, «Lecture on Portfolio Design»</dd>
   <dt>2019</dt><dd>SHOW Conference, Switzerland, «Design Against Violence»</dd>
+  <dt>2019</dt><dd>Jallé, Switzerland, «Talk on Strategy Visualization»</dd>
   <dt>2019</dt><dd>University of Bern, Switzerland, «Lecture on Data Visualization»</dd>
   <dt>2019</dt><dd>Bern University of Applied Sciences, Switzerland, «Lecture on Data Visualization»</dd>
 </dl>

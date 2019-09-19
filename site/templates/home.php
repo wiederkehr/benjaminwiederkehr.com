@@ -56,19 +56,19 @@
       <div class="card__figure card__figure--black">
         <div class="card__content">
           <span class="card__supertitle">Organize</span>
-          <h2 class="card__title">Hacks/Hackers ZRH</h2>
-          <p class="card__subtitle">Where journalists and technologists meet.</p>
-          <a class="card__link" target="blank" href="<?= url('https://www.meetup.com/de-DE/Hacks-Hackers-Zurich/') ?>">Join us</a>
+          <h2 class="card__title">Data Visualization Zürich Meetup</h2>
+          <p class="card__subtitle">For everyone interested in data visualization.</p>
+          <a class="card__link" target="blank" href="<?= url('https://www.meetup.com/datavis-zurich/') ?>">Join us</a>
         </div>
       </div>
     </div>
     <div class="card card--s">
       <div class="card__figure card__figure--black">
         <div class="card__content">
-          <span class="card__supertitle">Support</span>
-          <h2 class="card__title">OpenData.ch</h2>
-          <p class="card__subtitle">Association for opening governmental data.</p>
-          <a class="card__link" target="blank" href="<?= url('https://opendata.ch/') ?>">Join us</a>
+          <span class="card__supertitle">Organize</span>
+          <h2 class="card__title">Hacks/Hackers Zürich Meetup</h2>
+          <p class="card__subtitle">Where journalists and technologists meet.</p>
+          <a class="card__link" target="blank" href="<?= url('https://www.meetup.com/Hacks-Hackers-Zurich/') ?>">Join us</a>
         </div>
       </div>
     </div>
@@ -94,6 +94,7 @@
         <div class="card__content">
           <span class="card__supertitle">Learn</span>
           <p class="card__lead">How to identify new paths at the intersection between data, design, and people.</p>
+          <p class="card__tags">#datavis #datahumanism</p>
       </div>
       </div>
     </div>
@@ -102,6 +103,7 @@
         <div class="card__content">
           <span class="card__supertitle">Learn</span>
           <p class="card__lead">How to design data systems that benefit individuals and not just corporations.</p>
+          <p class="card__tags">#data4good #data4change</p>
       </div>
       </div>
     </div>
@@ -110,6 +112,7 @@
         <div class="card__content">
           <span class="card__supertitle">Learn</span>
           <p class="card__lead">How to build a more human, more inclusive, and more resilient organization.</p>
+          <p class="card__tags">#lean #teal #diversity #equity</p>
       </div>
       </div>
     </div>

@@ -426,13 +426,15 @@ SECTION TITLE
   position: fixed;
   transform: translate(-10px, -100%);
   visibility: hidden;
-  transition: opacity 400ms ease-in 0ms, transform 400ms ease-out 0ms, visibility 400ms ease-in 0ms;
+  transition: opacity 400ms ease-in 0ms, transform 400ms ease-out 0ms,
+    visibility 400ms ease-in 0ms;
 }
 .home__link--active {
   opacity: 1;
   visibility: visible;
   transform: translate(-10px, 0);
-  transition: opacity 400ms ease-out 800ms, transform 400ms ease-out 800ms, visibility 400ms ease-out 800ms;
+  transition: opacity 400ms ease-out 800ms, transform 400ms ease-out 800ms,
+    visibility 400ms ease-out 800ms;
 }
 @media (max-width: 767px) {
   .home__link {
@@ -469,7 +471,8 @@ SECTION TITLE
   transition: color 200ms;
 }
 .navigation__trigger:hover .navigation__trigger__label,
-.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__label {
+.navigation__trigger--active.navigation__trigger--contrast:hover
+  .navigation__trigger__label {
   color: #333;
 }
 .navigation__trigger--contrast:hover .navigation__trigger__label {
@@ -505,8 +508,10 @@ SECTION TITLE
 .navigation__trigger:hover .navigation__trigger__icon,
 .navigation__trigger:hover .navigation__trigger__icon:before,
 .navigation__trigger:hover .navigation__trigger__icon:after,
-.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__icon:before,
-.navigation__trigger--active.navigation__trigger--contrast:hover .navigation__trigger__icon:after {
+.navigation__trigger--active.navigation__trigger--contrast:hover
+  .navigation__trigger__icon:before,
+.navigation__trigger--active.navigation__trigger--contrast:hover
+  .navigation__trigger__icon:after {
   background-color: #333;
 }
 .navigation__trigger--contrast:hover .navigation__trigger__icon,
@@ -558,7 +563,8 @@ SECTION TITLE
   width: 100%;
   z-index: 1000;
   /* This timing applies on the way OUT */
-  transition: visibility 400ms ease-in-out 400ms, opacity 400ms ease-in-out 400ms;
+  transition: visibility 400ms ease-in-out 400ms,
+    opacity 400ms ease-in-out 400ms;
 }
 .navigation--active {
   visibility: visible;
@@ -682,7 +688,7 @@ SECTION TITLE
   margin: 10px;
   padding-top: calc(133.3333% - 20px);
   position: relative;
-  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.25);
 }
 .card__figure--navy {
   background-image: linear-gradient(0deg, #00263e, #003b5c);
@@ -731,7 +737,7 @@ SECTION TITLE
   font-size: 2.5rem;
 }
 .card__subtitle {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
 }
 .card__lead {
@@ -743,7 +749,7 @@ SECTION TITLE
 .card__link:link,
 .card__link:visited {
   bottom: 0;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.5);
   display: flex;
   flex-direction: column;
   font-size: 1rem;
@@ -758,6 +764,16 @@ SECTION TITLE
 }
 .card__link:hover {
   color: rgba(255, 255, 255, 1);
+}
+.card__tags {
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: normal;
+  justify-content: flex-end;
+  left: 0;
+  padding: 1.5rem;
+  position: absolute;
 }
 @media (max-width: 979px) and (min-width: 768px) {
   .container--card-grid {
